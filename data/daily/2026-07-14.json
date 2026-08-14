@@ -1,42 +1,29 @@
 {
  "date": "2026-07-14",
- "total": 61528241,
+ "total": 38586412,
  "tokens": {
-  "input": 27373,
-  "output": 281226,
+  "input": 17952,
+  "output": 157344,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 3001503,
-  "cacheRead": 58218139,
+  "cacheWrite1h": 1870811,
+  "cacheRead": 36540305,
   "reasoning": 0
  },
- "usd": 112.920683,
- "requests": 336,
+ "usd": 62.340699,
+ "requests": 175,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 27373,
-    "output": 281226,
+    "input": 17952,
+    "output": 157344,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 3001503,
-    "cacheRead": 58218139,
+    "cacheWrite1h": 1870811,
+    "cacheRead": 36540305,
     "reasoning": 0
    },
-   "usd": 112.920683,
-   "requests": 336,
+   "usd": 62.340699,
+   "requests": 175,
    "models": {
-    "claude-fable-5": {
-     "tokens": {
-      "input": 17822,
-      "output": 165799,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 2266576,
-      "cacheRead": 39458448,
-      "reasoning": 0
-     },
-     "usd": 93.258138,
-     "requests": 213,
-     "total": 41908645
-    },
     "<synthetic>": {
      "tokens": {
       "input": 0,
@@ -47,7 +34,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 13,
+     "requests": 6,
      "total": 0
     },
     "claude-opus-4-8": {
@@ -62,22 +49,22 @@
      "usd": 19.662546,
      "requests": 110,
      "total": 19619596
+    },
+    "claude-fable-5": {
+     "tokens": {
+      "input": 8401,
+      "output": 41917,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1135884,
+      "cacheRead": 17780614,
+      "reasoning": 0
+     },
+     "usd": 42.678154,
+     "requests": 59,
+     "total": 18966816
     }
    },
    "projects": {
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
-     "tokens": {
-      "input": 9421,
-      "output": 123882,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 1130692,
-      "cacheRead": 21677834,
-      "reasoning": 0
-     },
-     "usd": 50.579984,
-     "requests": 161,
-     "total": 22941829
-    },
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
      "tokens": {
       "input": 8810,
@@ -144,8 +131,8 @@
      "total": 1504156
     }
    },
-   "total": 61528241
+   "total": 38586412
   }
  },
- "generatedAt": "2026-08-13T13:49:37.995Z"
+ "generatedAt": "2026-08-14T16:39:52.142Z"
 }

@@ -1,41 +1,41 @@
 {
  "date": "2026-07-15",
- "total": 105870492,
+ "total": 100142557,
  "tokens": {
-  "input": 3018,
-  "output": 330689,
+  "input": 2930,
+  "output": 297746,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 4460523,
-  "cacheRead": 101076262,
+  "cacheWrite1h": 4401216,
+  "cacheRead": 95440665,
   "reasoning": 0
  },
- "usd": 176.691986,
- "requests": 612,
+ "usd": 168.222219,
+ "requests": 566,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 3018,
-    "output": 330689,
+    "input": 2930,
+    "output": 297746,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 4460523,
-    "cacheRead": 101076262,
+    "cacheWrite1h": 4401216,
+    "cacheRead": 95440665,
     "reasoning": 0
    },
-   "usd": 176.691986,
-   "requests": 612,
+   "usd": 168.222219,
+   "requests": 566,
    "models": {
     "claude-fable-5": {
      "tokens": {
-      "input": 2519,
-      "output": 202015,
+      "input": 2431,
+      "output": 169072,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 3559839,
-      "cacheRead": 74492979,
+      "cacheWrite1h": 3500532,
+      "cacheRead": 68857382,
       "reasoning": 0
      },
-     "usd": 155.815699,
-     "requests": 348,
-     "total": 78257352
+     "usd": 147.345932,
+     "requests": 303,
+     "total": 72529417
     },
     "<synthetic>": {
      "tokens": {
@@ -47,7 +47,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 21,
+     "requests": 20,
      "total": 0
     },
     "claude-opus-4-8": {
@@ -78,19 +78,6 @@
     }
    },
    "projects": {
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
-     "tokens": {
-      "input": 88,
-      "output": 32943,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 59307,
-      "cacheRead": 5635597,
-      "reasoning": 0
-     },
-     "usd": 8.469767,
-     "requests": 46,
-     "total": 5727935
-    },
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
      "tokens": {
       "input": 1951,
@@ -183,8 +170,8 @@
      "total": 24550635
     }
    },
-   "total": 105870492
+   "total": 100142557
   }
  },
- "generatedAt": "2026-08-13T13:49:37.996Z"
+ "generatedAt": "2026-08-14T16:39:52.159Z"
 }
