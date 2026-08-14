@@ -1,8 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-// @ts-expect-error — plain ES module shared with the Node collector.
+// Plain ES modules, shared with the Node collector.
 import pricing from './pricing.mjs';
-// @ts-expect-error — plain ES module shared with the Node collector.
 import { ensureSchema, fetchDays, hasDatabase, lastUpdated } from './db.mjs';
 
 export const PRICING = pricing as Pricing;

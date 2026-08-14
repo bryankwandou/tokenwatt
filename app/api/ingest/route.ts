@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-// @ts-expect-error — plain ES module shared with the Node collector.
+// Plain ES module, shared with the Node collector.
 import { ensureSchema, hasDatabase, upsertDays } from '@/lib/db.mjs';
 
 export const runtime = 'nodejs';

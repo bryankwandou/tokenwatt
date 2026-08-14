@@ -12,10 +12,12 @@ build/
 # Collector and build output
 collector.log
 build.log
-scripts/run-collector.cmd
 
 next-env.d.ts
 *.tsbuildinfo
 .DS_Store
 Thumbs.db
 npm-debug.log*
+
+.vercel
+.env*
