@@ -1,0 +1,99 @@
+{
+ "date": "2026-06-12",
+ "total": 2405166,
+ "tokens": {
+  "input": 497,
+  "output": 16017,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 243175,
+  "cacheRead": 2145477,
+  "reasoning": 0
+ },
+ "usd": 2.711789,
+ "requests": 19,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 497,
+    "output": 16017,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 243175,
+    "cacheRead": 2145477,
+    "reasoning": 0
+   },
+   "usd": 2.711789,
+   "requests": 19,
+   "models": {
+    "claude-sonnet-4-6": {
+     "tokens": {
+      "input": 20,
+      "output": 12656,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 165053,
+      "cacheRead": 2043986,
+      "reasoning": 0
+     },
+     "usd": 1.793414,
+     "requests": 16,
+     "total": 2221715
+    },
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 477,
+      "output": 3361,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 78122,
+      "cacheRead": 101491,
+      "reasoning": 0
+     },
+     "usd": 0.918376,
+     "requests": 2,
+     "total": 183451
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 20,
+      "output": 12656,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 165053,
+      "cacheRead": 2043986,
+      "reasoning": 0
+     },
+     "usd": 1.793414,
+     "requests": 16,
+     "total": 2221715
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
+     "tokens": {
+      "input": 477,
+      "output": 3361,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 78122,
+      "cacheRead": 101491,
+      "reasoning": 0
+     },
+     "usd": 0.918376,
+     "requests": 3,
+     "total": 183451
+    }
+   },
+   "total": 2405166
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:37.971Z"
+}

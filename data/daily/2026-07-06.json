@@ -1,0 +1,73 @@
+{
+ "date": "2026-07-06",
+ "total": 0,
+ "tokens": {
+  "input": 0,
+  "output": 0,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 0,
+  "cacheRead": 0,
+  "reasoning": 0
+ },
+ "usd": 0,
+ "requests": 3,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 0,
+    "output": 0,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 0,
+    "cacheRead": 0,
+    "reasoning": 0
+   },
+   "usd": 0,
+   "requests": 3,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 3,
+     "total": 0
+    }
+   },
+   "projects": {
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 0
+    }
+   },
+   "total": 0
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:37.990Z"
+}

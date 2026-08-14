@@ -1,0 +1,177 @@
+{
+ "date": "2026-07-04",
+ "total": 111603362,
+ "tokens": {
+  "input": 79933,
+  "output": 346277,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 2638425,
+  "cacheRead": 108538727,
+  "reasoning": 0
+ },
+ "usd": 88.338956,
+ "requests": 637,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 79933,
+    "output": 346277,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 2638425,
+    "cacheRead": 108538727,
+    "reasoning": 0
+   },
+   "usd": 88.338956,
+   "requests": 637,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 9,
+     "total": 0
+    },
+    "claude-fable-5": {
+     "tokens": {
+      "input": 26181,
+      "output": 105495,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1012477,
+      "cacheRead": 24220016,
+      "reasoning": 0
+     },
+     "usd": 50.006116,
+     "requests": 198,
+     "total": 25364169
+    },
+    "claude-haiku-4-5-20251001": {
+     "tokens": {
+      "input": 20,
+      "output": 2001,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 154561,
+      "cacheRead": 34878,
+      "reasoning": 0
+     },
+     "usd": 0.322635,
+     "requests": 2,
+     "total": 191460
+    },
+    "claude-sonnet-5": {
+     "tokens": {
+      "input": 40142,
+      "output": 236208,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1446159,
+      "cacheRead": 84283833,
+      "reasoning": 0
+     },
+     "usd": 37.62565,
+     "requests": 427,
+     "total": 86006342
+    },
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 13590,
+      "output": 2573,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 25228,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0.384555,
+     "requests": 1,
+     "total": 41391
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
+     "tokens": {
+      "input": 8740,
+      "output": 33015,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 226124,
+      "cacheRead": 6212162,
+      "reasoning": 0
+     },
+     "usd": 10.211256,
+     "requests": 72,
+     "total": 6480041
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
+     "tokens": {
+      "input": 1289,
+      "output": 26573,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 404313,
+      "cacheRead": 7511660,
+      "reasoning": 0
+     },
+     "usd": 16.93946,
+     "requests": 39,
+     "total": 7943835
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
+     "tokens": {
+      "input": 20583,
+      "output": 68896,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 502103,
+      "cacheRead": 19042037,
+      "reasoning": 0
+     },
+     "usd": 16.551457,
+     "requests": 184,
+     "total": 19633619
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
+     "tokens": {
+      "input": 13763,
+      "output": 4621,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 167936,
+      "cacheRead": 425058,
+      "reasoning": 0
+     },
+     "usd": 3.767903,
+     "requests": 7,
+     "total": 611378
+    },
+    "e//Download/vericode/ai": {
+     "tokens": {
+      "input": 35558,
+      "output": 213172,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1337949,
+      "cacheRead": 75347810,
+      "reasoning": 0
+     },
+     "usd": 40.86888,
+     "requests": 334,
+     "total": 76934489
+    }
+   },
+   "total": 111603362
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:37.989Z"
+}

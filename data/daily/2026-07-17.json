@@ -1,0 +1,190 @@
+{
+ "date": "2026-07-17",
+ "total": 64626499,
+ "tokens": {
+  "input": 542,
+  "output": 332904,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 2341050,
+  "cacheRead": 61952003,
+  "reasoning": 0
+ },
+ "usd": 108.49573,
+ "requests": 296,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 542,
+    "output": 332904,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 2341050,
+    "cacheRead": 61952003,
+    "reasoning": 0
+   },
+   "usd": 108.49573,
+   "requests": 296,
+   "models": {
+    "claude-fable-5": {
+     "tokens": {
+      "input": 432,
+      "output": 229106,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1980352,
+      "cacheRead": 48281889,
+      "reasoning": 0
+     },
+     "usd": 99.348549,
+     "requests": 222,
+     "total": 50491779
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 3,
+     "total": 0
+    },
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 28,
+      "output": 19534,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 26142,
+      "cacheRead": 5123472,
+      "reasoning": 0
+     },
+     "usd": 3.311646,
+     "requests": 14,
+     "total": 5169176
+    },
+    "claude-sonnet-4-6": {
+     "tokens": {
+      "input": 36,
+      "output": 74575,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 93076,
+      "cacheRead": 3393593,
+      "reasoning": 0
+     },
+     "usd": 2.695267,
+     "requests": 34,
+     "total": 3561280
+    },
+    "claude-sonnet-5": {
+     "tokens": {
+      "input": 46,
+      "output": 9689,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 241480,
+      "cacheRead": 5153049,
+      "reasoning": 0
+     },
+     "usd": 3.140268,
+     "requests": 23,
+     "total": 5404264
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
+     "tokens": {
+      "input": 94,
+      "output": 62882,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 266543,
+      "cacheRead": 6176123,
+      "reasoning": 0
+     },
+     "usd": 14.652023,
+     "requests": 48,
+     "total": 6505642
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
+     "tokens": {
+      "input": 49,
+      "output": 67244,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 307972,
+      "cacheRead": 4208206,
+      "reasoning": 0
+     },
+     "usd": 13.730336,
+     "requests": 27,
+     "total": 4583471
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
+     "tokens": {
+      "input": 41,
+      "output": 23441,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 257986,
+      "cacheRead": 2731488,
+      "reasoning": 0
+     },
+     "usd": 9.063668,
+     "requests": 22,
+     "total": 3012956
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
+     "tokens": {
+      "input": 64,
+      "output": 94109,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 119218,
+      "cacheRead": 8517065,
+      "reasoning": 0
+     },
+     "usd": 6.006913,
+     "requests": 48,
+     "total": 8730456
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
+     "tokens": {
+      "input": 63,
+      "output": 19146,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 199846,
+      "cacheRead": 2265152,
+      "reasoning": 0
+     },
+     "usd": 7.220002,
+     "requests": 34,
+     "total": 2484207
+    },
+    "e//Download/vericode/ai": {
+     "tokens": {
+      "input": 180,
+      "output": 50718,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 746312,
+      "cacheRead": 32504765,
+      "reasoning": 0
+     },
+     "usd": 49.968705,
+     "requests": 91,
+     "total": 33301975
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/springboot/login/jwt": {
+     "tokens": {
+      "input": 51,
+      "output": 15364,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 443173,
+      "cacheRead": 5549204,
+      "reasoning": 0
+     },
+     "usd": 7.854083,
+     "requests": 26,
+     "total": 6007792
+    }
+   },
+   "total": 64626499
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:37.997Z"
+}

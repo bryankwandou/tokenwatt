@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+build/
+
+# Secrets. The repository is public — nothing here ever gets committed.
+.env
+.env.local
+.env*.local
+.vercel
+
+# Collector and build output
+collector.log
+build.log
+scripts/run-collector.cmd
+
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+npm-debug.log*

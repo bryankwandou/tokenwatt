@@ -1,0 +1,125 @@
+{
+ "date": "2026-07-01",
+ "total": 36939711,
+ "tokens": {
+  "input": 4057,
+  "output": 245033,
+  "cacheWrite5m": 18945,
+  "cacheWrite1h": 2675770,
+  "cacheRead": 33995906,
+  "reasoning": 0
+ },
+ "usd": 46.925664,
+ "requests": 206,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 4057,
+    "output": 245033,
+    "cacheWrite5m": 18945,
+    "cacheWrite1h": 2675770,
+    "cacheRead": 33995906,
+    "reasoning": 0
+   },
+   "usd": 46.925664,
+   "requests": 206,
+   "models": {
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 3874,
+      "output": 147020,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2464454,
+      "cacheRead": 28322534,
+      "reasoning": 0
+     },
+     "usd": 42.500677,
+     "requests": 121,
+     "total": 30937882
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 3,
+     "total": 0
+    },
+    "claude-sonnet-4-6": {
+     "tokens": {
+      "input": 79,
+      "output": 97231,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 211316,
+      "cacheRead": 5516784,
+      "reasoning": 0
+     },
+     "usd": 4.381633,
+     "requests": 71,
+     "total": 5825410
+    },
+    "claude-haiku-4-5-20251001": {
+     "tokens": {
+      "input": 104,
+      "output": 782,
+      "cacheWrite5m": 18945,
+      "cacheWrite1h": 0,
+      "cacheRead": 156588,
+      "reasoning": 0
+     },
+     "usd": 0.043354,
+     "requests": 11,
+     "total": 176419
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
+     "tokens": {
+      "input": 635,
+      "output": 122176,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1153508,
+      "cacheRead": 13321543,
+      "reasoning": 0
+     },
+     "usd": 19.302454,
+     "requests": 68,
+     "total": 14597862
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
+     "tokens": {
+      "input": 1936,
+      "output": 67731,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 803650,
+      "cacheRead": 6505881,
+      "reasoning": 0
+     },
+     "usd": 12.992395,
+     "requests": 49,
+     "total": 7379198
+    },
+    "e//Download/vericode/ai": {
+     "tokens": {
+      "input": 1486,
+      "output": 55126,
+      "cacheWrite5m": 18945,
+      "cacheWrite1h": 718612,
+      "cacheRead": 14168482,
+      "reasoning": 0
+     },
+     "usd": 14.630814,
+     "requests": 89,
+     "total": 14962651
+    }
+   },
+   "total": 36939711
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:37.984Z"
+}

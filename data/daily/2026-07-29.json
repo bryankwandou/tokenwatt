@@ -1,0 +1,203 @@
+{
+ "date": "2026-07-29",
+ "total": 71898331,
+ "tokens": {
+  "input": 2915,
+  "output": 388840,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 2800928,
+  "cacheRead": 68705648,
+  "reasoning": 0
+ },
+ "usd": 71.092849,
+ "requests": 452,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 2915,
+    "output": 388840,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 2800928,
+    "cacheRead": 68705648,
+    "reasoning": 0
+   },
+   "usd": 71.092849,
+   "requests": 452,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 11,
+     "total": 0
+    },
+    "claude-sonnet-5": {
+     "tokens": {
+      "input": 28,
+      "output": 7210,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 133901,
+      "cacheRead": 731933,
+      "reasoning": 0
+     },
+     "usd": 1.13122,
+     "requests": 14,
+     "total": 873072
+    },
+    "claude-opus-5": {
+     "tokens": {
+      "input": 2752,
+      "output": 319176,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2224162,
+      "cacheRead": 61052293,
+      "reasoning": 0
+     },
+     "usd": 60.760926,
+     "requests": 358,
+     "total": 63598383
+    },
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 129,
+      "output": 60022,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 392597,
+      "cacheRead": 6795023,
+      "reasoning": 0
+     },
+     "usd": 8.824676,
+     "requests": 65,
+     "total": 7247771
+    },
+    "claude-sonnet-4-6": {
+     "tokens": {
+      "input": 6,
+      "output": 2432,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 50268,
+      "cacheRead": 126399,
+      "reasoning": 0
+     },
+     "usd": 0.376026,
+     "requests": 4,
+     "total": 179105
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 57,
+      "output": 16014,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 189752,
+      "cacheRead": 1771534,
+      "reasoning": 0
+     },
+     "usd": 2.429775,
+     "requests": 32,
+     "total": 1977357
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
+     "tokens": {
+      "input": 52,
+      "output": 29433,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 107617,
+      "cacheRead": 2629013,
+      "reasoning": 0
+     },
+     "usd": 3.126761,
+     "requests": 28,
+     "total": 2766115
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
+     "tokens": {
+      "input": 66,
+      "output": 20254,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 119620,
+      "cacheRead": 3234921,
+      "reasoning": 0
+     },
+     "usd": 3.320341,
+     "requests": 34,
+     "total": 3374861
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
+     "tokens": {
+      "input": 60,
+      "output": 29059,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 158320,
+      "cacheRead": 2665578,
+      "reasoning": 0
+     },
+     "usd": 3.39208,
+     "requests": 35,
+     "total": 2853017
+    },
+    "e//Download/vericode/ai": {
+     "tokens": {
+      "input": 38,
+      "output": 8480,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 170006,
+      "cacheRead": 3257473,
+      "reasoning": 0
+     },
+     "usd": 3.540987,
+     "requests": 21,
+     "total": 3435997
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/PDAM/TUGAS/WEEK2": {
+     "tokens": {
+      "input": 64,
+      "output": 20119,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 368388,
+      "cacheRead": 10981324,
+      "reasoning": 0
+     },
+     "usd": 9.677837,
+     "requests": 32,
+     "total": 11369895
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
+     "tokens": {
+      "input": 295,
+      "output": 156419,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1157005,
+      "cacheRead": 31476528,
+      "reasoning": 0
+     },
+     "usd": 31.220264,
+     "requests": 161,
+     "total": 32790247
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/springboot/login/jwt": {
+     "tokens": {
+      "input": 2283,
+      "output": 109062,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 530220,
+      "cacheRead": 12689277,
+      "reasoning": 0
+     },
+     "usd": 14.384803,
+     "requests": 109,
+     "total": 13330842
+    }
+   },
+   "total": 71898331
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:38.045Z"
+}

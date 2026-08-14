@@ -1,0 +1,99 @@
+{
+ "date": "2026-06-09",
+ "total": 3622559,
+ "tokens": {
+  "input": 7007,
+  "output": 33403,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 200360,
+  "cacheRead": 3381789,
+  "reasoning": 0
+ },
+ "usd": 4.564605,
+ "requests": 39,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 7007,
+    "output": 33403,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 200360,
+    "cacheRead": 3381789,
+    "reasoning": 0
+   },
+   "usd": 4.564605,
+   "requests": 39,
+   "models": {
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 7007,
+      "output": 33403,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 200360,
+      "cacheRead": 3381789,
+      "reasoning": 0
+     },
+     "usd": 4.564605,
+     "requests": 37,
+     "total": 3622559
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 0
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 7007,
+      "output": 33403,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 200360,
+      "cacheRead": 3381789,
+      "reasoning": 0
+     },
+     "usd": 4.564605,
+     "requests": 37,
+     "total": 3622559
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/quant/bot/polymarket": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/ZYNQIO///UNTUK/KUIZ/KULIAH//VARIASI/WEBSITE/QUIZ/": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    }
+   },
+   "total": 3622559
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:37.968Z"
+}

@@ -1,0 +1,164 @@
+{
+ "date": "2026-07-02",
+ "total": 40230569,
+ "tokens": {
+  "input": 63379,
+  "output": 280476,
+  "cacheWrite5m": 108673,
+  "cacheWrite1h": 1732861,
+  "cacheRead": 38045180,
+  "reasoning": 0
+ },
+ "usd": 59.716,
+ "requests": 454,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 63379,
+    "output": 280476,
+    "cacheWrite5m": 108673,
+    "cacheWrite1h": 1732861,
+    "cacheRead": 38045180,
+    "reasoning": 0
+   },
+   "usd": 59.716,
+   "requests": 454,
+   "models": {
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 22137,
+      "output": 75949,
+      "cacheWrite5m": 108673,
+      "cacheWrite1h": 394335,
+      "cacheRead": 8894506,
+      "reasoning": 0
+     },
+     "usd": 11.079219,
+     "requests": 131,
+     "total": 9495600
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 13,
+     "total": 0
+    },
+    "claude-fable-5": {
+     "tokens": {
+      "input": 33931,
+      "output": 143000,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 958223,
+      "cacheRead": 14301646,
+      "reasoning": 0
+     },
+     "usd": 40.955416,
+     "requests": 190,
+     "total": 15436800
+    },
+    "claude-sonnet-4-6": {
+     "tokens": {
+      "input": 7311,
+      "output": 61527,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 380303,
+      "cacheRead": 14849028,
+      "reasoning": 0
+     },
+     "usd": 7.681364,
+     "requests": 120,
+     "total": 15298169
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 310,
+      "output": 860,
+      "cacheWrite5m": 108673,
+      "cacheWrite1h": 0,
+      "cacheRead": 20998,
+      "reasoning": 0
+     },
+     "usd": 0.712755,
+     "requests": 3,
+     "total": 130841
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
+     "tokens": {
+      "input": 7828,
+      "output": 9999,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 91501,
+      "cacheRead": 1124124,
+      "reasoning": 0
+     },
+     "usd": 3.532374,
+     "requests": 30,
+     "total": 1233452
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
+     "tokens": {
+      "input": 8651,
+      "output": 30753,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 220317,
+      "cacheRead": 3282754,
+      "reasoning": 0
+     },
+     "usd": 9.313254,
+     "requests": 57,
+     "total": 3542475
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
+     "tokens": {
+      "input": 9502,
+      "output": 74637,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 453819,
+      "cacheRead": 7548122,
+      "reasoning": 0
+     },
+     "usd": 20.451372,
+     "requests": 80,
+     "total": 8086080
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
+     "tokens": {
+      "input": 18745,
+      "output": 55956,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 345328,
+      "cacheRead": 4074475,
+      "reasoning": 0
+     },
+     "usd": 10.81235,
+     "requests": 57,
+     "total": 4494504
+    },
+    "e//Download/vericode/ai": {
+     "tokens": {
+      "input": 18343,
+      "output": 108271,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 621896,
+      "cacheRead": 21994707,
+      "reasoning": 0
+     },
+     "usd": 14.893894,
+     "requests": 227,
+     "total": 22743217
+    }
+   },
+   "total": 40230569
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:37.988Z"
+}

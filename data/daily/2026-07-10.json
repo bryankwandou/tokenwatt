@@ -1,0 +1,151 @@
+{
+ "date": "2026-07-10",
+ "total": 55986226,
+ "tokens": {
+  "input": 77817,
+  "output": 263913,
+  "cacheWrite5m": 195837,
+  "cacheWrite1h": 2082870,
+  "cacheRead": 53365789,
+  "reasoning": 0
+ },
+ "usd": 111.444971,
+ "requests": 385,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 77817,
+    "output": 263913,
+    "cacheWrite5m": 195837,
+    "cacheWrite1h": 2082870,
+    "cacheRead": 53365789,
+    "reasoning": 0
+   },
+   "usd": 111.444971,
+   "requests": 385,
+   "models": {
+    "claude-fable-5": {
+     "tokens": {
+      "input": 77817,
+      "output": 263913,
+      "cacheWrite5m": 195837,
+      "cacheWrite1h": 2082870,
+      "cacheRead": 53365789,
+      "reasoning": 0
+     },
+     "usd": 111.444971,
+     "requests": 377,
+     "total": 55986226
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 8,
+     "total": 0
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
+     "tokens": {
+      "input": 8006,
+      "output": 27547,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 64055,
+      "cacheRead": 1454923,
+      "reasoning": 0
+     },
+     "usd": 4.193433,
+     "requests": 31,
+     "total": 1554531
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
+     "tokens": {
+      "input": 22436,
+      "output": 43000,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 461941,
+      "cacheRead": 11186070,
+      "reasoning": 0
+     },
+     "usd": 22.79925,
+     "requests": 54,
+     "total": 11713447
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
+     "tokens": {
+      "input": 8439,
+      "output": 21250,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 117433,
+      "cacheRead": 1330125,
+      "reasoning": 0
+     },
+     "usd": 4.825675,
+     "requests": 26,
+     "total": 1477247
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
+     "tokens": {
+      "input": 9073,
+      "output": 22742,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 64811,
+      "cacheRead": 1033588,
+      "reasoning": 0
+     },
+     "usd": 3.557638,
+     "requests": 21,
+     "total": 1130214
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
+     "tokens": {
+      "input": 18594,
+      "output": 69209,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 623395,
+      "cacheRead": 21878130,
+      "reasoning": 0
+     },
+     "usd": 37.99242,
+     "requests": 102,
+     "total": 22589328
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
+     "tokens": {
+      "input": 1683,
+      "output": 26179,
+      "cacheWrite5m": 195837,
+      "cacheWrite1h": 504416,
+      "cacheRead": 4561178,
+      "reasoning": 0
+     },
+     "usd": 18.423241,
+     "requests": 27,
+     "total": 5289293
+    },
+    "e//Download/vericode/ai": {
+     "tokens": {
+      "input": 9586,
+      "output": 53986,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 246819,
+      "cacheRead": 11921775,
+      "reasoning": 0
+     },
+     "usd": 19.653315,
+     "requests": 124,
+     "total": 12232166
+    }
+   },
+   "total": 55986226
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:37.992Z"
+}

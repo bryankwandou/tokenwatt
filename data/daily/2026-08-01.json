@@ -1,0 +1,73 @@
+{
+ "date": "2026-08-01",
+ "total": 3045309,
+ "tokens": {
+  "input": 34,
+  "output": 9338,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 368340,
+  "cacheRead": 2667597,
+  "reasoning": 0
+ },
+ "usd": 5.250819,
+ "requests": 19,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 34,
+    "output": 9338,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 368340,
+    "cacheRead": 2667597,
+    "reasoning": 0
+   },
+   "usd": 5.250819,
+   "requests": 19,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 0
+    },
+    "claude-opus-5": {
+     "tokens": {
+      "input": 34,
+      "output": 9338,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 368340,
+      "cacheRead": 2667597,
+      "reasoning": 0
+     },
+     "usd": 5.250819,
+     "requests": 17,
+     "total": 3045309
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
+     "tokens": {
+      "input": 34,
+      "output": 9338,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 368340,
+      "cacheRead": 2667597,
+      "reasoning": 0
+     },
+     "usd": 5.250819,
+     "requests": 19,
+     "total": 3045309
+    }
+   },
+   "total": 3045309
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:38.046Z"
+}

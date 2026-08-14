@@ -1,0 +1,115 @@
+{
+ "date": "2026-07-27",
+ "total": 9356,
+ "tokens": {
+  "input": 5452,
+  "output": 342,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 0,
+  "cacheRead": 3328,
+  "reasoning": 234
+ },
+ "usd": 0.014911,
+ "requests": 5,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 0,
+    "output": 0,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 0,
+    "cacheRead": 0,
+    "reasoning": 0
+   },
+   "usd": 0,
+   "requests": 4,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 4,
+     "total": 0
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 0
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "e//Download/vericode/ai": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    }
+   },
+   "total": 0
+  },
+  "codex-cli": {
+   "tokens": {
+    "input": 5452,
+    "output": 342,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 0,
+    "cacheRead": 3328,
+    "reasoning": 234
+   },
+   "usd": 0.014911,
+   "requests": 1,
+   "models": {
+    "gpt-5.3-codex": {
+     "tokens": {
+      "input": 5452,
+      "output": 342,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 3328,
+      "reasoning": 234
+     },
+     "usd": 0.014911,
+     "requests": 1,
+     "total": 9356
+    }
+   },
+   "projects": {},
+   "total": 9356
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:38.044Z"
+}

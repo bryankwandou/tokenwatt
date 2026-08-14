@@ -1,0 +1,112 @@
+{
+ "date": "2026-07-09",
+ "total": 58058390,
+ "tokens": {
+  "input": 28050,
+  "output": 252351,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 1241568,
+  "cacheRead": 56536421,
+  "reasoning": 0
+ },
+ "usd": 47.132916,
+ "requests": 239,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 28050,
+    "output": 252351,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 1241568,
+    "cacheRead": 56536421,
+    "reasoning": 0
+   },
+   "usd": 47.132916,
+   "requests": 239,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 0
+    },
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 28050,
+      "output": 252351,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1241568,
+      "cacheRead": 56536421,
+      "reasoning": 0
+     },
+     "usd": 47.132916,
+     "requests": 237,
+     "total": 58058390
+    }
+   },
+   "projects": {
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
+     "tokens": {
+      "input": 774,
+      "output": 21452,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 257053,
+      "cacheRead": 4367426,
+      "reasoning": 0
+     },
+     "usd": 5.294413,
+     "requests": 20,
+     "total": 4646705
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
+     "tokens": {
+      "input": 25331,
+      "output": 199163,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 638557,
+      "cacheRead": 46477074,
+      "reasoning": 0
+     },
+     "usd": 34.729837,
+     "requests": 181,
+     "total": 47340125
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
+     "tokens": {
+      "input": 54,
+      "output": 5546,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 192413,
+      "cacheRead": 837537,
+      "reasoning": 0
+     },
+     "usd": 2.481818,
+     "requests": 5,
+     "total": 1035550
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
+     "tokens": {
+      "input": 1891,
+      "output": 26190,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 153545,
+      "cacheRead": 4854384,
+      "reasoning": 0
+     },
+     "usd": 4.626847,
+     "requests": 33,
+     "total": 5036010
+    }
+   },
+   "total": 58058390
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:37.992Z"
+}

@@ -1,0 +1,86 @@
+{
+ "date": "2026-06-05",
+ "total": 2016408,
+ "tokens": {
+  "input": 1904,
+  "output": 8255,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 171835,
+  "cacheRead": 1834414,
+  "reasoning": 0
+ },
+ "usd": 2.851452,
+ "requests": 15,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 1904,
+    "output": 8255,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 171835,
+    "cacheRead": 1834414,
+    "reasoning": 0
+   },
+   "usd": 2.851452,
+   "requests": 15,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 4,
+     "total": 0
+    },
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 1904,
+      "output": 8255,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 171835,
+      "cacheRead": 1834414,
+      "reasoning": 0
+     },
+     "usd": 2.851452,
+     "requests": 11,
+     "total": 2016408
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 3,
+     "total": 0
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/quant/bot/polymarket": {
+     "tokens": {
+      "input": 1904,
+      "output": 8255,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 171835,
+      "cacheRead": 1834414,
+      "reasoning": 0
+     },
+     "usd": 2.851452,
+     "requests": 12,
+     "total": 2016408
+    }
+   },
+   "total": 2016408
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:37.967Z"
+}

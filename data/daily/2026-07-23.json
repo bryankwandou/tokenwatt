@@ -1,0 +1,138 @@
+{
+ "date": "2026-07-23",
+ "total": 98055852,
+ "tokens": {
+  "input": 2983,
+  "output": 495454,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 2285041,
+  "cacheRead": 95272374,
+  "reasoning": 0
+ },
+ "usd": 79.360543,
+ "requests": 659,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 2983,
+    "output": 495454,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 2285041,
+    "cacheRead": 95272374,
+    "reasoning": 0
+   },
+   "usd": 79.360543,
+   "requests": 659,
+   "models": {
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 2873,
+      "output": 469013,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1734013,
+      "cacheRead": 92184167,
+      "reasoning": 0
+     },
+     "usd": 75.171904,
+     "requests": 601,
+     "total": 94390066
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 11,
+     "total": 0
+    },
+    "claude-haiku-4-5-20251001": {
+     "tokens": {
+      "input": 20,
+      "output": 1682,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 106019,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0.220468,
+     "requests": 2,
+     "total": 107721
+    },
+    "claude-sonnet-5": {
+     "tokens": {
+      "input": 90,
+      "output": 24759,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 445009,
+      "cacheRead": 3088207,
+      "reasoning": 0
+     },
+     "usd": 3.968171,
+     "requests": 45,
+     "total": 3558065
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
+     "tokens": {
+      "input": 2373,
+      "output": 272531,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1474137,
+      "cacheRead": 44358283,
+      "reasoning": 0
+     },
+     "usd": 40.386183,
+     "requests": 344,
+     "total": 46107324
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
+     "tokens": {
+      "input": 374,
+      "output": 142481,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 479250,
+      "cacheRead": 38494447,
+      "reasoning": 0
+     },
+     "usd": 27.603618,
+     "requests": 196,
+     "total": 39116552
+    },
+    "e//Download/vericode/ai": {
+     "tokens": {
+      "input": 234,
+      "output": 80411,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 291093,
+      "cacheRead": 12393181,
+      "reasoning": 0
+     },
+     "usd": 11.118966,
+     "requests": 118,
+     "total": 12764919
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/springboot/login/jwt": {
+     "tokens": {
+      "input": 2,
+      "output": 31,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 40561,
+      "cacheRead": 26463,
+      "reasoning": 0
+     },
+     "usd": 0.251776,
+     "requests": 1,
+     "total": 67057
+    }
+   },
+   "total": 98055852
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:38.005Z"
+}

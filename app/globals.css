@@ -1,0 +1,94 @@
+@import 'tailwindcss';
+
+/*
+  TokenWatt — instrument panel.
+  The visual model is a meter: dark chassis, warm readout, numbers set in a
+  tabular face so columns of digits line up and can be scanned vertically.
+*/
+
+@theme {
+  --color-chassis: #0b0c0e;
+  --color-panel: #131417;
+  --color-panel-2: #191b1f;
+  --color-line: #24262b;
+  --color-line-soft: #1c1e22;
+  --color-ink: #eceae5;
+  --color-ink-dim: #a3a29d;
+  --color-ink-faint: #6e6e6a;
+
+  --color-watt: #f2a63a;
+  --color-watt-deep: #b9711b;
+  --color-claude: #e08a5b;
+  --color-signal: #3ecf9a;
+  --color-alert: #e0685a;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', 'JetBrains Mono', Consolas, monospace;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: var(--color-chassis);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  /* Faint radial warmth behind the panel, like a lit instrument face. */
+  background-image: radial-gradient(
+    900px 500px at 50% -10%,
+    rgba(242, 166, 58, 0.07),
+    transparent 70%
+  );
+  background-attachment: fixed;
+}
+
+/* Every figure in this app is meant to be compared against another figure. */
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+.panel {
+  background: var(--color-panel);
+  border: 1px solid var(--color-line);
+  border-radius: 14px;
+}
+
+.rule {
+  border-color: var(--color-line-soft);
+}
+
+/* Horizontal scroll containers keep the page body from ever scrolling sideways. */
+.scroll-x {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise {
+  animation: riseIn 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise {
+    animation: none;
+  }
+}

@@ -1,0 +1,112 @@
+{
+ "date": "2026-07-20",
+ "total": 101032522,
+ "tokens": {
+  "input": 5953366,
+  "output": 376392,
+  "cacheWrite5m": 14965411,
+  "cacheWrite1h": 0,
+  "cacheRead": 79737353,
+  "reasoning": 0
+ },
+ "usd": 345.158251,
+ "requests": 503,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 5953366,
+    "output": 376392,
+    "cacheWrite5m": 14965411,
+    "cacheWrite1h": 0,
+    "cacheRead": 79737353,
+    "reasoning": 0
+   },
+   "usd": 345.158251,
+   "requests": 503,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 7,
+     "total": 0
+    },
+    "claude-fable-5": {
+     "tokens": {
+      "input": 5953366,
+      "output": 376392,
+      "cacheWrite5m": 14965411,
+      "cacheWrite1h": 0,
+      "cacheRead": 79737353,
+      "reasoning": 0
+     },
+     "usd": 345.158251,
+     "requests": 496,
+     "total": 101032522
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 10,
+      "output": 1739,
+      "cacheWrite5m": 57167,
+      "cacheWrite1h": 0,
+      "cacheRead": 218037,
+      "reasoning": 0
+     },
+     "usd": 1.019675,
+     "requests": 7,
+     "total": 276953
+    },
+    "E//000/BOUNTY/SUBMISSION/SUPERTEAM/BY/ANTIGRAVITY/solana/open/agent/zeroclaw": {
+     "tokens": {
+      "input": 458457,
+      "output": 240598,
+      "cacheWrite5m": 9271447,
+      "cacheWrite1h": 0,
+      "cacheRead": 50890499,
+      "reasoning": 0
+     },
+     "usd": 183.398056,
+     "requests": 264,
+     "total": 60861001
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/proofcast": {
+     "tokens": {
+      "input": 5494896,
+      "output": 133725,
+      "cacheWrite5m": 5594360,
+      "cacheWrite1h": 0,
+      "cacheRead": 28628817,
+      "reasoning": 0
+     },
+     "usd": 160.193527,
+     "requests": 230,
+     "total": 39851798
+    },
+    "E//freemodel/ai/claude": {
+     "tokens": {
+      "input": 3,
+      "output": 330,
+      "cacheWrite5m": 42437,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0.546993,
+     "requests": 2,
+     "total": 42770
+    }
+   },
+   "total": 101032522
+  }
+ },
+ "generatedAt": "2026-08-13T13:49:37.998Z"
+}
