@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "collect": "node collector/collect.mjs",
-    "collect:push": "node collector/collect.mjs --push"
+    "collect:push": "node collector/collect.mjs --push",
+    "verify:login": "node scripts/verify-login.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",

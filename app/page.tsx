@@ -14,6 +14,7 @@ import {
   quotaUsage,
   rollup,
 } from '@/lib/data';
+import { authEnabled } from '@/lib/auth.mjs';
 
 // Re-read on request so a midnight sync shows up without a redeploy, with a
 // short cache so a burst of visitors does not hammer the database.
@@ -286,6 +287,15 @@ export default async function Page() {
           >
             source
           </a>
+          {/* A form, not a link: a prefetch or prerender must not sign anyone out. */}
+          {authEnabled() && (
+            <form method="POST" action="/api/login">
+              <input type="hidden" name="logout" value="1" />
+              <button type="submit" className="transition-colors hover:text-watt">
+                sign out
+              </button>
+            </form>
+          )}
         </span>
       </footer>
     </div>

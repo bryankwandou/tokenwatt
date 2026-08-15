@@ -61,10 +61,31 @@ npm run dev                    # http://localhost:3000
 | Variable | Purpose |
 | --- | --- |
 | `DATABASE_URL` | Neon Postgres connection string. Without it the collector writes files only and the dashboard falls back to reading them. |
-| `TOKENWATT_USER` / `TOKENWATT_PASS` | Basic-auth gate. Leave both empty to serve the page publicly. |
-| `TOKENWATT_INGEST_TOKEN` | Bearer token for `POST /api/ingest`. Leave empty to disable the endpoint. |
+| `TOKENWATT_USER` / `TOKENWATT_PASS` | The sign-in pair. Leave both empty to serve the page publicly. |
+| `TOKENWATT_SESSION_SECRET` | Signs the session cookie. Any long random string; changing it signs every device out. Falls back to `TOKENWATT_PASS`. |
+| `TOKENWATT_INGEST_TOKEN` | Bearer token for `POST /api/ingest` and for scripted `GET /api/export`. Leave empty to disable both. |
 
 `.env.local` is gitignored. This repository is public — no secret belongs in it.
+
+### Signing in
+
+The gate is an ordinary form at `/login`, not the browser's basic-auth dialog.
+A correct entry sets `tw_session`, a cookie carrying the username, the time it
+was issued, and an HMAC-SHA256 signature over both, checked in middleware on
+every request. It lasts thirty days; the footer's *sign out* button drops it.
+
+Nothing but the signature is trusted — the cookie cannot be edited into a valid
+one without the secret, and it stops verifying once it is thirty days old.
+
+To prove the gate works against a running server, local or deployed:
+
+```bash
+npm run verify:login -- https://<your-deployment>
+```
+
+It walks the whole path — turned away without a cookie, wrong password refused,
+right pair admitted, cookie honoured on later requests, forged cookie refused,
+sign-out clearing it — and prints each step with the status it got back.
 
 ---
 
@@ -121,11 +142,12 @@ no-op.
 ## Getting the data back out
 
 `GET /api/export` returns the entire history as one JSON document, behind the
-same basic-auth gate as the dashboard. That is the third copy of the data,
-after Neon and the committed files:
+same gate as the dashboard. That is the third copy of the data, after Neon and
+the committed files. In a browser the session cookie is enough; a script sends
+the ingest token instead:
 
 ```bash
-curl -u "$TOKENWATT_USER:$TOKENWATT_PASS" \
+curl -H "Authorization: Bearer $TOKENWATT_INGEST_TOKEN" \
   https://<your-deployment>/api/export -o tokenwatt-backup.json
 ```
 
@@ -164,6 +186,9 @@ lib/db.mjs              Neon schema and queries, shared by collector and app
 lib/data.ts             data loading and roll-ups for the dashboard
 app/page.tsx            the dashboard
 app/api/ingest/route.ts remote push endpoint
-middleware.ts           basic-auth gate
+lib/auth.mjs            session cookie signing and verification
+app/login/page.tsx      the sign-in form
+app/api/login/route.ts  sign in and sign out
+middleware.ts           the gate itself
 data/daily/*.json       one file per day, committed as the backup
 ```

@@ -9,9 +9,11 @@ build/
 .env*.local
 .vercel
 
-# Collector and build output
+# Collector, build and deploy output
 collector.log
 build.log
+deploy.log
+server.log
 
 next-env.d.ts
 *.tsbuildinfo
