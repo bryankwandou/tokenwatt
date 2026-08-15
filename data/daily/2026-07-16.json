@@ -1,28 +1,28 @@
 {
  "date": "2026-07-16",
- "total": 104366768,
+ "total": 103929106,
  "tokens": {
-  "input": 1393,
-  "output": 442042,
+  "input": 1376,
+  "output": 428419,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 5245698,
-  "cacheRead": 98677635,
+  "cacheWrite1h": 5183337,
+  "cacheRead": 98315974,
   "reasoning": 0
  },
- "usd": 172.779299,
- "requests": 569,
+ "usd": 171.634199,
+ "requests": 560,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 1393,
-    "output": 442042,
+    "input": 1376,
+    "output": 428419,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 5245698,
-    "cacheRead": 98677635,
+    "cacheWrite1h": 5183337,
+    "cacheRead": 98315974,
     "reasoning": 0
    },
-   "usd": 172.779299,
-   "requests": 569,
+   "usd": 171.634199,
+   "requests": 560,
    "models": {
     "claude-fable-5": {
      "tokens": {
@@ -52,16 +52,16 @@
     },
     "claude-opus-4-8": {
      "tokens": {
-      "input": 758,
-      "output": 194304,
+      "input": 741,
+      "output": 180681,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 2376864,
-      "cacheRead": 48596591,
+      "cacheWrite1h": 2314503,
+      "cacheRead": 48234930,
       "reasoning": 0
      },
-     "usd": 52.928326,
-     "requests": 228,
-     "total": 51168517
+     "usd": 51.783225,
+     "requests": 219,
+     "total": 50730855
     }
    },
    "projects": {
@@ -155,23 +155,10 @@
      "usd": 70.538419,
      "requests": 179,
      "total": 48694941
-    },
-    "e//TUGAS/KULIAH/ANTIGRAVITY/springboot/login/jwt": {
-     "tokens": {
-      "input": 17,
-      "output": 13623,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 62361,
-      "cacheRead": 361661,
-      "reasoning": 0
-     },
-     "usd": 1.1451,
-     "requests": 9,
-     "total": 437662
     }
    },
-   "total": 104366768
+   "total": 103929106
   }
  },
- "generatedAt": "2026-08-14T16:39:52.160Z"
+ "generatedAt": "2026-08-15T11:59:43.373Z"
 }
