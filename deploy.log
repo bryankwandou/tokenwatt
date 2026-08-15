@@ -1,0 +1,81 @@
+﻿node.exe : <claude-code-hint v="1" type="plugin" value="vercel@claude-plugins-official" />
+At C:\Users\arche\AppData\Roaming\npm\vercel.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/vercel/dist/vc.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (<claude-code-hi...ns-official" />:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Vercel CLI 58.11.0 (Node.js 24.13.0)
+Deploying tokenwatt
+Uploading [--------------------] (0.0B/289.2KB)
+Uploading [=====---------------] (73.2KB/289.2KB)
+Uploading [==========----------] (145.9KB/289.2KB)
+Uploading [===============-----] (219.1KB/289.2KB)
+Uploading [====================] (289.2KB/289.2KB)
+  Inspect         https://vercel.com/nayrbryangamings-projects/tokenwatt/9HGgHmSa5aE6RaQAhvUAg7s5KbFM
+  Production      https://tokenwatt-ir189q127-nayrbryangamings-projects.vercel.app
+Building…
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 86 deployment files...
+Running "vercel build"
+Vercel CLI 58.1.0
+Installing dependencies...
+npm warn deprecated next@15.1.6: This version has a security vulnerability. Please upgrade to a patched version. See 
+https://nextjs.org/blog/CVE-2025-66478 for more details.
+added 61 packages in 8s
+14 packages are looking for funding
+run `npm fund` for details
+Detected Next.js version: 15.1.6
+Running "npm run build"
+> tokenwatt@1.0.0 build
+> next build
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting 
+the following URL:
+https://nextjs.org/telemetry
+▲ Next.js 15.1.6
+Creating an optimized production build ...
+✓ Compiled successfully
+Linting and checking validity of types ...
+Collecting page data ...
+Generating static pages (0/4) ...
+Generating static pages (1/4)
+Generating static pages (2/4)
+Generating static pages (3/4)
+✓ Generating static pages (4/4)
+Finalizing page optimization ...
+Collecting build traces ...
+Route (app)                              Size     First Load JS
+┌ ○ /                                    140 B           105 kB
+├ ○ /_not-found                          979 B           106 kB
+└ ƒ /api/ingest                          140 B           105 kB
++ First Load JS shared by all            105 kB
+├ chunks/4bd1b696-20882bf820444624.js  52.9 kB
+├ chunks/517-fe882a976a10ccc2.js       50.5 kB
+└ other shared chunks (total)          1.88 kB
+ƒ Middleware                             32.2 kB
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+Traced Next.js server files in: 163.378ms
+Created all serverless functions in: 244.991ms
+Collected static files (public/, static/, .next/static): 3.914ms
+Build Completed in /vercel/output [32s]
+Deploying outputs...
+Vulnerable version of Next.js detected, please update immediately.
+{
+  "status": "error",
+  "reason": "deploy_failed",
+  "message": "Vulnerable version of Next.js detected, please update immediately.",
+  "next": [
+    {
+      "command": "vercel deploy",
+      "when": "retry deploy"
+    }
+  ]
+}
+Error: Vulnerable version of Next.js detected, please update immediately.

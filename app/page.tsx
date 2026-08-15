@@ -276,12 +276,17 @@ export default async function Page() {
 
       <footer className="mt-10 flex flex-wrap items-center justify-between gap-3 border-t rule pt-6 text-xs text-ink-faint">
         <span>TokenWatt · a personal meter, not a billing statement</span>
-        <a
-          className="transition-colors hover:text-watt"
-          href="https://github.com/bryankwandou/tokenwatt"
-        >
-          source
-        </a>
+        <span className="flex items-center gap-4">
+          <a className="transition-colors hover:text-watt" href="/api/export">
+            export json
+          </a>
+          <a
+            className="transition-colors hover:text-watt"
+            href="https://github.com/bryankwandou/tokenwatt"
+          >
+            source
+          </a>
+        </span>
       </footer>
     </div>
   );

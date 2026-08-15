@@ -118,6 +118,17 @@ curl -X POST https://<your-deployment>/api/ingest \
 The endpoint replaces the named days, so posting the same payload twice is a
 no-op.
 
+## Getting the data back out
+
+`GET /api/export` returns the entire history as one JSON document, behind the
+same basic-auth gate as the dashboard. That is the third copy of the data,
+after Neon and the committed files:
+
+```bash
+curl -u "$TOKENWATT_USER:$TOKENWATT_PASS" \
+  https://<your-deployment>/api/export -o tokenwatt-backup.json
+```
+
 ### Manual entries
 
 Providers without usable logs can be recorded in `data/manual.json`:
