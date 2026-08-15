@@ -102,6 +102,25 @@ The task runs `node collector/collect.mjs --push`, which aggregates the logs,
 writes the JSON files, upserts every day into Neon, and commits the changed
 files. Remove it with `Unregister-ScheduledTask -TaskName TokenWatt`.
 
+Two things can go wrong at midnight with nobody watching, and both are handled
+rather than left to be noticed later:
+
+- **Neon is unreachable.** Serverless computes cold-start and radios sleep, so
+  a write can come back as `fetch failed`. Each write is retried three times
+  over about ten seconds; if it still fails, the runner replays the files that
+  were just written (`npm run sync:db`) as a repair pass. That takes twenty
+  seconds because it re-reads no logs at all.
+- **`git push` wants a password.** A credential prompt with no console to
+  answer it would hang until the scheduler's two-hour limit. Prompting is
+  disabled for the push and it is capped at two minutes, so a refusal ends the
+  run instead of wedging it. The commit is already made either way, and the
+  next night carries it.
+
+```bash
+npm run sync:db            # replay every daily file into Neon
+npm run sync:db -- --since 7
+```
+
 On macOS or Linux the equivalent is a cron line:
 
 ```
@@ -183,6 +202,7 @@ collector/collect.mjs   log parsing and daily aggregation
 lib/pricing.mjs         rate card
 lib/cost.mjs            cost arithmetic, shared by collector and app
 lib/db.mjs              Neon schema and queries, shared by collector and app
+scripts/sync-db.mjs     replay the daily files into Neon, no log parsing
 lib/data.ts             data loading and roll-ups for the dashboard
 app/page.tsx            the dashboard
 app/api/ingest/route.ts remote push endpoint

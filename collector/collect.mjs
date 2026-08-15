@@ -25,7 +25,7 @@ import readline from 'node:readline';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { costOf, totalTokens, emptyTokens, addTokens } from '../lib/cost.mjs';
-import { ensureSchema, hasDatabase, upsertDays } from '../lib/db.mjs';
+import { ensureSchema, hasDatabase, upsertDays, retrying } from '../lib/db.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -327,18 +327,33 @@ function round(n) {
 }
 
 function push() {
-  const run = (...a) => execFileSync('git', a, { cwd: ROOT, stdio: 'inherit' });
+  // The task runs unattended. A credential helper that decides to ask for a
+  // password would otherwise block the whole run until the scheduler's two-hour
+  // limit kills it, so prompting is disabled outright and the push is given a
+  // deadline. A refused push is recoverable — the commit stays local and the
+  // next run carries it — but a wedged process is not.
+  const env = {
+    ...process.env,
+    GIT_TERMINAL_PROMPT: '0',
+    GCM_INTERACTIVE: 'never',
+    GIT_ASKPASS: '',
+    SSH_ASKPASS: '',
+  };
+  const opts = { cwd: ROOT, env, timeout: 120_000, killSignal: 'SIGKILL' };
+  const run = (...a) => execFileSync('git', a, { ...opts, stdio: 'inherit' });
   try {
     run('add', 'data');
-    const changed = execFileSync('git', ['status', '--porcelain', 'data'], { cwd: ROOT }).toString().trim();
+    const changed = execFileSync('git', ['status', '--porcelain', 'data'], opts).toString().trim();
     if (!changed) {
       console.log('No data changes to push.');
       return;
     }
     run('commit', '-m', `data: usage through ${new Date().toISOString().slice(0, 10)}`);
     run('push');
+    console.log('  git         : pushed');
   } catch (e) {
-    console.error('Push failed:', e.message);
+    // The commit is already made, so the history is safe on disk either way.
+    console.error(`  git         : push failed — ${e.message}`);
     process.exitCode = 1;
   }
 }
@@ -359,13 +374,15 @@ console.log(
 
 if (!NO_DB && hasDatabase()) {
   try {
-    await ensureSchema();
+    await retrying('neon schema', () => ensureSchema());
     const n = await upsertDays(payloads, os.hostname());
     console.log(`  neon        : synced ${n} days`);
   } catch (e) {
     // A database hiccup must not lose the run — the JSON files are already
-    // written, so the next run re-syncs everything.
+    // written, so `npm run sync:db` replaces the rows in seconds without
+    // re-reading a single log file.
     console.error(`  neon        : sync failed — ${e.message}`);
+    console.error('  neon        : run `npm run sync:db` to replay the written files');
     process.exitCode = 1;
   }
 } else if (!NO_DB) {
