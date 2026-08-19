@@ -1,28 +1,28 @@
 {
  "date": "2026-07-14",
- "total": 38586412,
+ "total": 27701382,
  "tokens": {
-  "input": 17952,
-  "output": 157344,
+  "input": 16733,
+  "output": 131180,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1870811,
-  "cacheRead": 36540305,
+  "cacheWrite1h": 1512784,
+  "cacheRead": 26040685,
   "reasoning": 0
  },
- "usd": 62.340699,
- "requests": 175,
+ "usd": 43.360149,
+ "requests": 143,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 17952,
-    "output": 157344,
+    "input": 16733,
+    "output": 131180,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1870811,
-    "cacheRead": 36540305,
+    "cacheWrite1h": 1512784,
+    "cacheRead": 26040685,
     "reasoning": 0
    },
-   "usd": 62.340699,
-   "requests": 175,
+   "usd": 43.360149,
+   "requests": 143,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,7 +34,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 6,
+     "requests": 4,
      "total": 0
     },
     "claude-opus-4-8": {
@@ -52,16 +52,16 @@
     },
     "claude-fable-5": {
      "tokens": {
-      "input": 8401,
-      "output": 41917,
+      "input": 7182,
+      "output": 15753,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1135884,
-      "cacheRead": 17780614,
+      "cacheWrite1h": 777857,
+      "cacheRead": 7280994,
       "reasoning": 0
      },
-     "usd": 42.678154,
-     "requests": 59,
-     "total": 18966816
+     "usd": 23.697604,
+     "requests": 29,
+     "total": 8081786
     }
    },
    "projects": {
@@ -106,16 +106,16 @@
     },
     "e//Download/vericode/ai": {
      "tokens": {
-      "input": 1311,
-      "output": 79720,
+      "input": 92,
+      "output": 53556,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 626254,
-      "cacheRead": 22005008,
+      "cacheWrite1h": 268227,
+      "cacheRead": 11505388,
       "reasoning": 0
      },
-     "usd": 28.754874,
-     "requests": 79,
-     "total": 22712293
+     "usd": 9.774324,
+     "requests": 47,
+     "total": 11827263
     },
     "e//TUGAS/KULIAH/ANTIGRAVITY/springboot/login/jwt": {
      "tokens": {
@@ -131,8 +131,8 @@
      "total": 1504156
     }
    },
-   "total": 38586412
+   "total": 27701382
   }
  },
- "generatedAt": "2026-08-16T16:04:44.501Z"
+ "generatedAt": "2026-08-19T16:00:39.739Z"
 }

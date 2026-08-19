@@ -1,28 +1,28 @@
 {
  "date": "2026-07-12",
- "total": 49841383,
+ "total": 36467155,
  "tokens": {
-  "input": 121605,
-  "output": 320182,
+  "input": 75790,
+  "output": 261539,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1950965,
-  "cacheRead": 47448631,
+  "cacheWrite1h": 1207411,
+  "cacheRead": 34922415,
   "reasoning": 0
  },
- "usd": 51.84654,
- "requests": 338,
+ "usd": 36.452743,
+ "requests": 278,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 121605,
-    "output": 320182,
+    "input": 75790,
+    "output": 261539,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1950965,
-    "cacheRead": 47448631,
+    "cacheWrite1h": 1207411,
+    "cacheRead": 34922415,
     "reasoning": 0
    },
-   "usd": 51.84654,
-   "requests": 338,
+   "usd": 36.452743,
+   "requests": 278,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,21 +34,21 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 7,
+     "requests": 5,
      "total": 0
     },
     "claude-opus-4-8": {
      "tokens": {
-      "input": 121605,
-      "output": 320182,
+      "input": 75790,
+      "output": 261539,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1950965,
-      "cacheRead": 47448631,
+      "cacheWrite1h": 1207411,
+      "cacheRead": 34922415,
       "reasoning": 0
      },
-     "usd": 51.84654,
-     "requests": 331,
-     "total": 49841383
+     "usd": 36.452743,
+     "requests": 273,
+     "total": 36467155
     }
    },
    "projects": {
@@ -119,33 +119,33 @@
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
      "tokens": {
-      "input": 31104,
-      "output": 36304,
+      "input": 19313,
+      "output": 19671,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 229730,
-      "cacheRead": 2473146,
+      "cacheWrite1h": 152901,
+      "cacheRead": 1151709,
       "reasoning": 0
      },
-     "usd": 4.596993,
-     "requests": 47,
-     "total": 2770284
+     "usd": 2.693205,
+     "requests": 26,
+     "total": 1343594
     },
     "e//Download/vericode/ai": {
      "tokens": {
-      "input": 48726,
-      "output": 156616,
+      "input": 14702,
+      "output": 114606,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1057119,
-      "cacheRead": 30775023,
+      "cacheWrite1h": 390394,
+      "cacheRead": 19570244,
       "reasoning": 0
      },
-     "usd": 30.117732,
-     "requests": 166,
-     "total": 32037484
+     "usd": 16.627722,
+     "requests": 127,
+     "total": 20089946
     }
    },
-   "total": 49841383
+   "total": 36467155
   }
  },
- "generatedAt": "2026-08-16T16:04:44.500Z"
+ "generatedAt": "2026-08-19T16:00:39.738Z"
 }

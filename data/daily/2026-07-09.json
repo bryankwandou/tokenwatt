@@ -1,28 +1,28 @@
 {
  "date": "2026-07-09",
- "total": 58058390,
+ "total": 53022380,
  "tokens": {
-  "input": 28050,
-  "output": 252351,
+  "input": 26159,
+  "output": 226161,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1241568,
-  "cacheRead": 56536421,
+  "cacheWrite1h": 1088023,
+  "cacheRead": 51682037,
   "reasoning": 0
  },
- "usd": 47.132916,
- "requests": 239,
+ "usd": 42.506069,
+ "requests": 206,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 28050,
-    "output": 252351,
+    "input": 26159,
+    "output": 226161,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1241568,
-    "cacheRead": 56536421,
+    "cacheWrite1h": 1088023,
+    "cacheRead": 51682037,
     "reasoning": 0
    },
-   "usd": 47.132916,
-   "requests": 239,
+   "usd": 42.506069,
+   "requests": 206,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,21 +34,21 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 2,
+     "requests": 1,
      "total": 0
     },
     "claude-opus-4-8": {
      "tokens": {
-      "input": 28050,
-      "output": 252351,
+      "input": 26159,
+      "output": 226161,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1241568,
-      "cacheRead": 56536421,
+      "cacheWrite1h": 1088023,
+      "cacheRead": 51682037,
       "reasoning": 0
      },
-     "usd": 47.132916,
-     "requests": 237,
-     "total": 58058390
+     "usd": 42.506069,
+     "requests": 205,
+     "total": 53022380
     }
    },
    "projects": {
@@ -90,23 +90,10 @@
      "usd": 2.481818,
      "requests": 5,
      "total": 1035550
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
-     "tokens": {
-      "input": 1891,
-      "output": 26190,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 153545,
-      "cacheRead": 4854384,
-      "reasoning": 0
-     },
-     "usd": 4.626847,
-     "requests": 33,
-     "total": 5036010
     }
    },
-   "total": 58058390
+   "total": 53022380
   }
  },
- "generatedAt": "2026-08-16T16:04:44.491Z"
+ "generatedAt": "2026-08-19T16:00:39.736Z"
 }

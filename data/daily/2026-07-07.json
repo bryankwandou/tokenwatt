@@ -1,41 +1,41 @@
 {
  "date": "2026-07-07",
- "total": 30995393,
+ "total": 17859237,
  "tokens": {
-  "input": 68224,
-  "output": 169579,
+  "input": 60699,
+  "output": 140289,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 2331672,
-  "cacheRead": 28425918,
+  "cacheWrite1h": 812916,
+  "cacheRead": 16845333,
   "reasoning": 0
  },
- "usd": 83.379815,
- "requests": 212,
+ "usd": 39.88436,
+ "requests": 176,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 68224,
-    "output": 169579,
+    "input": 60699,
+    "output": 140289,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 2331672,
-    "cacheRead": 28425918,
+    "cacheWrite1h": 812916,
+    "cacheRead": 16845333,
     "reasoning": 0
    },
-   "usd": 83.379815,
-   "requests": 212,
+   "usd": 39.88436,
+   "requests": 176,
    "models": {
     "claude-fable-5": {
      "tokens": {
-      "input": 68086,
-      "output": 165193,
+      "input": 60561,
+      "output": 135903,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 2276788,
-      "cacheRead": 28062813,
+      "cacheWrite1h": 758032,
+      "cacheRead": 16482228,
       "reasoning": 0
      },
-     "usd": 82.539083,
-     "requests": 195,
-     "total": 30572880
+     "usd": 39.043628,
+     "requests": 162,
+     "total": 17436724
     },
     "<synthetic>": {
      "tokens": {
@@ -47,7 +47,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 9,
+     "requests": 6,
      "total": 0
     },
     "claude-opus-4-8": {
@@ -106,20 +106,20 @@
     },
     "e//Download/vericode/ai": {
      "tokens": {
-      "input": 26065,
-      "output": 89962,
+      "input": 18540,
+      "output": 60672,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1703882,
-      "cacheRead": 14135691,
+      "cacheWrite1h": 185126,
+      "cacheRead": 2555106,
       "reasoning": 0
      },
-     "usd": 52.972081,
-     "requests": 79,
-     "total": 15955600
+     "usd": 9.476626,
+     "requests": 43,
+     "total": 2819444
     }
    },
-   "total": 30995393
+   "total": 17859237
   }
  },
- "generatedAt": "2026-08-16T16:04:44.481Z"
+ "generatedAt": "2026-08-19T16:00:39.734Z"
 }

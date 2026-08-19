@@ -1,28 +1,28 @@
 {
  "date": "2026-07-11",
- "total": 27203352,
+ "total": 21547556,
  "tokens": {
-  "input": 14277,
-  "output": 117797,
+  "input": 13574,
+  "output": 95939,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1706666,
-  "cacheRead": 25364612,
+  "cacheWrite1h": 1221454,
+  "cacheRead": 20216589,
   "reasoning": 0
  },
- "usd": 58.941065,
- "requests": 159,
+ "usd": 42.988872,
+ "requests": 135,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 14277,
-    "output": 117797,
+    "input": 13574,
+    "output": 95939,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1706666,
-    "cacheRead": 25364612,
+    "cacheWrite1h": 1221454,
+    "cacheRead": 20216589,
     "reasoning": 0
    },
-   "usd": 58.941065,
-   "requests": 159,
+   "usd": 42.988872,
+   "requests": 135,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,21 +34,21 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 5,
+     "requests": 4,
      "total": 0
     },
     "claude-fable-5": {
      "tokens": {
-      "input": 12445,
-      "output": 97677,
+      "input": 11742,
+      "output": 75819,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1466684,
-      "cacheRead": 18556252,
+      "cacheWrite1h": 981472,
+      "cacheRead": 13408229,
       "reasoning": 0
      },
-     "usd": 52.898232,
-     "requests": 120,
-     "total": 20133058
+     "usd": 36.946039,
+     "requests": 97,
+     "total": 14477262
     },
     "claude-haiku-4-5-20251001": {
      "tokens": {
@@ -132,20 +132,20 @@
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
      "tokens": {
-      "input": 751,
-      "output": 25078,
+      "input": 48,
+      "output": 3220,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 549175,
-      "cacheRead": 5242407,
+      "cacheWrite1h": 63963,
+      "cacheRead": 94384,
       "reasoning": 0
      },
-     "usd": 17.487317,
-     "requests": 26,
-     "total": 5817411
+     "usd": 1.535124,
+     "requests": 2,
+     "total": 161615
     }
    },
-   "total": 27203352
+   "total": 21547556
   }
  },
- "generatedAt": "2026-08-16T16:04:44.493Z"
+ "generatedAt": "2026-08-19T16:00:39.737Z"
 }
