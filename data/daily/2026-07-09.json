@@ -1,28 +1,28 @@
 {
  "date": "2026-07-09",
- "total": 53022380,
+ "total": 51986830,
  "tokens": {
-  "input": 26159,
-  "output": 226161,
+  "input": 26105,
+  "output": 220615,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1088023,
-  "cacheRead": 51682037,
+  "cacheWrite1h": 895610,
+  "cacheRead": 50844500,
   "reasoning": 0
  },
- "usd": 42.506069,
- "requests": 206,
+ "usd": 40.02425,
+ "requests": 201,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 26159,
-    "output": 226161,
+    "input": 26105,
+    "output": 220615,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1088023,
-    "cacheRead": 51682037,
+    "cacheWrite1h": 895610,
+    "cacheRead": 50844500,
     "reasoning": 0
    },
-   "usd": 42.506069,
-   "requests": 206,
+   "usd": 40.02425,
+   "requests": 201,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -39,16 +39,16 @@
     },
     "claude-opus-4-8": {
      "tokens": {
-      "input": 26159,
-      "output": 226161,
+      "input": 26105,
+      "output": 220615,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1088023,
-      "cacheRead": 51682037,
+      "cacheWrite1h": 895610,
+      "cacheRead": 50844500,
       "reasoning": 0
      },
-     "usd": 42.506069,
-     "requests": 205,
-     "total": 53022380
+     "usd": 40.02425,
+     "requests": 200,
+     "total": 51986830
     }
    },
    "projects": {
@@ -77,23 +77,10 @@
      "usd": 34.729837,
      "requests": 181,
      "total": 47340125
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 54,
-      "output": 5546,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 192413,
-      "cacheRead": 837537,
-      "reasoning": 0
-     },
-     "usd": 2.481818,
-     "requests": 5,
-     "total": 1035550
     }
    },
-   "total": 53022380
+   "total": 51986830
   }
  },
- "generatedAt": "2026-08-19T16:00:39.736Z"
+ "generatedAt": "2026-08-20T16:00:49.930Z"
 }

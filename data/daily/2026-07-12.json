@@ -1,28 +1,28 @@
 {
  "date": "2026-07-12",
- "total": 36467155,
+ "total": 32420427,
  "tokens": {
-  "input": 75790,
-  "output": 261539,
+  "input": 66399,
+  "output": 253080,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1207411,
-  "cacheRead": 34922415,
+  "cacheWrite1h": 974031,
+  "cacheRead": 31126917,
   "reasoning": 0
  },
- "usd": 36.452743,
- "requests": 278,
+ "usd": 31.962764,
+ "requests": 261,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 75790,
-    "output": 261539,
+    "input": 66399,
+    "output": 253080,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1207411,
-    "cacheRead": 34922415,
+    "cacheWrite1h": 974031,
+    "cacheRead": 31126917,
     "reasoning": 0
    },
-   "usd": 36.452743,
-   "requests": 278,
+   "usd": 31.962764,
+   "requests": 261,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -39,16 +39,16 @@
     },
     "claude-opus-4-8": {
      "tokens": {
-      "input": 75790,
-      "output": 261539,
+      "input": 66399,
+      "output": 253080,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1207411,
-      "cacheRead": 34922415,
+      "cacheWrite1h": 974031,
+      "cacheRead": 31126917,
       "reasoning": 0
      },
-     "usd": 36.452743,
-     "requests": 273,
-     "total": 36467155
+     "usd": 31.962764,
+     "requests": 256,
+     "total": 32420427
     }
    },
    "projects": {
@@ -104,19 +104,6 @@
      "requests": 22,
      "total": 1564234
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 9391,
-      "output": 8459,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 233380,
-      "cacheRead": 3795498,
-      "reasoning": 0
-     },
-     "usd": 4.489979,
-     "requests": 17,
-     "total": 4046728
-    },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
      "tokens": {
       "input": 19313,
@@ -144,8 +131,8 @@
      "total": 20089946
     }
    },
-   "total": 36467155
+   "total": 32420427
   }
  },
- "generatedAt": "2026-08-19T16:00:39.738Z"
+ "generatedAt": "2026-08-20T16:00:49.938Z"
 }

@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 215.23423,
- "requests": 1138,
+ "requests": 1137,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 215.23423,
-   "requests": 1138,
+   "requests": 1137,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,7 +34,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 45,
+     "requests": 44,
      "total": 0
     },
     "claude-opus-4-8": {
@@ -130,19 +130,6 @@
      "requests": 248,
      "total": 35629152
     },
-    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/proofcast": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
-    },
     "E//ClaudeCode/freemodel/session": {
      "tokens": {
       "input": 25,
@@ -186,5 +173,5 @@
    "total": 258607745
   }
  },
- "generatedAt": "2026-08-19T16:00:39.744Z"
+ "generatedAt": "2026-08-20T16:00:50.085Z"
 }

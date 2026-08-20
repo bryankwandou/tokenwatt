@@ -1,41 +1,41 @@
 {
  "date": "2026-07-10",
- "total": 49220350,
+ "total": 26631022,
  "tokens": {
-  "input": 68130,
-  "output": 211462,
+  "input": 49536,
+  "output": 142253,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1574835,
-  "cacheRead": 47365923,
+  "cacheWrite1h": 951440,
+  "cacheRead": 25487793,
   "reasoning": 0
  },
- "usd": 90.117023,
- "requests": 328,
+ "usd": 52.124603,
+ "requests": 226,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 68130,
-    "output": 211462,
+    "input": 49536,
+    "output": 142253,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1574835,
-    "cacheRead": 47365923,
+    "cacheWrite1h": 951440,
+    "cacheRead": 25487793,
     "reasoning": 0
    },
-   "usd": 90.117023,
-   "requests": 328,
+   "usd": 52.124603,
+   "requests": 226,
    "models": {
     "claude-fable-5": {
      "tokens": {
-      "input": 68130,
-      "output": 211462,
+      "input": 49536,
+      "output": 142253,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1574835,
-      "cacheRead": 47365923,
+      "cacheWrite1h": 951440,
+      "cacheRead": 25487793,
       "reasoning": 0
      },
-     "usd": 90.117023,
-     "requests": 323,
-     "total": 49220350
+     "usd": 52.124603,
+     "requests": 222,
+     "total": 26631022
     },
     "<synthetic>": {
      "tokens": {
@@ -47,7 +47,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 5,
+     "requests": 4,
      "total": 0
     }
    },
@@ -91,19 +91,6 @@
      "requests": 21,
      "total": 1130214
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 18594,
-      "output": 69209,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 623395,
-      "cacheRead": 21878130,
-      "reasoning": 0
-     },
-     "usd": 37.99242,
-     "requests": 102,
-     "total": 22589328
-    },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
      "tokens": {
       "input": 2,
@@ -131,8 +118,8 @@
      "total": 12232166
     }
    },
-   "total": 49220350
+   "total": 26631022
   }
  },
- "generatedAt": "2026-08-19T16:00:39.736Z"
+ "generatedAt": "2026-08-20T16:00:49.935Z"
 }

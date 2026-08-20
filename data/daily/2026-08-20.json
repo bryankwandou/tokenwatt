@@ -1,0 +1,99 @@
+{
+ "date": "2026-08-20",
+ "total": 117382770,
+ "tokens": {
+  "input": 1380,
+  "output": 519627,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 2031538,
+  "cacheRead": 114830225,
+  "reasoning": 0
+ },
+ "usd": 90.728068,
+ "requests": 705,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 1380,
+    "output": 519627,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 2031538,
+    "cacheRead": 114830225,
+    "reasoning": 0
+   },
+   "usd": 90.728068,
+   "requests": 705,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 1380,
+      "output": 519627,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2031538,
+      "cacheRead": 114830225,
+      "reasoning": 0
+     },
+     "usd": 90.728068,
+     "requests": 690,
+     "total": 117382770
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 15,
+     "total": 0
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 1234,
+      "output": 446635,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1871737,
+      "cacheRead": 106320004,
+      "reasoning": 0
+     },
+     "usd": 83.049417,
+     "requests": 628,
+     "total": 108639610
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
+     "tokens": {
+      "input": 146,
+      "output": 72992,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 159801,
+      "cacheRead": 8510221,
+      "reasoning": 0
+     },
+     "usd": 7.678651,
+     "requests": 76,
+     "total": 8743160
+    }
+   },
+   "total": 117382770
+  }
+ },
+ "generatedAt": "2026-08-20T16:00:50.971Z"
+}

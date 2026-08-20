@@ -1,41 +1,41 @@
 {
  "date": "2026-07-08",
- "total": 46226460,
+ "total": 30494981,
  "tokens": {
-  "input": 29283,
-  "output": 300866,
+  "input": 15476,
+  "output": 194065,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1628346,
-  "cacheRead": 44267965,
+  "cacheWrite1h": 1030111,
+  "cacheRead": 29255329,
   "reasoning": 0
  },
- "usd": 75.992449,
- "requests": 379,
+ "usd": 47.946839,
+ "requests": 246,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 29283,
-    "output": 300866,
+    "input": 15476,
+    "output": 194065,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1628346,
-    "cacheRead": 44267965,
+    "cacheWrite1h": 1030111,
+    "cacheRead": 29255329,
     "reasoning": 0
    },
-   "usd": 75.992449,
-   "requests": 379,
+   "usd": 47.946839,
+   "requests": 246,
    "models": {
     "claude-fable-5": {
      "tokens": {
-      "input": 24875,
-      "output": 184734,
+      "input": 11828,
+      "output": 96168,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1166097,
-      "cacheRead": 27006492,
+      "cacheWrite1h": 749988,
+      "cacheRead": 16251679,
       "reasoning": 0
      },
-     "usd": 59.813882,
-     "requests": 224,
-     "total": 28382198
+     "usd": 36.178119,
+     "requests": 118,
+     "total": 17109663
     },
     "<synthetic>": {
      "tokens": {
@@ -47,21 +47,21 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 7,
+     "requests": 5,
      "total": 0
     },
     "claude-opus-4-8": {
      "tokens": {
-      "input": 4408,
-      "output": 116132,
+      "input": 3648,
+      "output": 97897,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 462249,
-      "cacheRead": 17261473,
+      "cacheWrite1h": 280123,
+      "cacheRead": 13003650,
       "reasoning": 0
      },
-     "usd": 16.178566,
-     "requests": 148,
-     "total": 17844262
+     "usd": 11.76872,
+     "requests": 123,
+     "total": 13385318
     }
    },
    "projects": {
@@ -104,19 +104,6 @@
      "requests": 18,
      "total": 1347447
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 13807,
-      "output": 106801,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 598235,
-      "cacheRead": 15012636,
-      "reasoning": 0
-     },
-     "usd": 28.045609,
-     "requests": 133,
-     "total": 15731479
-    },
     "e//Download/vericode/ai": {
      "tokens": {
       "input": 967,
@@ -131,8 +118,8 @@
      "total": 4790063
     }
    },
-   "total": 46226460
+   "total": 30494981
   }
  },
- "generatedAt": "2026-08-19T16:00:39.734Z"
+ "generatedAt": "2026-08-20T16:00:49.903Z"
 }
