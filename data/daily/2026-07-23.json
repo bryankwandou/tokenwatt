@@ -33,7 +33,7 @@
       "cacheRead": 92184167,
       "reasoning": 0
      },
-     "usd": 75.171904,
+     "usd": 75.171903,
      "requests": 601,
      "total": 94390066
     },
@@ -78,44 +78,31 @@
     }
    },
    "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 1020,
+      "output": 380578,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1202153,
+      "cacheRead": 84774010,
+      "reasoning": 0
+     },
+     "usd": 63.928085,
+     "requests": 531,
+     "total": 86357761
+    },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
      "tokens": {
-      "input": 2373,
-      "output": 272531,
+      "input": 1961,
+      "output": 114845,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1474137,
-      "cacheRead": 44358283,
+      "cacheWrite1h": 1042327,
+      "cacheRead": 10471901,
       "reasoning": 0
      },
-     "usd": 40.386183,
-     "requests": 344,
-     "total": 46107324
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
-     "tokens": {
-      "input": 374,
-      "output": 142481,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 479250,
-      "cacheRead": 38494447,
-      "reasoning": 0
-     },
-     "usd": 27.603618,
-     "requests": 196,
-     "total": 39116552
-    },
-    "e//Download/vericode/ai": {
-     "tokens": {
-      "input": 234,
-      "output": 80411,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 291093,
-      "cacheRead": 12393181,
-      "reasoning": 0
-     },
-     "usd": 11.118966,
-     "requests": 118,
-     "total": 12764919
+     "usd": 15.180682,
+     "requests": 127,
+     "total": 11631034
     },
     "e//TUGAS/KULIAH/ANTIGRAVITY/springboot/login/jwt": {
      "tokens": {
@@ -134,5 +121,5 @@
    "total": 98055852
   }
  },
- "generatedAt": "2026-08-20T16:00:50.161Z"
+ "generatedAt": "2026-08-21T16:00:30.353Z"
 }

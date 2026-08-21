@@ -50,19 +50,6 @@
      "requests": 8,
      "total": 0
     },
-    "claude-opus-4-8": {
-     "tokens": {
-      "input": 7936,
-      "output": 68907,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 296480,
-      "cacheRead": 6615141,
-      "reasoning": 0
-     },
-     "usd": 8.034725,
-     "requests": 56,
-     "total": 6988464
-    },
     "claude-sonnet-5": {
      "tokens": {
       "input": 15806,
@@ -75,9 +62,35 @@
      "usd": 3.559432,
      "requests": 57,
      "total": 5197266
+    },
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 7936,
+      "output": 68907,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 296480,
+      "cacheRead": 6615141,
+      "reasoning": 0
+     },
+     "usd": 8.034725,
+     "requests": 56,
+     "total": 6988464
     }
    },
    "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 16902,
+      "output": 52172,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 652937,
+      "cacheRead": 8569775,
+      "reasoning": 0
+     },
+     "usd": 16.100793,
+     "requests": 95,
+     "total": 9291786
+    },
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
      "tokens": {
       "input": 14716,
@@ -90,36 +103,10 @@
      "usd": 46.717523,
      "requests": 190,
      "total": 28063772
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
-     "tokens": {
-      "input": 16070,
-      "output": 28006,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 397040,
-      "cacheRead": 5839452,
-      "reasoning": 0
-     },
-     "usd": 7.03591,
-     "requests": 70,
-     "total": 6280568
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
-     "tokens": {
-      "input": 832,
-      "output": 24166,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 255897,
-      "cacheRead": 2730323,
-      "reasoning": 0
-     },
-     "usd": 9.064883,
-     "requests": 25,
-     "total": 3011218
     }
    },
    "total": 37355558
   }
  },
- "generatedAt": "2026-08-20T16:00:49.839Z"
+ "generatedAt": "2026-08-21T16:00:30.338Z"
 }

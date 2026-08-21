@@ -65,6 +65,19 @@
     }
    },
    "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 652,
+      "output": 16923,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 69797,
+      "cacheRead": 1260075,
+      "reasoning": 0
+     },
+     "usd": 3.508685,
+     "requests": 18,
+     "total": 1347447
+    },
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
      "tokens": {
       "input": 2976,
@@ -91,19 +104,6 @@
      "requests": 119,
      "total": 9671500
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
-     "tokens": {
-      "input": 652,
-      "output": 16923,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 69797,
-      "cacheRead": 1260075,
-      "reasoning": 0
-     },
-     "usd": 3.508685,
-     "requests": 18,
-     "total": 1347447
-    },
     "e//Download/vericode/ai": {
      "tokens": {
       "input": 967,
@@ -121,5 +121,5 @@
    "total": 30494981
   }
  },
- "generatedAt": "2026-08-20T16:00:49.903Z"
+ "generatedAt": "2026-08-21T16:00:30.340Z"
 }

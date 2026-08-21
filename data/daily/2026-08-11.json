@@ -80,29 +80,16 @@
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 4,
-      "output": 1083,
+      "input": 447,
+      "output": 96771,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 129973,
-      "cacheRead": 166277,
+      "cacheWrite1h": 1375634,
+      "cacheRead": 22069386,
       "reasoning": 0
      },
-     "usd": 1.409964,
-     "requests": 2,
-     "total": 297337
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
-     "tokens": {
-      "input": 75,
-      "output": 22631,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 648312,
-      "cacheRead": 6322994,
-      "reasoning": 0
-     },
-     "usd": 10.210767,
-     "requests": 43,
-     "total": 6994012
+     "usd": 27.212543,
+     "requests": 148,
+     "total": 23542238
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
      "tokens": {
@@ -114,47 +101,34 @@
       "reasoning": 0
      },
      "usd": 22.537627,
-     "requests": 98,
+     "requests": 97,
      "total": 29995389
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
      "tokens": {
-      "input": 227,
-      "output": 27105,
+      "input": 2,
+      "output": 816,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 805813,
-      "cacheRead": 4853117,
+      "cacheWrite1h": 637389,
+      "cacheRead": 18362,
       "reasoning": 0
      },
-     "usd": 11.163449,
-     "requests": 30,
-     "total": 5686262
+     "usd": 6.403481,
+     "requests": 1,
+     "total": 656569
     },
     "e//Download/vericode/ai": {
      "tokens": {
-      "input": 174,
-      "output": 66322,
+      "input": 84,
+      "output": 40895,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1204149,
-      "cacheRead": 29159352,
+      "cacheWrite1h": 1062972,
+      "cacheRead": 22855261,
       "reasoning": 0
      },
-     "usd": 28.280086,
-     "requests": 93,
-     "total": 30429997
-    },
-    "E//freemodel/ai/claude": {
-     "tokens": {
-      "input": 53,
-      "output": 21341,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 287748,
-      "cacheRead": 4441269,
-      "reasoning": 0
-     },
-     "usd": 5.631905,
-     "requests": 27,
-     "total": 4750411
+     "usd": 23.080146,
+     "requests": 47,
+     "total": 23959212
     },
     "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
      "tokens": {
@@ -173,5 +147,5 @@
    "total": 148431011
   }
  },
- "generatedAt": "2026-08-20T16:00:50.663Z"
+ "generatedAt": "2026-08-21T16:00:30.371Z"
 }

@@ -75,20 +75,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 1,
-     "total": 0
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 1,
+     "requests": 2,
      "total": 0
     },
     "e//Download/vericode/ai": {
@@ -108,5 +95,5 @@
    "total": 120073973
   }
  },
- "generatedAt": "2026-08-20T16:00:50.755Z"
+ "generatedAt": "2026-08-21T16:00:30.374Z"
 }

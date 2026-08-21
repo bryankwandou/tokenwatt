@@ -67,124 +67,33 @@
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 22,
-      "output": 32146,
+      "input": 274,
+      "output": 134355,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 408861,
-      "cacheRead": 2394855,
+      "cacheWrite1h": 2172108,
+      "cacheRead": 21961716,
       "reasoning": 0
      },
-     "usd": 6.089798,
-     "requests": 16,
-     "total": 2835884
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
-     "tokens": {
-      "input": 29,
-      "output": 15008,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 429877,
-      "cacheRead": 2865857,
-      "reasoning": 0
-     },
-     "usd": 6.107044,
-     "requests": 18,
-     "total": 3310771
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
-     "tokens": {
-      "input": 19,
-      "output": 3526,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 87508,
-      "cacheRead": 955758,
-      "reasoning": 0
-     },
-     "usd": 1.441204,
-     "requests": 12,
-     "total": 1046811
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
-     "tokens": {
-      "input": 22,
-      "output": 4953,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 114545,
-      "cacheRead": 1321023,
-      "reasoning": 0
-     },
-     "usd": 1.929897,
-     "requests": 12,
-     "total": 1440543
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 26,
-      "output": 13238,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 192900,
-      "cacheRead": 2633894,
-      "reasoning": 0
-     },
-     "usd": 3.577027,
-     "requests": 15,
-     "total": 2840058
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
-     "tokens": {
-      "input": 60,
-      "output": 39955,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 213488,
-      "cacheRead": 3470205,
-      "reasoning": 0
-     },
-     "usd": 4.869158,
-     "requests": 35,
-     "total": 3723708
+     "usd": 36.062183,
+     "requests": 169,
+     "total": 24268453
     },
     "e//Download/vericode/ai": {
      "tokens": {
-      "input": 127,
-      "output": 34674,
+      "input": 91,
+      "output": 26694,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1339588,
-      "cacheRead": 31704184,
+      "cacheWrite1h": 1173419,
+      "cacheRead": 28671184,
       "reasoning": 0
      },
-     "usd": 30.115457,
-     "requests": 74,
-     "total": 33078573
-    },
-    "E//freemodel/ai/claude": {
-     "tokens": {
-      "input": 21,
-      "output": 8028,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 370433,
-      "cacheRead": 1325035,
-      "reasoning": 0
-     },
-     "usd": 4.567653,
-     "requests": 15,
-     "total": 1703517
-    },
-    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
-     "tokens": {
-      "input": 39,
-      "output": 9521,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 188327,
-      "cacheRead": 3962089,
-      "reasoning": 0
-     },
-     "usd": 4.102535,
-     "requests": 24,
-     "total": 4159976
+     "usd": 26.737587,
+     "requests": 52,
+     "total": 29871388
     }
    },
    "total": 188029595
   }
  },
- "generatedAt": "2026-08-20T16:00:50.692Z"
+ "generatedAt": "2026-08-21T16:00:30.374Z"
 }

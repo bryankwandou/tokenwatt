@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 49.634896,
- "requests": 339,
+ "requests": 338,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,21 +22,8 @@
     "reasoning": 0
    },
    "usd": 49.634896,
-   "requests": 339,
+   "requests": 338,
    "models": {
-    "<synthetic>": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 4,
-     "total": 0
-    },
     "claude-fable-5": {
      "tokens": {
       "input": 7268,
@@ -49,6 +36,32 @@
      "usd": 40.102418,
      "requests": 151,
      "total": 20981678
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 3,
+     "total": 0
+    },
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 13590,
+      "output": 2573,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 25228,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0.384555,
+     "requests": 1,
+     "total": 41391
     },
     "claude-haiku-4-5-20251001": {
      "tokens": {
@@ -75,47 +88,21 @@
      "usd": 8.825288,
      "requests": 181,
      "total": 18057528
-    },
-    "claude-opus-4-8": {
-     "tokens": {
-      "input": 13590,
-      "output": 2573,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 25228,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0.384555,
-     "requests": 1,
-     "total": 41391
     }
    },
    "projects": {
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 0,
-      "output": 0,
+      "input": 43086,
+      "output": 106532,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
+      "cacheWrite1h": 896163,
+      "cacheRead": 25679257,
       "reasoning": 0
      },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
-     "tokens": {
-      "input": 8740,
-      "output": 33015,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 226124,
-      "cacheRead": 6212162,
-      "reasoning": 0
-     },
-     "usd": 10.211256,
-     "requests": 72,
-     "total": 6480041
+     "usd": 30.530616,
+     "requests": 263,
+     "total": 26725038
     },
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
      "tokens": {
@@ -129,32 +116,6 @@
      "usd": 16.93946,
      "requests": 39,
      "total": 7943835
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
-     "tokens": {
-      "input": 20583,
-      "output": 68896,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 502103,
-      "cacheRead": 19042037,
-      "reasoning": 0
-     },
-     "usd": 16.551457,
-     "requests": 184,
-     "total": 19633619
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
-     "tokens": {
-      "input": 13763,
-      "output": 4621,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 167936,
-      "cacheRead": 425058,
-      "reasoning": 0
-     },
-     "usd": 3.767903,
-     "requests": 7,
-     "total": 611378
     },
     "e//Download/vericode/ai": {
      "tokens": {
@@ -173,5 +134,5 @@
    "total": 39272057
   }
  },
- "generatedAt": "2026-08-20T16:00:49.840Z"
+ "generatedAt": "2026-08-21T16:00:30.338Z"
 }

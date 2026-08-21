@@ -78,18 +78,18 @@
      "requests": 143,
      "total": 30833424
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 10,
-      "output": 2542,
+      "input": 173,
+      "output": 66039,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 2586,
-      "cacheRead": 809703,
+      "cacheWrite1h": 435646,
+      "cacheRead": 16738690,
       "reasoning": 0
      },
-     "usd": 0.494312,
-     "requests": 5,
-     "total": 814841
+     "usd": 14.377645,
+     "requests": 99,
+     "total": 17240548
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
      "tokens": {
@@ -106,46 +106,33 @@
     },
     "e//Download/vericode/ai": {
      "tokens": {
-      "input": 43,
-      "output": 9432,
+      "input": 17,
+      "output": 7804,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 13613,
-      "cacheRead": 7251077,
+      "cacheWrite1h": 8150,
+      "cacheRead": 5138592,
       "reasoning": 0
      },
-     "usd": 3.997683,
-     "requests": 28,
-     "total": 7274165
-    },
-    "E//freemodel/ai/claude": {
-     "tokens": {
-      "input": 68,
-      "output": 34715,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 272216,
-      "cacheRead": 8859577,
-      "reasoning": 0
-     },
-     "usd": 8.020164,
-     "requests": 37,
-     "total": 9166576
+     "usd": 2.845981,
+     "requests": 10,
+     "total": 5154563
     },
     "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
      "tokens": {
-      "input": 9493,
-      "output": 645800,
+      "input": 9424,
+      "output": 618646,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 3458527,
-      "cacheRead": 133153510,
+      "cacheWrite1h": 3303146,
+      "cacheRead": 128196585,
       "reasoning": 0
      },
-     "usd": 117.35449,
-     "requests": 583,
-     "total": 137267330
+     "usd": 112.643022,
+     "requests": 544,
+     "total": 132127801
     }
    },
    "total": 187186547
   }
  },
- "generatedAt": "2026-08-20T16:00:50.676Z"
+ "generatedAt": "2026-08-21T16:00:30.372Z"
 }

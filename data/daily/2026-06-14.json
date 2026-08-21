@@ -1,28 +1,28 @@
 {
  "date": "2026-06-14",
- "total": 1586040,
+ "total": 1145515,
  "tokens": {
-  "input": 12889,
-  "output": 27060,
+  "input": 7126,
+  "output": 19784,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 88924,
-  "cacheRead": 1457167,
+  "cacheWrite1h": 61583,
+  "cacheRead": 1057022,
   "reasoning": 0
  },
- "usd": 2.358768,
- "requests": 34,
+ "usd": 1.674571,
+ "requests": 22,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 12889,
-    "output": 27060,
+    "input": 7126,
+    "output": 19784,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 88924,
-    "cacheRead": 1457167,
+    "cacheWrite1h": 61583,
+    "cacheRead": 1057022,
     "reasoning": 0
    },
-   "usd": 2.358768,
-   "requests": 34,
+   "usd": 1.674571,
+   "requests": 22,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -39,16 +39,16 @@
     },
     "claude-opus-4-8": {
      "tokens": {
-      "input": 12889,
-      "output": 27060,
+      "input": 7126,
+      "output": 19784,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 88924,
-      "cacheRead": 1457167,
+      "cacheWrite1h": 61583,
+      "cacheRead": 1057022,
       "reasoning": 0
      },
-     "usd": 2.358768,
-     "requests": 32,
-     "total": 1586040
+     "usd": 1.674571,
+     "requests": 20,
+     "total": 1145515
     }
    },
    "projects": {
@@ -64,23 +64,10 @@
      "usd": 1.674571,
      "requests": 22,
      "total": 1145515
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/SOLQ/2/0/26042026": {
-     "tokens": {
-      "input": 5763,
-      "output": 7276,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 27341,
-      "cacheRead": 400145,
-      "reasoning": 0
-     },
-     "usd": 0.684198,
-     "requests": 12,
-     "total": 440525
     }
    },
-   "total": 1586040
+   "total": 1145515
   }
  },
- "generatedAt": "2026-08-20T16:00:49.669Z"
+ "generatedAt": "2026-08-21T16:00:30.325Z"
 }

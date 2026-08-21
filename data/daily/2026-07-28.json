@@ -65,44 +65,18 @@
     }
    },
    "projects": {
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 32,
-      "output": 12811,
+      "input": 106,
+      "output": 31704,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 65761,
-      "cacheRead": 1154134,
+      "cacheWrite1h": 302981,
+      "cacheRead": 4975333,
       "reasoning": 0
      },
-     "usd": 1.555112,
-     "requests": 17,
-     "total": 1232738
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/FREELANCE/PLATFORM/FOR/SOLANA": {
-     "tokens": {
-      "input": 46,
-      "output": 10090,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 84687,
-      "cacheRead": 1669631,
-      "reasoning": 0
-     },
-     "usd": 1.934166,
-     "requests": 25,
-     "total": 1764454
-    },
-    "e//Download/vericode/ai": {
-     "tokens": {
-      "input": 28,
-      "output": 8803,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 152533,
-      "cacheRead": 2151568,
-      "reasoning": 0
-     },
-     "usd": 2.821329,
-     "requests": 16,
-     "total": 2312932
+     "usd": 6.310607,
+     "requests": 58,
+     "total": 5310124
     },
     "e//TUGAS/KULIAH/ANTIGRAVITY/PDAM/TUGAS/WEEK2": {
      "tokens": {
@@ -163,5 +137,5 @@
    "total": 8740
   }
  },
- "generatedAt": "2026-08-20T16:00:50.277Z"
+ "generatedAt": "2026-08-21T16:00:30.357Z"
 }
