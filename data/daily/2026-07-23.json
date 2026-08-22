@@ -1,41 +1,41 @@
 {
  "date": "2026-07-23",
- "total": 98055852,
+ "total": 97135051,
  "tokens": {
-  "input": 2983,
-  "output": 495454,
+  "input": 1253,
+  "output": 481969,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 2285041,
-  "cacheRead": 95272374,
+  "cacheWrite1h": 2108622,
+  "cacheRead": 94543207,
   "reasoning": 0
  },
- "usd": 79.360543,
- "requests": 659,
+ "usd": 77.246495,
+ "requests": 647,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 2983,
-    "output": 495454,
+    "input": 1253,
+    "output": 481969,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 2285041,
-    "cacheRead": 95272374,
+    "cacheWrite1h": 2108622,
+    "cacheRead": 94543207,
     "reasoning": 0
    },
-   "usd": 79.360543,
-   "requests": 659,
+   "usd": 77.246495,
+   "requests": 647,
    "models": {
     "claude-opus-4-8": {
      "tokens": {
-      "input": 2873,
-      "output": 469013,
+      "input": 1149,
+      "output": 456237,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1734013,
-      "cacheRead": 92184167,
+      "cacheWrite1h": 1642437,
+      "cacheRead": 91525135,
       "reasoning": 0
      },
-     "usd": 75.171903,
-     "requests": 601,
-     "total": 94390066
+     "usd": 73.598608,
+     "requests": 592,
+     "total": 93624958
     },
     "<synthetic>": {
      "tokens": {
@@ -65,16 +65,16 @@
     },
     "claude-sonnet-5": {
      "tokens": {
-      "input": 90,
-      "output": 24759,
+      "input": 84,
+      "output": 24050,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 445009,
-      "cacheRead": 3088207,
+      "cacheWrite1h": 360166,
+      "cacheRead": 3018072,
       "reasoning": 0
      },
-     "usd": 3.968171,
-     "requests": 45,
-     "total": 3558065
+     "usd": 3.42742,
+     "requests": 42,
+     "total": 3402372
     }
    },
    "projects": {
@@ -93,33 +93,20 @@
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
      "tokens": {
-      "input": 1961,
-      "output": 114845,
+      "input": 233,
+      "output": 101391,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1042327,
-      "cacheRead": 10471901,
+      "cacheWrite1h": 906469,
+      "cacheRead": 9769197,
       "reasoning": 0
      },
-     "usd": 15.180682,
-     "requests": 127,
-     "total": 11631034
-    },
-    "e//TUGAS/KULIAH/ANTIGRAVITY/springboot/login/jwt": {
-     "tokens": {
-      "input": 2,
-      "output": 31,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 40561,
-      "cacheRead": 26463,
-      "reasoning": 0
-     },
-     "usd": 0.251776,
-     "requests": 1,
-     "total": 67057
+     "usd": 13.31841,
+     "requests": 116,
+     "total": 10777290
     }
    },
-   "total": 98055852
+   "total": 97135051
   }
  },
- "generatedAt": "2026-08-21T16:00:30.353Z"
+ "generatedAt": "2026-08-22T16:00:23.904Z"
 }

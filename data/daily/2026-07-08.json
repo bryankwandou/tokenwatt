@@ -1,41 +1,41 @@
 {
  "date": "2026-07-08",
- "total": 30494981,
+ "total": 20823481,
  "tokens": {
-  "input": 15476,
-  "output": 194065,
+  "input": 4595,
+  "output": 106331,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1030111,
-  "cacheRead": 29255329,
+  "cacheWrite1h": 845973,
+  "cacheRead": 19866582,
   "reasoning": 0
  },
- "usd": 47.946839,
- "requests": 246,
+ "usd": 37.769825,
+ "requests": 127,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 15476,
-    "output": 194065,
+    "input": 4595,
+    "output": 106331,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1030111,
-    "cacheRead": 29255329,
+    "cacheWrite1h": 845973,
+    "cacheRead": 19866582,
     "reasoning": 0
    },
-   "usd": 47.946839,
-   "requests": 246,
+   "usd": 37.769825,
+   "requests": 127,
    "models": {
     "claude-fable-5": {
      "tokens": {
-      "input": 11828,
-      "output": 96168,
+      "input": 3628,
+      "output": 83367,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 749988,
-      "cacheRead": 16251679,
+      "cacheWrite1h": 696845,
+      "cacheRead": 15249578,
       "reasoning": 0
      },
-     "usd": 36.178119,
-     "requests": 118,
-     "total": 17109663
+     "usd": 33.391108,
+     "requests": 93,
+     "total": 16033418
     },
     "<synthetic>": {
      "tokens": {
@@ -47,21 +47,21 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 5,
+     "requests": 3,
      "total": 0
     },
     "claude-opus-4-8": {
      "tokens": {
-      "input": 3648,
-      "output": 97897,
+      "input": 967,
+      "output": 22964,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 280123,
-      "cacheRead": 13003650,
+      "cacheWrite1h": 149128,
+      "cacheRead": 4617004,
       "reasoning": 0
      },
-     "usd": 11.76872,
-     "requests": 123,
-     "total": 13385318
+     "usd": 4.378717,
+     "requests": 31,
+     "total": 4790063
     }
    },
    "projects": {
@@ -91,19 +91,6 @@
      "requests": 77,
      "total": 14685971
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
-     "tokens": {
-      "input": 10881,
-      "output": 87734,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 184138,
-      "cacheRead": 9388747,
-      "reasoning": 0
-     },
-     "usd": 10.177014,
-     "requests": 119,
-     "total": 9671500
-    },
     "e//Download/vericode/ai": {
      "tokens": {
       "input": 967,
@@ -118,8 +105,8 @@
      "total": 4790063
     }
    },
-   "total": 30494981
+   "total": 20823481
   }
  },
- "generatedAt": "2026-08-21T16:00:30.340Z"
+ "generatedAt": "2026-08-22T16:00:23.894Z"
 }

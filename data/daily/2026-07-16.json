@@ -1,28 +1,28 @@
 {
  "date": "2026-07-16",
- "total": 46874593,
+ "total": 42844898,
  "tokens": {
-  "input": 556,
-  "output": 228106,
+  "input": 487,
+  "output": 184536,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 2161325,
-  "cacheRead": 44484606,
+  "cacheWrite1h": 2034833,
+  "cacheRead": 40625042,
   "reasoning": 0
  },
- "usd": 89.519159,
- "requests": 297,
+ "usd": 85.234862,
+ "requests": 260,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 556,
-    "output": 228106,
+    "input": 487,
+    "output": 184536,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 2161325,
-    "cacheRead": 44484606,
+    "cacheWrite1h": 2034833,
+    "cacheRead": 40625042,
     "reasoning": 0
    },
-   "usd": 89.519159,
-   "requests": 297,
+   "usd": 85.234862,
+   "requests": 260,
    "models": {
     "claude-fable-5": {
      "tokens": {
@@ -52,16 +52,16 @@
     },
     "claude-opus-4-8": {
      "tokens": {
-      "input": 184,
-      "output": 83867,
+      "input": 115,
+      "output": 40297,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 324150,
-      "cacheRead": 8527424,
+      "cacheWrite1h": 197658,
+      "cacheRead": 4667860,
       "reasoning": 0
      },
-     "usd": 9.602807,
-     "requests": 97,
-     "total": 8935625
+     "usd": 5.31851,
+     "requests": 60,
+     "total": 4905930
     }
    },
    "projects": {
@@ -91,19 +91,6 @@
      "requests": 27,
      "total": 2924696
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
-     "tokens": {
-      "input": 69,
-      "output": 43570,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 126492,
-      "cacheRead": 3859564,
-      "reasoning": 0
-     },
-     "usd": 4.284297,
-     "requests": 37,
-     "total": 4029695
-    },
     "e//Download/vericode/ai": {
      "tokens": {
       "input": 72,
@@ -118,8 +105,8 @@
      "total": 2329206
     }
    },
-   "total": 46874593
+   "total": 42844898
   }
  },
- "generatedAt": "2026-08-21T16:00:30.346Z"
+ "generatedAt": "2026-08-22T16:00:23.898Z"
 }
