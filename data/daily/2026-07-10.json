@@ -1,41 +1,41 @@
 {
  "date": "2026-07-10",
- "total": 26631022,
+ "total": 14917575,
  "tokens": {
-  "input": 49536,
-  "output": 142253,
+  "input": 27100,
+  "output": 99253,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 951440,
-  "cacheRead": 25487793,
+  "cacheWrite1h": 489499,
+  "cacheRead": 14301723,
   "reasoning": 0
  },
- "usd": 52.124603,
- "requests": 226,
+ "usd": 29.325353,
+ "requests": 172,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 49536,
-    "output": 142253,
+    "input": 27100,
+    "output": 99253,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 951440,
-    "cacheRead": 25487793,
+    "cacheWrite1h": 489499,
+    "cacheRead": 14301723,
     "reasoning": 0
    },
-   "usd": 52.124603,
-   "requests": 226,
+   "usd": 29.325353,
+   "requests": 172,
    "models": {
     "claude-fable-5": {
      "tokens": {
-      "input": 49536,
-      "output": 142253,
+      "input": 27100,
+      "output": 99253,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 951440,
-      "cacheRead": 25487793,
+      "cacheWrite1h": 489499,
+      "cacheRead": 14301723,
       "reasoning": 0
      },
-     "usd": 52.124603,
-     "requests": 222,
-     "total": 26631022
+     "usd": 29.325353,
+     "requests": 168,
+     "total": 14917575
     },
     "<synthetic>": {
      "tokens": {
@@ -65,19 +65,6 @@
      "requests": 49,
      "total": 2685409
     },
-    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
-     "tokens": {
-      "input": 22436,
-      "output": 43000,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 461941,
-      "cacheRead": 11186070,
-      "reasoning": 0
-     },
-     "usd": 22.79925,
-     "requests": 54,
-     "total": 11713447
-    },
     "e//Download/vericode/ai": {
      "tokens": {
       "input": 9586,
@@ -92,8 +79,8 @@
      "total": 12232166
     }
    },
-   "total": 26631022
+   "total": 14917575
   }
  },
- "generatedAt": "2026-08-22T16:00:23.896Z"
+ "generatedAt": "2026-08-23T16:00:17.833Z"
 }

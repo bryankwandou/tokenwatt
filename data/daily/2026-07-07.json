@@ -1,28 +1,28 @@
 {
  "date": "2026-07-07",
- "total": 17859237,
+ "total": 15254066,
  "tokens": {
-  "input": 60699,
-  "output": 140289,
+  "input": 53761,
+  "output": 115759,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 812916,
-  "cacheRead": 16845333,
+  "cacheWrite1h": 690956,
+  "cacheRead": 14393590,
   "reasoning": 0
  },
- "usd": 39.884361,
- "requests": 176,
+ "usd": 33.697538,
+ "requests": 153,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 60699,
-    "output": 140289,
+    "input": 53761,
+    "output": 115759,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 812916,
-    "cacheRead": 16845333,
+    "cacheWrite1h": 690956,
+    "cacheRead": 14393590,
     "reasoning": 0
    },
-   "usd": 39.884361,
-   "requests": 176,
+   "usd": 33.697538,
+   "requests": 153,
    "models": {
     "claude-opus-4-8": {
      "tokens": {
@@ -52,16 +52,16 @@
     },
     "claude-fable-5": {
      "tokens": {
-      "input": 60561,
-      "output": 135903,
+      "input": 53623,
+      "output": 111373,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 758032,
-      "cacheRead": 16482228,
+      "cacheWrite1h": 636072,
+      "cacheRead": 14030485,
       "reasoning": 0
      },
-     "usd": 39.043628,
-     "requests": 162,
-     "total": 17436724
+     "usd": 32.856805,
+     "requests": 139,
+     "total": 14831553
     }
    },
    "projects": {
@@ -77,23 +77,10 @@
      "usd": 33.697538,
      "requests": 153,
      "total": 15254066
-    },
-    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
-     "tokens": {
-      "input": 6938,
-      "output": 24530,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 121960,
-      "cacheRead": 2451743,
-      "reasoning": 0
-     },
-     "usd": 6.186823,
-     "requests": 23,
-     "total": 2605171
     }
    },
-   "total": 17859237
+   "total": 15254066
   }
  },
- "generatedAt": "2026-08-22T16:00:23.894Z"
+ "generatedAt": "2026-08-23T16:00:17.832Z"
 }

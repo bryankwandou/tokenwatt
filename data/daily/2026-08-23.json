@@ -1,0 +1,99 @@
+{
+ "date": "2026-08-23",
+ "total": 293689656,
+ "tokens": {
+  "input": 3308,
+  "output": 1119581,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 7232391,
+  "cacheRead": 285334376,
+  "reasoning": 0
+ },
+ "usd": 240.560091,
+ "requests": 1662,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 3308,
+    "output": 1119581,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 7232391,
+    "cacheRead": 285334376,
+    "reasoning": 0
+   },
+   "usd": 240.560091,
+   "requests": 1662,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 3262,
+      "output": 1107754,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 6961632,
+      "cacheRead": 285248687,
+      "reasoning": 0
+     },
+     "usd": 239.950824,
+     "requests": 1631,
+     "total": 293321335
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 26,
+     "total": 0
+    },
+    "claude-haiku-4-5-20251001": {
+     "tokens": {
+      "input": 46,
+      "output": 11827,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 270759,
+      "cacheRead": 85689,
+      "reasoning": 0
+     },
+     "usd": 0.609268,
+     "requests": 5,
+     "total": 368321
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 1812,
+      "output": 580010,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 4386782,
+      "cacheRead": 175160638,
+      "reasoning": 0
+     },
+     "usd": 144.550677,
+     "requests": 918,
+     "total": 180129242
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 1496,
+      "output": 539571,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2845609,
+      "cacheRead": 110173738,
+      "reasoning": 0
+     },
+     "usd": 96.009414,
+     "requests": 744,
+     "total": 113560414
+    }
+   },
+   "total": 293689656
+  }
+ },
+ "generatedAt": "2026-08-23T16:00:17.863Z"
+}

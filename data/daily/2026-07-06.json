@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 0,
- "requests": 3,
+ "requests": 2,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 0,
-   "requests": 3,
+   "requests": 2,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,7 +34,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 3,
+     "requests": 2,
      "total": 0
     }
    },
@@ -51,23 +51,10 @@
      "usd": 0,
      "requests": 2,
      "total": 0
-    },
-    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ATLAS/QUANT": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
     }
    },
    "total": 0
   }
  },
- "generatedAt": "2026-08-22T16:00:23.894Z"
+ "generatedAt": "2026-08-23T16:00:17.832Z"
 }
