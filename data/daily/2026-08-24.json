@@ -1,0 +1,125 @@
+{
+ "date": "2026-08-24",
+ "total": 133628562,
+ "tokens": {
+  "input": 1584,
+  "output": 739657,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 2259028,
+  "cacheRead": 130628293,
+  "reasoning": 0
+ },
+ "usd": 105.466131,
+ "requests": 799,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 1584,
+    "output": 739657,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 2259028,
+    "cacheRead": 130628293,
+    "reasoning": 0
+   },
+   "usd": 105.466131,
+   "requests": 799,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 41,
+     "total": 0
+    },
+    "claude-opus-5": {
+     "tokens": {
+      "input": 1012,
+      "output": 557421,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1623351,
+      "cacheRead": 93154754,
+      "reasoning": 0
+     },
+     "usd": 76.751472,
+     "requests": 506,
+     "total": 95336538
+    },
+    "claude-haiku-4-5-20251001": {
+     "tokens": {
+      "input": 88,
+      "output": 6745,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 81274,
+      "cacheRead": 380492,
+      "reasoning": 0
+     },
+     "usd": 0.23441,
+     "requests": 10,
+     "total": 468599
+    },
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 484,
+      "output": 175491,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 554403,
+      "cacheRead": 37093047,
+      "reasoning": 0
+     },
+     "usd": 28.480249,
+     "requests": 242,
+     "total": 37823425
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 48,
+      "output": 11573,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 147665,
+      "cacheRead": 1710604,
+      "reasoning": 0
+     },
+     "usd": 2.621517,
+     "requests": 33,
+     "total": 1869890
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "E//Download/BAHAN/UAJMESPORT/VERCEL/APP": {
+     "tokens": {
+      "input": 1536,
+      "output": 728084,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2111363,
+      "cacheRead": 128917689,
+      "reasoning": 0
+     },
+     "usd": 102.844614,
+     "requests": 765,
+     "total": 131758672
+    }
+   },
+   "total": 133628562
+  }
+ },
+ "generatedAt": "2026-08-24T16:00:21.159Z"
+}

@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 240.560091,
- "requests": 1662,
+ "requests": 1663,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 240.560091,
-   "requests": 1662,
+   "requests": 1663,
    "models": {
     "claude-opus-5": {
      "tokens": {
@@ -47,7 +47,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 26,
+     "requests": 27,
      "total": 0
     },
     "claude-haiku-4-5-20251001": {
@@ -88,12 +88,12 @@
       "reasoning": 0
      },
      "usd": 96.009414,
-     "requests": 744,
+     "requests": 745,
      "total": 113560414
     }
    },
    "total": 293689656
   }
  },
- "generatedAt": "2026-08-23T16:00:17.863Z"
+ "generatedAt": "2026-08-24T16:00:21.158Z"
 }
