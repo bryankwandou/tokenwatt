@@ -1,60 +1,86 @@
 {
  "date": "2026-08-25",
- "total": 236538,
+ "total": 263265320,
  "tokens": {
-  "input": 2,
-  "output": 108,
+  "input": 1488,
+  "output": 741634,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1273,
-  "cacheRead": 235155,
+  "cacheWrite1h": 4719630,
+  "cacheRead": 257802568,
   "reasoning": 0
  },
- "usd": 0.133018,
- "requests": 1,
+ "usd": 194.645874,
+ "requests": 753,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 2,
-    "output": 108,
+    "input": 1488,
+    "output": 741634,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1273,
-    "cacheRead": 235155,
+    "cacheWrite1h": 4719630,
+    "cacheRead": 257802568,
     "reasoning": 0
    },
-   "usd": 0.133018,
-   "requests": 1,
+   "usd": 194.645874,
+   "requests": 753,
    "models": {
-    "claude-opus-4-8": {
+    "claude-opus-5": {
      "tokens": {
-      "input": 2,
-      "output": 108,
+      "input": 1440,
+      "output": 717473,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1273,
-      "cacheRead": 235155,
+      "cacheWrite1h": 4689644,
+      "cacheRead": 251789597,
       "reasoning": 0
      },
-     "usd": 0.133018,
-     "requests": 1,
-     "total": 236538
+     "usd": 190.735264,
+     "requests": 720,
+     "total": 257198154
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 9,
+     "total": 0
+    },
+    "claude-opus-4-8": {
+     "tokens": {
+      "input": 48,
+      "output": 24161,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 29986,
+      "cacheRead": 6012971,
+      "reasoning": 0
+     },
+     "usd": 3.910611,
+     "requests": 24,
+     "total": 6067166
     }
    },
    "projects": {
     "E//Download/BAHAN/UAJMESPORT/VERCEL/APP": {
      "tokens": {
-      "input": 2,
-      "output": 108,
+      "input": 1488,
+      "output": 741634,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1273,
-      "cacheRead": 235155,
+      "cacheWrite1h": 4719630,
+      "cacheRead": 257802568,
       "reasoning": 0
      },
-     "usd": 0.133018,
-     "requests": 1,
-     "total": 236538
+     "usd": 194.645874,
+     "requests": 753,
+     "total": 263265320
     }
    },
-   "total": 236538
+   "total": 263265320
   }
  },
- "generatedAt": "2026-08-24T16:00:21.160Z"
+ "generatedAt": "2026-08-25T16:00:25.432Z"
 }
