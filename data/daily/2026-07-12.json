@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 20.403398,
- "requests": 164,
+ "requests": 163,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 20.403398,
-   "requests": 164,
+   "requests": 163,
    "models": {
     "claude-opus-4-8": {
      "tokens": {
@@ -47,7 +47,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 3,
+     "requests": 2,
      "total": 0
     }
    },
@@ -64,23 +64,10 @@
      "usd": 20.403398,
      "requests": 163,
      "total": 22394751
-    },
-    "e//Download/vericode/ai": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
     }
    },
    "total": 22394751
   }
  },
- "generatedAt": "2026-08-25T16:00:25.390Z"
+ "generatedAt": "2026-08-26T16:00:36.857Z"
 }

@@ -1,28 +1,28 @@
 {
  "date": "2026-07-08",
- "total": 6137510,
+ "total": 1347447,
  "tokens": {
-  "input": 1619,
-  "output": 39887,
+  "input": 652,
+  "output": 16923,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 218925,
-  "cacheRead": 5877079,
+  "cacheWrite1h": 69797,
+  "cacheRead": 1260075,
   "reasoning": 0
  },
- "usd": 7.887402,
- "requests": 50,
+ "usd": 3.508685,
+ "requests": 18,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 1619,
-    "output": 39887,
+    "input": 652,
+    "output": 16923,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 218925,
-    "cacheRead": 5877079,
+    "cacheWrite1h": 69797,
+    "cacheRead": 1260075,
     "reasoning": 0
    },
-   "usd": 7.887402,
-   "requests": 50,
+   "usd": 3.508685,
+   "requests": 18,
    "models": {
     "claude-fable-5": {
      "tokens": {
@@ -36,32 +36,6 @@
      "usd": 3.508685,
      "requests": 18,
      "total": 1347447
-    },
-    "<synthetic>": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
-    },
-    "claude-opus-4-8": {
-     "tokens": {
-      "input": 967,
-      "output": 22964,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 149128,
-      "cacheRead": 4617004,
-      "reasoning": 0
-     },
-     "usd": 4.378717,
-     "requests": 31,
-     "total": 4790063
     }
    },
    "projects": {
@@ -77,23 +51,10 @@
      "usd": 3.508685,
      "requests": 18,
      "total": 1347447
-    },
-    "e//Download/vericode/ai": {
-     "tokens": {
-      "input": 967,
-      "output": 22964,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 149128,
-      "cacheRead": 4617004,
-      "reasoning": 0
-     },
-     "usd": 4.378717,
-     "requests": 32,
-     "total": 4790063
     }
    },
-   "total": 6137510
+   "total": 1347447
   }
  },
- "generatedAt": "2026-08-25T16:00:25.388Z"
+ "generatedAt": "2026-08-26T16:00:36.851Z"
 }

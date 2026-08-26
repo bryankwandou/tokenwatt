@@ -1,41 +1,41 @@
 {
  "date": "2026-07-16",
- "total": 39920202,
+ "total": 37590996,
  "tokens": {
-  "input": 435,
-  "output": 165464,
+  "input": 363,
+  "output": 142178,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1910902,
-  "cacheRead": 37843401,
+  "cacheWrite1h": 1783398,
+  "cacheRead": 35665057,
   "reasoning": 0
  },
- "usd": 82.127672,
- "requests": 233,
+ "usd": 78.445547,
+ "requests": 192,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 435,
-    "output": 165464,
+    "input": 363,
+    "output": 142178,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1910902,
-    "cacheRead": 37843401,
+    "cacheWrite1h": 1783398,
+    "cacheRead": 35665057,
     "reasoning": 0
    },
-   "usd": 82.127672,
-   "requests": 233,
+   "usd": 78.445547,
+   "requests": 192,
    "models": {
     "claude-fable-5": {
      "tokens": {
-      "input": 372,
-      "output": 144239,
+      "input": 363,
+      "output": 142178,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1837175,
-      "cacheRead": 35957182,
+      "cacheWrite1h": 1783398,
+      "cacheRead": 35665057,
       "reasoning": 0
      },
-     "usd": 79.916352,
-     "requests": 190,
-     "total": 37938968
+     "usd": 78.445547,
+     "requests": 185,
+     "total": 37590996
     },
     "<synthetic>": {
      "tokens": {
@@ -47,21 +47,8 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 9,
+     "requests": 7,
      "total": 0
-    },
-    "claude-opus-4-8": {
-     "tokens": {
-      "input": 63,
-      "output": 21225,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 73727,
-      "cacheRead": 1886219,
-      "reasoning": 0
-     },
-     "usd": 2.211319,
-     "requests": 34,
-     "total": 1981234
     }
    },
    "projects": {
@@ -77,23 +64,10 @@
      "usd": 78.445547,
      "requests": 192,
      "total": 37590996
-    },
-    "e//Download/vericode/ai": {
-     "tokens": {
-      "input": 72,
-      "output": 23286,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 127504,
-      "cacheRead": 2178344,
-      "reasoning": 0
-     },
-     "usd": 3.682125,
-     "requests": 41,
-     "total": 2329206
     }
    },
-   "total": 39920202
+   "total": 37590996
   }
  },
- "generatedAt": "2026-08-25T16:00:25.393Z"
+ "generatedAt": "2026-08-26T16:00:36.865Z"
 }

@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 0,
- "requests": 2,
+ "requests": 1,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 0,
-   "requests": 2,
+   "requests": 1,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,7 +34,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 2,
+     "requests": 1,
      "total": 0
     }
    },
@@ -51,23 +51,10 @@
      "usd": 0,
      "requests": 1,
      "total": 0
-    },
-    "E//freemodel/ai/claude": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
     }
    },
    "total": 0
   }
  },
- "generatedAt": "2026-08-25T16:00:25.399Z"
+ "generatedAt": "2026-08-26T16:00:36.881Z"
 }

@@ -1,5 +1,5 @@
 {
- "date": "2026-06-29",
+ "date": "2026-08-26",
  "total": 0,
  "tokens": {
   "input": 0,
@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 0,
- "requests": 1,
+ "requests": 3,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 0,
-   "requests": 1,
+   "requests": 3,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,7 +34,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 1,
+     "requests": 3,
      "total": 0
     }
    },
@@ -49,12 +49,12 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 1,
+     "requests": 3,
      "total": 0
     }
    },
    "total": 0
   }
  },
- "generatedAt": "2026-08-26T16:00:36.835Z"
+ "generatedAt": "2026-08-26T16:00:36.939Z"
 }
