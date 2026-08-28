@@ -1,0 +1,99 @@
+{
+ "date": "2026-08-28",
+ "total": 177589074,
+ "tokens": {
+  "input": 1522,
+  "output": 588301,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 2048790,
+  "cacheRead": 174950461,
+  "reasoning": 0
+ },
+ "usd": 122.678266,
+ "requests": 776,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 1522,
+    "output": 588301,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 2048790,
+    "cacheRead": 174950461,
+    "reasoning": 0
+   },
+   "usd": 122.678266,
+   "requests": 776,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 1522,
+      "output": 588301,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2048790,
+      "cacheRead": 174950461,
+      "reasoning": 0
+     },
+     "usd": 122.678266,
+     "requests": 761,
+     "total": 177589074
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 15,
+     "total": 0
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 720,
+      "output": 223136,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 847360,
+      "cacheRead": 92785203,
+      "reasoning": 0
+     },
+     "usd": 60.448202,
+     "requests": 367,
+     "total": 93856419
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 98,
+      "output": 52809,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 313942,
+      "cacheRead": 14067001,
+      "reasoning": 0
+     },
+     "usd": 11.493635,
+     "requests": 51,
+     "total": 14433850
+    },
+    "E//Download/BAHAN/UAJMESPORT/VERCEL/APP": {
+     "tokens": {
+      "input": 704,
+      "output": 312356,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 887488,
+      "cacheRead": 68098257,
+      "reasoning": 0
+     },
+     "usd": 50.736428,
+     "requests": 358,
+     "total": 69298805
+    }
+   },
+   "total": 177589074
+  }
+ },
+ "generatedAt": "2026-08-28T16:00:38.516Z"
+}

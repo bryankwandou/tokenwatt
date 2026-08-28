@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-27T16:00:28.487Z",
+ "generatedAt": "2026-08-28T16:00:38.517Z",
  "host": "nayrbryanGaming",
  "days": [
   {
@@ -432,13 +432,13 @@
   },
   {
    "date": "2026-07-29",
-   "total": 71898331,
-   "usd": 71.092849,
-   "requests": 452,
+   "total": 58567489,
+   "usd": 56.708045,
+   "requests": 343,
    "byProvider": {
     "claude-code": {
-     "total": 71898331,
-     "usd": 71.092849
+     "total": 58567489,
+     "usd": 56.708045
     }
    }
   },
@@ -787,6 +787,18 @@
     "claude-code": {
      "total": 1143107,
      "usd": 1.755606
+    }
+   }
+  },
+  {
+   "date": "2026-08-28",
+   "total": 177589074,
+   "usd": 122.678266,
+   "requests": 776,
+   "byProvider": {
+    "claude-code": {
+     "total": 177589074,
+     "usd": 122.678266
     }
    }
   }
