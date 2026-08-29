@@ -1,0 +1,99 @@
+{
+ "date": "2026-08-29",
+ "total": 565741365,
+ "tokens": {
+  "input": 4048,
+  "output": 1516255,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 10501901,
+  "cacheRead": 553719161,
+  "reasoning": 0
+ },
+ "usd": 419.805206,
+ "requests": 2064,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 4048,
+    "output": 1516255,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 10501901,
+    "cacheRead": 553719161,
+    "reasoning": 0
+   },
+   "usd": 419.805206,
+   "requests": 2064,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 4048,
+      "output": 1516255,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 10501901,
+      "cacheRead": 553719161,
+      "reasoning": 0
+     },
+     "usd": 419.805206,
+     "requests": 2024,
+     "total": 565741365
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 40,
+     "total": 0
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 1828,
+      "output": 575812,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 3607722,
+      "cacheRead": 238420636,
+      "reasoning": 0
+     },
+     "usd": 169.691978,
+     "requests": 923,
+     "total": 242605998
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 904,
+      "output": 371178,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1362235,
+      "cacheRead": 67613176,
+      "reasoning": 0
+     },
+     "usd": 56.712908,
+     "requests": 465,
+     "total": 69347493
+    },
+    "E//Download/BAHAN/UAJMESPORT/VERCEL/APP": {
+     "tokens": {
+      "input": 1316,
+      "output": 569265,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 5531944,
+      "cacheRead": 247685349,
+      "reasoning": 0
+     },
+     "usd": 193.400319,
+     "requests": 676,
+     "total": 253787874
+    }
+   },
+   "total": 565741365
+  }
+ },
+ "generatedAt": "2026-08-29T16:00:18.286Z"
+}
