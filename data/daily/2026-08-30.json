@@ -1,0 +1,112 @@
+{
+ "date": "2026-08-30",
+ "total": 623419050,
+ "tokens": {
+  "input": 3876,
+  "output": 1626065,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 12802097,
+  "cacheRead": 608987012,
+  "reasoning": 0
+ },
+ "usd": 473.185481,
+ "requests": 1996,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 3876,
+    "output": 1626065,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 12802097,
+    "cacheRead": 608987012,
+    "reasoning": 0
+   },
+   "usd": 473.185481,
+   "requests": 1996,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 3876,
+      "output": 1626065,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 12802097,
+      "cacheRead": 608987012,
+      "reasoning": 0
+     },
+     "usd": 473.185481,
+     "requests": 1938,
+     "total": 623419050
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 58,
+     "total": 0
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 1414,
+      "output": 500839,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 4257802,
+      "cacheRead": 212834317,
+      "reasoning": 0
+     },
+     "usd": 161.523223,
+     "requests": 733,
+     "total": 217594372
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 630,
+      "output": 230400,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 837189,
+      "cacheRead": 33724590,
+      "reasoning": 0
+     },
+     "usd": 30.997335,
+     "requests": 326,
+     "total": 34792809
+    },
+    "E//Download/BAHAN/UAJMESPORT/VERCEL/APP": {
+     "tokens": {
+      "input": 1540,
+      "output": 762489,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 7080184,
+      "cacheRead": 331202759,
+      "reasoning": 0
+     },
+     "usd": 255.473145,
+     "requests": 787,
+     "total": 339046972
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
+     "tokens": {
+      "input": 292,
+      "output": 132337,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 626922,
+      "cacheRead": 31225346,
+      "reasoning": 0
+     },
+     "usd": 25.191778,
+     "requests": 150,
+     "total": 31984897
+    }
+   },
+   "total": 623419050
+  }
+ },
+ "generatedAt": "2026-08-30T16:00:27.736Z"
+}

@@ -1,28 +1,28 @@
 {
  "date": "2026-07-30",
- "total": 137383943,
+ "total": 137089890,
  "tokens": {
-  "input": 2475,
-  "output": 358529,
+  "input": 2458,
+  "output": 354784,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1864582,
-  "cacheRead": 135158357,
+  "cacheWrite1h": 1844573,
+  "cacheRead": 134888075,
   "reasoning": 0
  },
- "usd": 95.200599,
- "requests": 560,
+ "usd": 94.771658,
+ "requests": 551,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 2475,
-    "output": 358529,
+    "input": 2458,
+    "output": 354784,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1864582,
-    "cacheRead": 135158357,
+    "cacheWrite1h": 1844573,
+    "cacheRead": 134888075,
     "reasoning": 0
    },
-   "usd": 95.200599,
-   "requests": 560,
+   "usd": 94.771658,
+   "requests": 551,
    "models": {
     "claude-opus-4-8": {
      "tokens": {
@@ -39,16 +39,16 @@
     },
     "claude-opus-5": {
      "tokens": {
-      "input": 2389,
-      "output": 335756,
+      "input": 2372,
+      "output": 332011,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1573992,
-      "cacheRead": 129596116,
+      "cacheWrite1h": 1553983,
+      "cacheRead": 129325834,
       "reasoning": 0
      },
-     "usd": 88.943823,
-     "requests": 515,
-     "total": 131508253
+     "usd": 88.514882,
+     "requests": 506,
+     "total": 131214200
     },
     "<synthetic>": {
      "tokens": {
@@ -80,16 +80,16 @@
     },
     "E//freemodel/ai/claude": {
      "tokens": {
-      "input": 2060,
-      "output": 201422,
+      "input": 2043,
+      "output": 197677,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 386079,
-      "cacheRead": 80844405,
+      "cacheWrite1h": 366070,
+      "cacheRead": 80574123,
       "reasoning": 0
      },
-     "usd": 49.328843,
-     "requests": 345,
-     "total": 81433966
+     "usd": 48.899902,
+     "requests": 336,
+     "total": 81139913
     },
     "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
      "tokens": {
@@ -105,8 +105,8 @@
      "total": 41166513
     }
    },
-   "total": 137383943
+   "total": 137089890
   }
  },
- "generatedAt": "2026-08-29T16:00:18.264Z"
+ "generatedAt": "2026-08-30T16:00:27.686Z"
 }
