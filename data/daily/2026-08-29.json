@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 419.805206,
- "requests": 2066,
+ "requests": 2068,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,8 +22,21 @@
     "reasoning": 0
    },
    "usd": 419.805206,
-   "requests": 2066,
+   "requests": 2068,
    "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 44,
+     "total": 0
+    },
     "claude-opus-5": {
      "tokens": {
       "input": 4048,
@@ -36,19 +49,6 @@
      "usd": 419.805206,
      "requests": 2024,
      "total": 565741365
-    },
-    "<synthetic>": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 42,
-     "total": 0
     }
    },
    "projects": {
@@ -62,7 +62,7 @@
       "reasoning": 0
      },
      "usd": 169.691978,
-     "requests": 925,
+     "requests": 926,
      "total": 242605998
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
@@ -75,7 +75,7 @@
       "reasoning": 0
      },
      "usd": 56.712908,
-     "requests": 465,
+     "requests": 466,
      "total": 69347493
     },
     "E//Download/BAHAN/UAJMESPORT/VERCEL/APP": {
@@ -95,5 +95,5 @@
    "total": 565741365
   }
  },
- "generatedAt": "2026-08-30T16:00:27.734Z"
+ "generatedAt": "2026-08-31T16:00:27.856Z"
 }
