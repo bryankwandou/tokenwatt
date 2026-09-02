@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 58.168876,
- "requests": 562,
+ "requests": 561,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 58.168876,
-   "requests": 562,
+   "requests": 561,
    "models": {
     "claude-opus-5": {
      "tokens": {
@@ -47,7 +47,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 23,
+     "requests": 22,
      "total": 0
     },
     "claude-sonnet-5": {
@@ -117,19 +117,6 @@
      "requests": 74,
      "total": 6013233
     },
-    "E//freemodel/ai/claude": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
-    },
     "e//TUGAS/KULIAH/ANTIGRAVITY/PDAM/TUGAS/WEEK2": {
      "tokens": {
       "input": 134,
@@ -147,5 +134,5 @@
    "total": 59653015
   }
  },
- "generatedAt": "2026-09-01T16:00:36.774Z"
+ "generatedAt": "2026-09-02T16:40:09.383Z"
 }

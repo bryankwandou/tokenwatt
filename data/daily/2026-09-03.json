@@ -1,0 +1,73 @@
+{
+ "date": "2026-09-03",
+ "total": 45242282,
+ "tokens": {
+  "input": 136,
+  "output": 53329,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 72251,
+  "cacheRead": 45116566,
+  "reasoning": 0
+ },
+ "usd": 24.614698,
+ "requests": 70,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 136,
+    "output": 53329,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 72251,
+    "cacheRead": 45116566,
+    "reasoning": 0
+   },
+   "usd": 24.614698,
+   "requests": 70,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 136,
+      "output": 53329,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 72251,
+      "cacheRead": 45116566,
+      "reasoning": 0
+     },
+     "usd": 24.614698,
+     "requests": 68,
+     "total": 45242282
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 0
+    }
+   },
+   "projects": {
+    "E//Download/BAHAN/UAJMESPORT/VERCEL/APP": {
+     "tokens": {
+      "input": 136,
+      "output": 53329,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 72251,
+      "cacheRead": 45116566,
+      "reasoning": 0
+     },
+     "usd": 24.614698,
+     "requests": 70,
+     "total": 45242282
+    }
+   },
+   "total": 45242282
+  }
+ },
+ "generatedAt": "2026-09-02T16:40:12.422Z"
+}
