@@ -1,41 +1,41 @@
 {
  "date": "2026-08-04",
- "total": 169063852,
+ "total": 160409351,
  "tokens": {
-  "input": 2302,
-  "output": 719422,
+  "input": 2229,
+  "output": 699740,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 5581797,
-  "cacheRead": 162760331,
+  "cacheWrite1h": 5346165,
+  "cacheRead": 154361217,
   "reasoning": 0
  },
- "usd": 155.081489,
- "requests": 1096,
+ "usd": 148.033197,
+ "requests": 1057,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 2302,
-    "output": 719422,
+    "input": 2229,
+    "output": 699740,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 5581797,
-    "cacheRead": 162760331,
+    "cacheWrite1h": 5346165,
+    "cacheRead": 154361217,
     "reasoning": 0
    },
-   "usd": 155.081489,
-   "requests": 1096,
+   "usd": 148.033197,
+   "requests": 1057,
    "models": {
     "claude-opus-5": {
      "tokens": {
-      "input": 2300,
-      "output": 719147,
+      "input": 2227,
+      "output": 699465,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 5555387,
-      "cacheRead": 162733769,
+      "cacheWrite1h": 5319755,
+      "cacheRead": 154334655,
       "reasoning": 0
      },
-     "usd": 154.910929,
-     "requests": 1062,
-     "total": 169010603
+     "usd": 147.862637,
+     "requests": 1023,
+     "total": 160356102
     },
     "<synthetic>": {
      "tokens": {
@@ -77,19 +77,6 @@
      "usd": 61.342033,
      "requests": 608,
      "total": 61141286
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/Arbiter": {
-     "tokens": {
-      "input": 73,
-      "output": 19682,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 235632,
-      "cacheRead": 8399114,
-      "reasoning": 0
-     },
-     "usd": 7.048292,
-     "requests": 39,
-     "total": 8654501
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
      "tokens": {
@@ -144,8 +131,8 @@
      "total": 0
     }
    },
-   "total": 169063852
+   "total": 160409351
   }
  },
- "generatedAt": "2026-09-02T16:40:09.386Z"
+ "generatedAt": "2026-09-03T16:00:37.634Z"
 }
