@@ -1,0 +1,112 @@
+{
+ "date": "2026-09-04",
+ "total": 383709728,
+ "tokens": {
+  "input": 2456,
+  "output": 1046022,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 8402620,
+  "cacheRead": 374258630,
+  "reasoning": 0
+ },
+ "usd": 297.318345,
+ "requests": 1261,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 2456,
+    "output": 1046022,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 8402620,
+    "cacheRead": 374258630,
+    "reasoning": 0
+   },
+   "usd": 297.318345,
+   "requests": 1261,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 2456,
+      "output": 1046022,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 8402620,
+      "cacheRead": 374258630,
+      "reasoning": 0
+     },
+     "usd": 297.318345,
+     "requests": 1228,
+     "total": 383709728
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 33,
+     "total": 0
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 104,
+      "output": 19837,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 211282,
+      "cacheRead": 5991055,
+      "reasoning": 0
+     },
+     "usd": 5.604793,
+     "requests": 54,
+     "total": 6222278
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "E//Download/BAHAN/UAJMESPORT/VERCEL/APP": {
+     "tokens": {
+      "input": 880,
+      "output": 470386,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 4785761,
+      "cacheRead": 194124374,
+      "reasoning": 0
+     },
+     "usd": 156.683847,
+     "requests": 456,
+     "total": 199381401
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
+     "tokens": {
+      "input": 1472,
+      "output": 555799,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 3405577,
+      "cacheRead": 174143201,
+      "reasoning": 0
+     },
+     "usd": 135.029705,
+     "requests": 750,
+     "total": 178106049
+    }
+   },
+   "total": 383709728
+  }
+ },
+ "generatedAt": "2026-09-04T16:00:19.271Z"
+}
