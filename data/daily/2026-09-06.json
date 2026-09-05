@@ -1,0 +1,99 @@
+{
+ "date": "2026-09-06",
+ "total": 575185,
+ "tokens": {
+  "input": 2,
+  "output": 1077,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 1152,
+  "cacheRead": 572954,
+  "reasoning": 0
+ },
+ "usd": 0.324932,
+ "requests": 4,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 2,
+    "output": 1077,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 1152,
+    "cacheRead": 572954,
+    "reasoning": 0
+   },
+   "usd": 0.324932,
+   "requests": 4,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 3,
+     "total": 0
+    },
+    "claude-opus-5": {
+     "tokens": {
+      "input": 2,
+      "output": 1077,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1152,
+      "cacheRead": 572954,
+      "reasoning": 0
+     },
+     "usd": 0.324932,
+     "requests": 1,
+     "total": 575185
+    }
+   },
+   "projects": {
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blindband": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/zynqio": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "E//Download/BAHAN/UAJMESPORT/VERCEL/APP": {
+     "tokens": {
+      "input": 2,
+      "output": 1077,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1152,
+      "cacheRead": 572954,
+      "reasoning": 0
+     },
+     "usd": 0.324932,
+     "requests": 2,
+     "total": 575185
+    }
+   },
+   "total": 575185
+  }
+ },
+ "generatedAt": "2026-09-05T16:00:36.688Z"
+}
