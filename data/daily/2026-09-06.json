@@ -1,28 +1,28 @@
 {
  "date": "2026-09-06",
- "total": 575185,
+ "total": 40852586,
  "tokens": {
-  "input": 2,
-  "output": 1077,
+  "input": 256,
+  "output": 81863,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1152,
-  "cacheRead": 572954,
+  "cacheWrite1h": 1955043,
+  "cacheRead": 38815424,
   "reasoning": 0
  },
- "usd": 0.324932,
- "requests": 4,
+ "usd": 41.005997,
+ "requests": 139,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 2,
-    "output": 1077,
+    "input": 256,
+    "output": 81863,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1152,
-    "cacheRead": 572954,
+    "cacheWrite1h": 1955043,
+    "cacheRead": 38815424,
     "reasoning": 0
    },
-   "usd": 0.324932,
-   "requests": 4,
+   "usd": 41.005997,
+   "requests": 139,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,66 +34,66 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 3,
+     "requests": 11,
      "total": 0
     },
     "claude-opus-5": {
      "tokens": {
-      "input": 2,
-      "output": 1077,
+      "input": 256,
+      "output": 81863,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1152,
-      "cacheRead": 572954,
+      "cacheWrite1h": 1955043,
+      "cacheRead": 38815424,
       "reasoning": 0
      },
-     "usd": 0.324932,
-     "requests": 1,
-     "total": 575185
+     "usd": 41.005997,
+     "requests": 128,
+     "total": 40852586
     }
    },
    "projects": {
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blindband": {
      "tokens": {
-      "input": 0,
-      "output": 0,
+      "input": 36,
+      "output": 6492,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
+      "cacheWrite1h": 679419,
+      "cacheRead": 6077231,
       "reasoning": 0
      },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
+     "usd": 9.995286,
+     "requests": 19,
+     "total": 6763178
     },
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/zynqio": {
      "tokens": {
-      "input": 0,
-      "output": 0,
+      "input": 134,
+      "output": 33847,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
+      "cacheWrite1h": 140996,
+      "cacheRead": 9562094,
       "reasoning": 0
      },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
+     "usd": 7.037852,
+     "requests": 71,
+     "total": 9737071
     },
     "E//Download/BAHAN/UAJMESPORT/VERCEL/APP": {
      "tokens": {
-      "input": 2,
-      "output": 1077,
+      "input": 86,
+      "output": 41524,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1152,
-      "cacheRead": 572954,
+      "cacheWrite1h": 1134628,
+      "cacheRead": 23176099,
       "reasoning": 0
      },
-     "usd": 0.324932,
-     "requests": 2,
-     "total": 575185
+     "usd": 23.97286,
+     "requests": 49,
+     "total": 24352337
     }
    },
-   "total": 575185
+   "total": 40852586
   }
  },
- "generatedAt": "2026-09-05T16:00:36.688Z"
+ "generatedAt": "2026-09-07T16:00:32.404Z"
 }

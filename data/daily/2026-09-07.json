@@ -1,0 +1,86 @@
+{
+ "date": "2026-09-07",
+ "total": 78191525,
+ "tokens": {
+  "input": 392,
+  "output": 204598,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 525064,
+  "cacheRead": 77461471,
+  "reasoning": 0
+ },
+ "usd": 49.098285,
+ "requests": 197,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 392,
+    "output": 204598,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 525064,
+    "cacheRead": 77461471,
+    "reasoning": 0
+   },
+   "usd": 49.098285,
+   "requests": 197,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 392,
+      "output": 204598,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 525064,
+      "cacheRead": 77461471,
+      "reasoning": 0
+     },
+     "usd": 49.098285,
+     "requests": 196,
+     "total": 78191525
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    }
+   },
+   "projects": {
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blindband": {
+     "tokens": {
+      "input": 392,
+      "output": 204598,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 525064,
+      "cacheRead": 77461471,
+      "reasoning": 0
+     },
+     "usd": 49.098285,
+     "requests": 196,
+     "total": 78191525
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    }
+   },
+   "total": 78191525
+  }
+ },
+ "generatedAt": "2026-09-07T16:00:32.405Z"
+}

@@ -1,0 +1,60 @@
+{
+ "date": "2026-09-08",
+ "total": 564639,
+ "tokens": {
+  "input": 2,
+  "output": 437,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 4316,
+  "cacheRead": 559884,
+  "reasoning": 0
+ },
+ "usd": 0.334037,
+ "requests": 1,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 2,
+    "output": 437,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 4316,
+    "cacheRead": 559884,
+    "reasoning": 0
+   },
+   "usd": 0.334037,
+   "requests": 1,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 2,
+      "output": 437,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 4316,
+      "cacheRead": 559884,
+      "reasoning": 0
+     },
+     "usd": 0.334037,
+     "requests": 1,
+     "total": 564639
+    }
+   },
+   "projects": {
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blindband": {
+     "tokens": {
+      "input": 2,
+      "output": 437,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 4316,
+      "cacheRead": 559884,
+      "reasoning": 0
+     },
+     "usd": 0.334037,
+     "requests": 1,
+     "total": 564639
+    }
+   },
+   "total": 564639
+  }
+ },
+ "generatedAt": "2026-09-07T16:00:32.405Z"
+}
