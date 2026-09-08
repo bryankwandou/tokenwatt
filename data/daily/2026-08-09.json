@@ -1,41 +1,41 @@
 {
  "date": "2026-08-09",
- "total": 181355458,
+ "total": 181161564,
  "tokens": {
-  "input": 3823,
-  "output": 988509,
+  "input": 3813,
+  "output": 980885,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 6886148,
-  "cacheRead": 173476978,
+  "cacheWrite1h": 6862238,
+  "cacheRead": 173314628,
   "reasoning": 0
  },
- "usd": 180.331809,
- "requests": 1129,
+ "usd": 179.820884,
+ "requests": 1124,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 3823,
-    "output": 988509,
+    "input": 3813,
+    "output": 980885,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 6886148,
-    "cacheRead": 173476978,
+    "cacheWrite1h": 6862238,
+    "cacheRead": 173314628,
     "reasoning": 0
    },
-   "usd": 180.331809,
-   "requests": 1129,
+   "usd": 179.820884,
+   "requests": 1124,
    "models": {
     "claude-opus-5": {
      "tokens": {
-      "input": 3823,
-      "output": 988509,
+      "input": 3813,
+      "output": 980885,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 6886148,
-      "cacheRead": 173476978,
+      "cacheWrite1h": 6862238,
+      "cacheRead": 173314628,
       "reasoning": 0
      },
-     "usd": 180.331809,
-     "requests": 1081,
-     "total": 181355458
+     "usd": 179.820884,
+     "requests": 1076,
+     "total": 181161564
     },
     "<synthetic>": {
      "tokens": {
@@ -80,16 +80,16 @@
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
      "tokens": {
-      "input": 415,
-      "output": 157353,
+      "input": 405,
+      "output": 149729,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 800278,
-      "cacheRead": 28878015,
+      "cacheWrite1h": 776368,
+      "cacheRead": 28715665,
       "reasoning": 0
      },
-     "usd": 26.377688,
-     "requests": 233,
-     "total": 29836061
+     "usd": 25.866763,
+     "requests": 228,
+     "total": 29642167
     },
     "e//Download/vericode/ai": {
      "tokens": {
@@ -105,8 +105,8 @@
      "total": 8336122
     }
    },
-   "total": 181355458
+   "total": 181161564
   }
  },
- "generatedAt": "2026-09-07T16:00:32.376Z"
+ "generatedAt": "2026-09-08T16:02:48.852Z"
 }
