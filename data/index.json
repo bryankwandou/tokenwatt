@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-08T16:02:48.873Z",
+ "generatedAt": "2026-09-09T16:00:20.373Z",
  "host": "nayrbryanGaming",
  "days": [
   {
@@ -416,13 +416,13 @@
   },
   {
    "date": "2026-07-28",
-   "total": 125206852,
-   "usd": 109.81882,
-   "requests": 636,
+   "total": 79722134,
+   "usd": 77.96832,
+   "requests": 404,
    "byProvider": {
     "claude-code": {
-     "total": 125198112,
-     "usd": 109.802321
+     "total": 79713394,
+     "usd": 77.951821
     },
     "codex-cli": {
      "total": 8740,
@@ -432,13 +432,13 @@
   },
   {
    "date": "2026-07-29",
-   "total": 58567489,
-   "usd": 56.708045,
-   "requests": 343,
+   "total": 47197594,
+   "usd": 47.030208,
+   "requests": 311,
    "byProvider": {
     "claude-code": {
-     "total": 58567489,
-     "usd": 56.708045
+     "total": 47197594,
+     "usd": 47.030208
     }
    }
   },
@@ -468,25 +468,25 @@
   },
   {
    "date": "2026-08-02",
-   "total": 50928927,
-   "usd": 49.190135,
-   "requests": 501,
+   "total": 37368376,
+   "usd": 36.302112,
+   "requests": 451,
    "byProvider": {
     "claude-code": {
-     "total": 50928927,
-     "usd": 49.190135
+     "total": 37368376,
+     "usd": 36.302112
     }
    }
   },
   {
    "date": "2026-08-03",
-   "total": 85692379,
-   "usd": 75.080877,
-   "requests": 683,
+   "total": 79350198,
+   "usd": 65.106818,
+   "requests": 651,
    "byProvider": {
     "claude-code": {
-     "total": 85692379,
-     "usd": 75.080877
+     "total": 79350198,
+     "usd": 65.106818
     }
    }
   },
@@ -552,25 +552,25 @@
   },
   {
    "date": "2026-08-09",
-   "total": 181161564,
-   "usd": 179.820884,
-   "requests": 1124,
+   "total": 180801800,
+   "usd": 178.935269,
+   "requests": 1116,
    "byProvider": {
     "claude-code": {
-     "total": 181161564,
-     "usd": 179.820884
+     "total": 180801800,
+     "usd": 178.935269
     }
    }
   },
   {
    "date": "2026-08-10",
-   "total": 117741176,
-   "usd": 123.142438,
-   "requests": 536,
+   "total": 117570442,
+   "usd": 122.479785,
+   "requests": 531,
    "byProvider": {
     "claude-code": {
-     "total": 117741176,
-     "usd": 123.142438
+     "total": 117570442,
+     "usd": 122.479785
     }
    }
   },
@@ -902,7 +902,7 @@
    "date": "2026-09-08",
    "total": 78363827,
    "usd": 56.619934,
-   "requests": 345,
+   "requests": 353,
    "byProvider": {
     "claude-code": {
      "total": 78363827,
@@ -912,13 +912,13 @@
   },
   {
    "date": "2026-09-09",
-   "total": 0,
-   "usd": 0,
-   "requests": 1,
+   "total": 105813450,
+   "usd": 93.543923,
+   "requests": 531,
    "byProvider": {
     "claude-code": {
-     "total": 0,
-     "usd": 0
+     "total": 105813450,
+     "usd": 93.543923
     }
    }
   }

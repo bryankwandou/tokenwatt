@@ -1,28 +1,28 @@
 {
  "date": "2026-07-29",
- "total": 58567489,
+ "total": 47197594,
  "tokens": {
-  "input": 632,
-  "output": 279778,
+  "input": 568,
+  "output": 259659,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 2270708,
-  "cacheRead": 56016371,
+  "cacheWrite1h": 1902320,
+  "cacheRead": 45035047,
   "reasoning": 0
  },
- "usd": 56.708045,
- "requests": 343,
+ "usd": 47.030208,
+ "requests": 311,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 632,
-    "output": 279778,
+    "input": 568,
+    "output": 259659,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 2270708,
-    "cacheRead": 56016371,
+    "cacheWrite1h": 1902320,
+    "cacheRead": 45035047,
     "reasoning": 0
    },
-   "usd": 56.708045,
-   "requests": 343,
+   "usd": 47.030208,
+   "requests": 311,
    "models": {
     "claude-opus-4-8": {
      "tokens": {
@@ -52,16 +52,16 @@
     },
     "claude-opus-5": {
      "tokens": {
-      "input": 480,
-      "output": 220449,
+      "input": 416,
+      "output": 200330,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1859302,
-      "cacheRead": 49294105,
+      "cacheWrite1h": 1490914,
+      "cacheRead": 38312781,
       "reasoning": 0
      },
-     "usd": 48.753697,
-     "requests": 255,
-     "total": 51374336
+     "usd": 39.07586,
+     "requests": 223,
+     "total": 40004441
     },
     "claude-sonnet-5": {
      "tokens": {
@@ -104,19 +104,6 @@
      "requests": 150,
      "total": 14407347
     },
-    "e//TUGAS/KULIAH/ANTIGRAVITY/PDAM/TUGAS/WEEK2": {
-     "tokens": {
-      "input": 64,
-      "output": 20119,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 368388,
-      "cacheRead": 10981324,
-      "reasoning": 0
-     },
-     "usd": 9.677837,
-     "requests": 32,
-     "total": 11369895
-    },
     "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
      "tokens": {
       "input": 295,
@@ -131,8 +118,8 @@
      "total": 32790247
     }
    },
-   "total": 58567489
+   "total": 47197594
   }
  },
- "generatedAt": "2026-09-08T16:02:48.846Z"
+ "generatedAt": "2026-09-09T16:00:20.345Z"
 }

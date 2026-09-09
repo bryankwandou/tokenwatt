@@ -1,28 +1,28 @@
 {
  "date": "2026-08-10",
- "total": 117741176,
+ "total": 117570442,
  "tokens": {
-  "input": 3062,
-  "output": 424143,
+  "input": 3055,
+  "output": 420943,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 5670165,
-  "cacheRead": 111643806,
+  "cacheWrite1h": 5617654,
+  "cacheRead": 111528790,
   "reasoning": 0
  },
- "usd": 123.142438,
- "requests": 536,
+ "usd": 122.479785,
+ "requests": 531,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 3062,
-    "output": 424143,
+    "input": 3055,
+    "output": 420943,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 5670165,
-    "cacheRead": 111643806,
+    "cacheWrite1h": 5617654,
+    "cacheRead": 111528790,
     "reasoning": 0
    },
-   "usd": 123.142438,
-   "requests": 536,
+   "usd": 122.479785,
+   "requests": 531,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,21 +34,21 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 29,
+     "requests": 28,
      "total": 0
     },
     "claude-opus-5": {
      "tokens": {
-      "input": 1834,
-      "output": 317074,
+      "input": 1827,
+      "output": 313874,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 4592374,
-      "cacheRead": 82691640,
+      "cacheWrite1h": 4539863,
+      "cacheRead": 82576624,
       "reasoning": 0
      },
-     "usd": 95.20558,
-     "requests": 384,
-     "total": 87602922
+     "usd": 94.542927,
+     "requests": 380,
+     "total": 87432188
     },
     "claude-opus-4-8": {
      "tokens": {
@@ -93,16 +93,16 @@
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
      "tokens": {
-      "input": 139,
-      "output": 63533,
+      "input": 132,
+      "output": 60333,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 622243,
-      "cacheRead": 14145636,
+      "cacheWrite1h": 569732,
+      "cacheRead": 14030620,
       "reasoning": 0
      },
-     "usd": 14.884268,
-     "requests": 77,
-     "total": 14831551
+     "usd": 14.221615,
+     "requests": 72,
+     "total": 14660817
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
      "tokens": {
@@ -144,8 +144,8 @@
      "total": 94389744
     }
    },
-   "total": 117741176
+   "total": 117570442
   }
  },
- "generatedAt": "2026-09-08T16:02:48.853Z"
+ "generatedAt": "2026-09-09T16:00:20.350Z"
 }

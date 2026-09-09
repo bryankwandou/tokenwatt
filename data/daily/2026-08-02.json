@@ -1,41 +1,41 @@
 {
  "date": "2026-08-02",
- "total": 50928927,
+ "total": 37368376,
  "tokens": {
-  "input": 4452,
-  "output": 400206,
+  "input": 4356,
+  "output": 369315,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1463220,
-  "cacheRead": 49061049,
+  "cacheWrite1h": 900011,
+  "cacheRead": 36094694,
   "reasoning": 0
  },
- "usd": 49.190135,
- "requests": 501,
+ "usd": 36.302112,
+ "requests": 451,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 4452,
-    "output": 400206,
+    "input": 4356,
+    "output": 369315,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1463220,
-    "cacheRead": 49061049,
+    "cacheWrite1h": 900011,
+    "cacheRead": 36094694,
     "reasoning": 0
    },
-   "usd": 49.190135,
-   "requests": 501,
+   "usd": 36.302112,
+   "requests": 451,
    "models": {
     "claude-opus-5": {
      "tokens": {
-      "input": 4452,
-      "output": 400206,
+      "input": 4356,
+      "output": 369315,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1463220,
-      "cacheRead": 49061049,
+      "cacheWrite1h": 900011,
+      "cacheRead": 36094694,
       "reasoning": 0
      },
-     "usd": 49.190135,
-     "requests": 483,
-     "total": 50928927
+     "usd": 36.302112,
+     "requests": 435,
+     "total": 37368376
     },
     "<synthetic>": {
      "tokens": {
@@ -47,7 +47,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 18,
+     "requests": 16,
      "total": 0
     }
    },
@@ -90,23 +90,10 @@
      "usd": 6.060902,
      "requests": 74,
      "total": 6013233
-    },
-    "e//TUGAS/KULIAH/ANTIGRAVITY/PDAM/TUGAS/WEEK2": {
-     "tokens": {
-      "input": 96,
-      "output": 30891,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 563209,
-      "cacheRead": 12966355,
-      "reasoning": 0
-     },
-     "usd": 12.888022,
-     "requests": 50,
-     "total": 13560551
     }
    },
-   "total": 50928927
+   "total": 37368376
   }
  },
- "generatedAt": "2026-09-08T16:02:48.847Z"
+ "generatedAt": "2026-09-09T16:00:20.346Z"
 }

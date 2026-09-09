@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 56.619934,
- "requests": 345,
+ "requests": 353,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 56.619934,
-   "requests": 345,
+   "requests": 353,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,7 +34,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 26,
+     "requests": 34,
      "total": 0
     },
     "claude-opus-5": {
@@ -52,6 +52,19 @@
     }
    },
    "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 7,
+     "total": 0
+    },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
       "input": 572,
@@ -62,7 +75,7 @@
       "reasoning": 0
      },
      "usd": 46.285657,
-     "requests": 312,
+     "requests": 313,
      "total": 60657323
     },
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blindband": {
@@ -82,5 +95,5 @@
    "total": 78363827
   }
  },
- "generatedAt": "2026-09-08T16:02:48.872Z"
+ "generatedAt": "2026-09-09T16:00:20.371Z"
 }
