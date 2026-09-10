@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 132.340742,
- "requests": 801,
+ "requests": 800,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 132.340742,
-   "requests": 801,
+   "requests": 800,
    "models": {
     "claude-opus-5": {
      "tokens": {
@@ -47,7 +47,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 63,
+     "requests": 62,
      "total": 0
     }
    },
@@ -77,19 +77,6 @@
      "usd": 25.462358,
      "requests": 248,
      "total": 23281493
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
      "tokens": {
@@ -134,5 +121,5 @@
    "total": 114152859
   }
  },
- "generatedAt": "2026-09-09T16:00:20.349Z"
+ "generatedAt": "2026-09-10T16:00:27.566Z"
 }

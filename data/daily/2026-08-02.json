@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 36.302112,
- "requests": 451,
+ "requests": 450,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 36.302112,
-   "requests": 451,
+   "requests": 450,
    "models": {
     "claude-opus-5": {
      "tokens": {
@@ -47,7 +47,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 16,
+     "requests": 15,
      "total": 0
     }
    },
@@ -64,19 +64,6 @@
      "usd": 30.24121,
      "requests": 376,
      "total": 31355143
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
     },
     "e//Download/vericode/ai": {
      "tokens": {
@@ -95,5 +82,5 @@
    "total": 37368376
   }
  },
- "generatedAt": "2026-09-09T16:00:20.346Z"
+ "generatedAt": "2026-09-10T16:00:27.562Z"
 }

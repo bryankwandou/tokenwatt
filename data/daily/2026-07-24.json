@@ -1,28 +1,28 @@
 {
  "date": "2026-07-24",
- "total": 8449584,
+ "total": 4305896,
  "tokens": {
-  "input": 184,
-  "output": 51746,
+  "input": 100,
+  "output": 36176,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 445204,
-  "cacheRead": 7952450,
+  "cacheWrite1h": 418843,
+  "cacheRead": 3850777,
   "reasoning": 0
  },
- "usd": 8.641188,
- "requests": 98,
+ "usd": 7.018719,
+ "requests": 55,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 184,
-    "output": 51746,
+    "input": 100,
+    "output": 36176,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 445204,
-    "cacheRead": 7952450,
+    "cacheWrite1h": 418843,
+    "cacheRead": 3850777,
     "reasoning": 0
    },
-   "usd": 8.641188,
-   "requests": 98,
+   "usd": 7.018719,
+   "requests": 55,
    "models": {
     "claude-opus-4-8": {
      "tokens": {
@@ -47,21 +47,8 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 6,
+     "requests": 5,
      "total": 0
-    },
-    "claude-sonnet-5": {
-     "tokens": {
-      "input": 84,
-      "output": 15570,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 26361,
-      "cacheRead": 4101673,
-      "reasoning": 0
-     },
-     "usd": 1.62247,
-     "requests": 42,
-     "total": 4143688
     }
    },
    "projects": {
@@ -77,23 +64,10 @@
      "usd": 7.018719,
      "requests": 55,
      "total": 4305896
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
-     "tokens": {
-      "input": 84,
-      "output": 15570,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 26361,
-      "cacheRead": 4101673,
-      "reasoning": 0
-     },
-     "usd": 1.62247,
-     "requests": 43,
-     "total": 4143688
     }
    },
-   "total": 8449584
+   "total": 4305896
   }
  },
- "generatedAt": "2026-09-09T16:00:20.342Z"
+ "generatedAt": "2026-09-10T16:00:27.558Z"
 }

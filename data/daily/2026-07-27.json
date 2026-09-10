@@ -10,7 +10,7 @@
   "reasoning": 234
  },
  "usd": 0.014911,
- "requests": 5,
+ "requests": 4,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 0,
-   "requests": 4,
+   "requests": 3,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,7 +34,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 4,
+     "requests": 3,
      "total": 0
     }
    },
@@ -50,19 +50,6 @@
      },
      "usd": 0,
      "requests": 3,
-     "total": 0
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockblast///SALAH/JALAN/DAN/ARAH": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 1,
      "total": 0
     }
    },
@@ -98,5 +85,5 @@
    "total": 9356
   }
  },
- "generatedAt": "2026-09-09T16:00:20.343Z"
+ "generatedAt": "2026-09-10T16:00:27.559Z"
 }
