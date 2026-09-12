@@ -1,0 +1,164 @@
+{
+ "date": "2026-09-12",
+ "total": 84912371,
+ "tokens": {
+  "input": 972,
+  "output": 302480,
+  "cacheWrite5m": 1155564,
+  "cacheWrite1h": 1322137,
+  "cacheRead": 82131218,
+  "reasoning": 0
+ },
+ "usd": 66.563138,
+ "requests": 508,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 972,
+    "output": 302480,
+    "cacheWrite5m": 1155564,
+    "cacheWrite1h": 1322137,
+    "cacheRead": 82131218,
+    "reasoning": 0
+   },
+   "usd": 66.563138,
+   "requests": 508,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 830,
+      "output": 294261,
+      "cacheWrite5m": 555963,
+      "cacheWrite1h": 1322137,
+      "cacheRead": 77473719,
+      "reasoning": 0
+     },
+     "usd": 62.793673,
+     "requests": 415,
+     "total": 79646910
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 22,
+     "total": 0
+    },
+    "claude-sonnet-5": {
+     "tokens": {
+      "input": 142,
+      "output": 8219,
+      "cacheWrite5m": 599601,
+      "cacheWrite1h": 0,
+      "cacheRead": 4657499,
+      "reasoning": 0
+     },
+     "usd": 3.769464,
+     "requests": 71,
+     "total": 5265461
+    }
+   },
+   "projects": {
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/12/3fef98": {
+     "tokens": {
+      "input": 58,
+      "output": 31006,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 130286,
+      "cacheRead": 2497616,
+      "reasoning": 0
+     },
+     "usd": 3.327108,
+     "requests": 32,
+     "total": 2658966
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/12/651fe8": {
+     "tokens": {
+      "input": 162,
+      "output": 35285,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 92327,
+      "cacheRead": 8341839,
+      "reasoning": 0
+     },
+     "usd": 5.977124,
+     "requests": 85,
+     "total": 8469613
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockbite/corporation": {
+     "tokens": {
+      "input": 20,
+      "output": 2186,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 32449,
+      "cacheRead": 692317,
+      "reasoning": 0
+     },
+     "usd": 0.725399,
+     "requests": 10,
+     "total": 726972
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockbite/xyz/persero": {
+     "tokens": {
+      "input": 710,
+      "output": 227897,
+      "cacheWrite5m": 1155564,
+      "cacheWrite1h": 671547,
+      "cacheRead": 69733799,
+      "reasoning": 0
+     },
+     "usd": 51.992643,
+     "requests": 368,
+     "total": 71789517
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/replayproof": {
+     "tokens": {
+      "input": 2,
+      "output": 1111,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 346897,
+      "cacheRead": 42881,
+      "reasoning": 0
+     },
+     "usd": 3.518196,
+     "requests": 1,
+     "total": 390891
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/zynqio": {
+     "tokens": {
+      "input": 20,
+      "output": 4995,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 48631,
+      "cacheRead": 822766,
+      "reasoning": 0
+     },
+     "usd": 1.022668,
+     "requests": 11,
+     "total": 876412
+    }
+   },
+   "total": 84912371
+  }
+ },
+ "generatedAt": "2026-09-12T16:00:53.111Z"
+}
