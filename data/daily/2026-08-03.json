@@ -1,41 +1,41 @@
 {
  "date": "2026-08-03",
- "total": 79350198,
+ "total": 48331605,
  "tokens": {
-  "input": 1925,
-  "output": 428267,
+  "input": 1521,
+  "output": 313571,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1637392,
-  "cacheRead": 77282614,
+  "cacheWrite1h": 1221679,
+  "cacheRead": 46794834,
   "reasoning": 0
  },
- "usd": 65.106818,
- "requests": 650,
+ "usd": 43.461087,
+ "requests": 448,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 1925,
-    "output": 428267,
+    "input": 1521,
+    "output": 313571,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1637392,
-    "cacheRead": 77282614,
+    "cacheWrite1h": 1221679,
+    "cacheRead": 46794834,
     "reasoning": 0
    },
-   "usd": 65.106818,
-   "requests": 650,
+   "usd": 43.461087,
+   "requests": 448,
    "models": {
     "claude-opus-5": {
      "tokens": {
-      "input": 1873,
-      "output": 414969,
+      "input": 1517,
+      "output": 311668,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1535488,
-      "cacheRead": 75858779,
+      "cacheWrite1h": 1178374,
+      "cacheRead": 46752333,
       "reasoning": 0
      },
-     "usd": 63.66786,
-     "requests": 602,
-     "total": 77811109
+     "usd": 42.959192,
+     "requests": 424,
+     "total": 48243892
     },
     "<synthetic>": {
      "tokens": {
@@ -62,19 +62,6 @@
      "usd": 0.501896,
      "requests": 2,
      "total": 87713
-    },
-    "claude-sonnet-5": {
-     "tokens": {
-      "input": 48,
-      "output": 11395,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 58599,
-      "cacheRead": 1381334,
-      "reasoning": 0
-     },
-     "usd": 0.937063,
-     "requests": 24,
-     "total": 1451376
     }
    },
    "projects": {
@@ -91,19 +78,6 @@
      "requests": 346,
      "total": 33939566
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 404,
-      "output": 114696,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 415713,
-      "cacheRead": 30487780,
-      "reasoning": 0
-     },
-     "usd": 21.645731,
-     "requests": 202,
-     "total": 31018593
-    },
     "e//Download/vericode/ai": {
      "tokens": {
       "input": 184,
@@ -118,8 +92,8 @@
      "total": 14392039
     }
    },
-   "total": 79350198
+   "total": 48331605
   }
  },
- "generatedAt": "2026-09-12T16:00:53.027Z"
+ "generatedAt": "2026-09-13T16:00:29.094Z"
 }

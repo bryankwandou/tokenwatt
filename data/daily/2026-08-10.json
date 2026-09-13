@@ -1,28 +1,28 @@
 {
  "date": "2026-08-10",
- "total": 8519881,
+ "total": 7212878,
  "tokens": {
-  "input": 92,
-  "output": 34004,
+  "input": 88,
+  "output": 32117,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 2309898,
-  "cacheRead": 6175887,
+  "cacheWrite1h": 1041510,
+  "cacheRead": 6139163,
   "reasoning": 0
  },
- "usd": 27.037484,
- "requests": 66,
+ "usd": 14.288047,
+ "requests": 62,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 92,
-    "output": 34004,
+    "input": 88,
+    "output": 32117,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 2309898,
-    "cacheRead": 6175887,
+    "cacheWrite1h": 1041510,
+    "cacheRead": 6139163,
     "reasoning": 0
    },
-   "usd": 27.037484,
-   "requests": 66,
+   "usd": 14.288047,
+   "requests": 62,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,21 +34,21 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 18,
+     "requests": 16,
      "total": 0
     },
     "claude-opus-5": {
      "tokens": {
-      "input": 92,
-      "output": 34004,
+      "input": 88,
+      "output": 32117,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 2309898,
-      "cacheRead": 6175887,
+      "cacheWrite1h": 1041510,
+      "cacheRead": 6139163,
       "reasoning": 0
      },
-     "usd": 27.037484,
-     "requests": 48,
-     "total": 8519881
+     "usd": 14.288047,
+     "requests": 46,
+     "total": 7212878
     }
    },
    "projects": {
@@ -78,19 +78,6 @@
      "requests": 51,
      "total": 7212878
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 4,
-      "output": 1887,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 1268388,
-      "cacheRead": 36724,
-      "reasoning": 0
-     },
-     "usd": 12.749437,
-     "requests": 4,
-     "total": 1307003
-    },
     "e//Download/vericode/ai": {
      "tokens": {
       "input": 0,
@@ -105,8 +92,8 @@
      "total": 0
     }
    },
-   "total": 8519881
+   "total": 7212878
   }
  },
- "generatedAt": "2026-09-12T16:00:53.045Z"
+ "generatedAt": "2026-09-13T16:00:29.099Z"
 }

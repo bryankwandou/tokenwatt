@@ -1,41 +1,41 @@
 {
  "date": "2026-08-07",
- "total": 114152859,
+ "total": 69035455,
  "tokens": {
-  "input": 10865,
-  "output": 1001353,
+  "input": 10732,
+  "output": 958729,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 5334976,
-  "cacheRead": 107805665,
+  "cacheWrite1h": 2834505,
+  "cacheRead": 65231489,
   "reasoning": 0
  },
- "usd": 132.340742,
- "requests": 800,
+ "usd": 84.98268,
+ "requests": 728,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 10865,
-    "output": 1001353,
+    "input": 10732,
+    "output": 958729,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 5334976,
-    "cacheRead": 107805665,
+    "cacheWrite1h": 2834505,
+    "cacheRead": 65231489,
     "reasoning": 0
    },
-   "usd": 132.340742,
-   "requests": 800,
+   "usd": 84.98268,
+   "requests": 728,
    "models": {
     "claude-opus-5": {
      "tokens": {
-      "input": 10865,
-      "output": 1001353,
+      "input": 10732,
+      "output": 958729,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 5334976,
-      "cacheRead": 107805665,
+      "cacheWrite1h": 2834505,
+      "cacheRead": 65231489,
       "reasoning": 0
      },
-     "usd": 132.340742,
-     "requests": 738,
-     "total": 114152859
+     "usd": 84.98268,
+     "requests": 668,
+     "total": 69035455
     },
     "<synthetic>": {
      "tokens": {
@@ -47,7 +47,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 62,
+     "requests": 60,
      "total": 0
     }
    },
@@ -78,19 +78,6 @@
      "requests": 248,
      "total": 23281493
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 133,
-      "output": 42624,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 2500471,
-      "cacheRead": 42574176,
-      "reasoning": 0
-     },
-     "usd": 47.358063,
-     "requests": 72,
-     "total": 45117404
-    },
     "e//Download/vericode/ai": {
      "tokens": {
       "input": 134,
@@ -118,8 +105,8 @@
      "total": 0
     }
    },
-   "total": 114152859
+   "total": 69035455
   }
  },
- "generatedAt": "2026-09-12T16:00:53.041Z"
+ "generatedAt": "2026-09-13T16:00:29.098Z"
 }

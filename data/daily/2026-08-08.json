@@ -1,28 +1,28 @@
 {
  "date": "2026-08-08",
- "total": 136039017,
+ "total": 131539178,
  "tokens": {
-  "input": 2820,
-  "output": 977939,
+  "input": 2807,
+  "output": 972018,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 7226035,
-  "cacheRead": 127832223,
+  "cacheWrite1h": 5956068,
+  "cacheRead": 124608285,
   "reasoning": 0
  },
- "usd": 160.639037,
- "requests": 918,
+ "usd": 146.179307,
+ "requests": 911,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 2820,
-    "output": 977939,
+    "input": 2807,
+    "output": 972018,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 7226035,
-    "cacheRead": 127832223,
+    "cacheWrite1h": 5956068,
+    "cacheRead": 124608285,
     "reasoning": 0
    },
-   "usd": 160.639037,
-   "requests": 918,
+   "usd": 146.179307,
+   "requests": 911,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -39,16 +39,16 @@
     },
     "claude-opus-5": {
      "tokens": {
-      "input": 2820,
-      "output": 977939,
+      "input": 2807,
+      "output": 972018,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 7226035,
-      "cacheRead": 127832223,
+      "cacheWrite1h": 5956068,
+      "cacheRead": 124608285,
       "reasoning": 0
      },
-     "usd": 160.639037,
-     "requests": 877,
-     "total": 136039017
+     "usd": 146.179307,
+     "requests": 870,
+     "total": 131539178
     }
    },
    "projects": {
@@ -78,19 +78,6 @@
      "requests": 307,
      "total": 33940206
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 13,
-      "output": 5921,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 1269967,
-      "cacheRead": 3223938,
-      "reasoning": 0
-     },
-     "usd": 14.459729,
-     "requests": 7,
-     "total": 4499839
-    },
     "e//Download/vericode/ai": {
      "tokens": {
       "input": 113,
@@ -118,8 +105,8 @@
      "total": 3549749
     }
    },
-   "total": 136039017
+   "total": 131539178
   }
  },
- "generatedAt": "2026-09-12T16:00:53.042Z"
+ "generatedAt": "2026-09-13T16:00:29.098Z"
 }

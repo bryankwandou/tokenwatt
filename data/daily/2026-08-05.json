@@ -1,41 +1,41 @@
 {
  "date": "2026-08-05",
- "total": 107624034,
+ "total": 97403554,
  "tokens": {
-  "input": 3449,
-  "output": 640840,
+  "input": 3263,
+  "output": 595316,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 5704305,
-  "cacheRead": 101275440,
+  "cacheWrite1h": 5303105,
+  "cacheRead": 91501870,
   "reasoning": 0
  },
- "usd": 123.540375,
- "requests": 955,
+ "usd": 113.50256,
+ "requests": 853,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 3449,
-    "output": 640840,
+    "input": 3263,
+    "output": 595316,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 5704305,
-    "cacheRead": 101275440,
+    "cacheWrite1h": 5303105,
+    "cacheRead": 91501870,
     "reasoning": 0
    },
-   "usd": 123.540375,
-   "requests": 955,
+   "usd": 113.50256,
+   "requests": 853,
    "models": {
     "claude-opus-5": {
      "tokens": {
-      "input": 3437,
-      "output": 639865,
+      "input": 3251,
+      "output": 594341,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 5618700,
-      "cacheRead": 101255800,
+      "cacheWrite1h": 5217500,
+      "cacheRead": 91482230,
       "reasoning": 0
      },
-     "usd": 122.82871,
-     "requests": 893,
-     "total": 107517802
+     "usd": 112.790895,
+     "requests": 798,
+     "total": 97297322
     },
     "<synthetic>": {
      "tokens": {
@@ -47,7 +47,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 60,
+     "requests": 53,
      "total": 0
     },
     "claude-opus-4-8": {
@@ -91,19 +91,6 @@
      "requests": 736,
      "total": 60685424
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 186,
-      "output": 45524,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 401200,
-      "cacheRead": 9773570,
-      "reasoning": 0
-     },
-     "usd": 10.037815,
-     "requests": 102,
-     "total": 10220480
-    },
     "e//Download/vericode/ai": {
      "tokens": {
       "input": 438,
@@ -131,8 +118,8 @@
      "total": 18598931
     }
    },
-   "total": 107624034
+   "total": 97403554
   }
  },
- "generatedAt": "2026-09-12T16:00:53.036Z"
+ "generatedAt": "2026-09-13T16:00:29.096Z"
 }

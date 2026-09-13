@@ -1,0 +1,151 @@
+{
+ "date": "2026-09-13",
+ "total": 106520126,
+ "tokens": {
+  "input": 1140,
+  "output": 389498,
+  "cacheWrite5m": 1123594,
+  "cacheWrite1h": 2313728,
+  "cacheRead": 102692166,
+  "reasoning": 0
+ },
+ "usd": 91.248975,
+ "requests": 609,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 1140,
+    "output": 389498,
+    "cacheWrite5m": 1123594,
+    "cacheWrite1h": 2313728,
+    "cacheRead": 102692166,
+    "reasoning": 0
+   },
+   "usd": 91.248975,
+   "requests": 609,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 1140,
+      "output": 389498,
+      "cacheWrite5m": 1123594,
+      "cacheWrite1h": 2313728,
+      "cacheRead": 102692166,
+      "reasoning": 0
+     },
+     "usd": 91.248975,
+     "requests": 570,
+     "total": 106520126
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 39,
+     "total": 0
+    }
+   },
+   "projects": {
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/12/3fef98": {
+     "tokens": {
+      "input": 90,
+      "output": 21672,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 66180,
+      "cacheRead": 3962309,
+      "reasoning": 0
+     },
+     "usd": 3.185204,
+     "requests": 45,
+     "total": 4050251
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/12/651fe8": {
+     "tokens": {
+      "input": 86,
+      "output": 28952,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 68863,
+      "cacheRead": 3891000,
+      "reasoning": 0
+     },
+     "usd": 3.35836,
+     "requests": 43,
+     "total": 3988901
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockbite/xyz/persero": {
+     "tokens": {
+      "input": 486,
+      "output": 109373,
+      "cacheWrite5m": 1123594,
+      "cacheWrite1h": 867498,
+      "cacheRead": 47027139,
+      "reasoning": 0
+     },
+     "usd": 41.947767,
+     "requests": 261,
+     "total": 49128090
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/countersig": {
+     "tokens": {
+      "input": 200,
+      "output": 144965,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 536879,
+      "cacheRead": 22944237,
+      "reasoning": 0
+     },
+     "usd": 20.466034,
+     "requests": 104,
+     "total": 23626281
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/replayproof": {
+     "tokens": {
+      "input": 116,
+      "output": 56628,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 606065,
+      "cacheRead": 17977618,
+      "reasoning": 0
+     },
+     "usd": 16.465739,
+     "requests": 70,
+     "total": 18640427
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/steve/arena/agent": {
+     "tokens": {
+      "input": 40,
+      "output": 6299,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 49583,
+      "cacheRead": 1670654,
+      "reasoning": 0
+     },
+     "usd": 1.488832,
+     "requests": 21,
+     "total": 1726576
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/zynqio": {
+     "tokens": {
+      "input": 122,
+      "output": 21609,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 118660,
+      "cacheRead": 5219209,
+      "reasoning": 0
+     },
+     "usd": 4.337039,
+     "requests": 65,
+     "total": 5359600
+    }
+   },
+   "total": 106520126
+  }
+ },
+ "generatedAt": "2026-09-13T16:00:29.129Z"
+}
