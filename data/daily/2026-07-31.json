@@ -1,28 +1,28 @@
 {
  "date": "2026-07-31",
- "total": 59073521,
+ "total": 57891039,
  "tokens": {
-  "input": 637,
-  "output": 209227,
+  "input": 596,
+  "output": 190642,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1270387,
-  "cacheRead": 57593270,
+  "cacheWrite1h": 1179810,
+  "cacheRead": 56519991,
   "reasoning": 0
  },
- "usd": 46.734365,
- "requests": 330,
+ "usd": 44.827125,
+ "requests": 307,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 637,
-    "output": 209227,
+    "input": 596,
+    "output": 190642,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1270387,
-    "cacheRead": 57593270,
+    "cacheWrite1h": 1179810,
+    "cacheRead": 56519991,
     "reasoning": 0
    },
-   "usd": 46.734365,
-   "requests": 330,
+   "usd": 44.827125,
+   "requests": 307,
    "models": {
     "claude-opus-4-8": {
      "tokens": {
@@ -47,21 +47,21 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 3,
+     "requests": 2,
      "total": 0
     },
     "claude-opus-5": {
      "tokens": {
-      "input": 361,
-      "output": 127249,
+      "input": 320,
+      "output": 108664,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 648500,
-      "cacheRead": 31880567,
+      "cacheWrite1h": 557923,
+      "cacheRead": 30807288,
       "reasoning": 0
      },
-     "usd": 25.608314,
-     "requests": 189,
-     "total": 32656677
+     "usd": 23.701074,
+     "requests": 167,
+     "total": 31474195
     }
    },
    "projects": {
@@ -77,23 +77,10 @@
      "usd": 44.827125,
      "requests": 307,
      "total": 57891039
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/KopEdu///RintisKop": {
-     "tokens": {
-      "input": 41,
-      "output": 18585,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 90577,
-      "cacheRead": 1073279,
-      "reasoning": 0
-     },
-     "usd": 1.90724,
-     "requests": 23,
-     "total": 1182482
     }
    },
-   "total": 59073521
+   "total": 57891039
   }
  },
- "generatedAt": "2026-09-13T16:00:29.093Z"
+ "generatedAt": "2026-09-14T17:17:34.127Z"
 }

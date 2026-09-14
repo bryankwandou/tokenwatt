@@ -1,0 +1,125 @@
+{
+ "date": "2026-09-15",
+ "total": 9992844,
+ "tokens": {
+  "input": 122,
+  "output": 142472,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 264285,
+  "cacheRead": 9585965,
+  "reasoning": 0
+ },
+ "usd": 10.998242,
+ "requests": 71,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 122,
+    "output": 142472,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 264285,
+    "cacheRead": 9585965,
+    "reasoning": 0
+   },
+   "usd": 10.998242,
+   "requests": 71,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 11,
+     "total": 0
+    },
+    "claude-opus-5": {
+     "tokens": {
+      "input": 122,
+      "output": 142472,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 264285,
+      "cacheRead": 9585965,
+      "reasoning": 0
+     },
+     "usd": 10.998242,
+     "requests": 60,
+     "total": 9992844
+    }
+   },
+   "projects": {
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/11/61ac9b": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 0
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/14/2cbbe1": {
+     "tokens": {
+      "input": 18,
+      "output": 51597,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 63804,
+      "cacheRead": 1987697,
+      "reasoning": 0
+     },
+     "usd": 2.921903,
+     "requests": 11,
+     "total": 2103116
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/14/96a385": {
+     "tokens": {
+      "input": 32,
+      "output": 39813,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 75098,
+      "cacheRead": 2259202,
+      "reasoning": 0
+     },
+     "usd": 2.876066,
+     "requests": 18,
+     "total": 2374145
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/countersig": {
+     "tokens": {
+      "input": 52,
+      "output": 28377,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 52413,
+      "cacheRead": 3556388,
+      "reasoning": 0
+     },
+     "usd": 3.012009,
+     "requests": 27,
+     "total": 3637230
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/NusaHarvest/V2/revamp": {
+     "tokens": {
+      "input": 20,
+      "output": 22685,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 72970,
+      "cacheRead": 1782678,
+      "reasoning": 0
+     },
+     "usd": 2.188264,
+     "requests": 13,
+     "total": 1878353
+    }
+   },
+   "total": 9992844
+  }
+ },
+ "generatedAt": "2026-09-14T17:17:35.384Z"
+}

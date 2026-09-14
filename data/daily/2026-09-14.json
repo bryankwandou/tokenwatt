@@ -1,0 +1,190 @@
+{
+ "date": "2026-09-14",
+ "total": 177256859,
+ "tokens": {
+  "input": 1336,
+  "output": 705687,
+  "cacheWrite5m": 613543,
+  "cacheWrite1h": 4229215,
+  "cacheRead": 171707078,
+  "reasoning": 0
+ },
+ "usd": 149.174361,
+ "requests": 684,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 1336,
+    "output": 705687,
+    "cacheWrite5m": 613543,
+    "cacheWrite1h": 4229215,
+    "cacheRead": 171707078,
+    "reasoning": 0
+   },
+   "usd": 149.174361,
+   "requests": 684,
+   "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 1318,
+      "output": 705644,
+      "cacheWrite5m": 470266,
+      "cacheWrite1h": 4229215,
+      "cacheRead": 171226238,
+      "reasoning": 0
+     },
+     "usd": 148.492121,
+     "requests": 655,
+     "total": 176632681
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 20,
+     "total": 0
+    },
+    "claude-sonnet-5": {
+     "tokens": {
+      "input": 18,
+      "output": 43,
+      "cacheWrite5m": 143277,
+      "cacheWrite1h": 0,
+      "cacheRead": 480840,
+      "reasoning": 0
+     },
+     "usd": 0.68224,
+     "requests": 9,
+     "total": 624178
+    }
+   },
+   "projects": {
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/14/2cbbe1": {
+     "tokens": {
+      "input": 46,
+      "output": 20275,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 198673,
+      "cacheRead": 2941088,
+      "reasoning": 0
+     },
+     "usd": 3.964379,
+     "requests": 28,
+     "total": 3160082
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/14/836263": {
+     "tokens": {
+      "input": 80,
+      "output": 13235,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 77572,
+      "cacheRead": 3626932,
+      "reasoning": 0
+     },
+     "usd": 2.920461,
+     "requests": 38,
+     "total": 3717819
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/14/96a385": {
+     "tokens": {
+      "input": 20,
+      "output": 35579,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 54882,
+      "cacheRead": 821875,
+      "reasoning": 0
+     },
+     "usd": 1.849333,
+     "requests": 10,
+     "total": 912356
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/14/b3e0c8": {
+     "tokens": {
+      "input": 16,
+      "output": 8107,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 107891,
+      "cacheRead": 610330,
+      "reasoning": 0
+     },
+     "usd": 1.58683,
+     "requests": 8,
+     "total": 726344
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blockbite/xyz/persero": {
+     "tokens": {
+      "input": 132,
+      "output": 51462,
+      "cacheWrite5m": 268690,
+      "cacheWrite1h": 491868,
+      "cacheRead": 11699074,
+      "reasoning": 0
+     },
+     "usd": 13.73474,
+     "requests": 67,
+     "total": 12511226
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/countersig": {
+     "tokens": {
+      "input": 224,
+      "output": 83804,
+      "cacheWrite5m": 143277,
+      "cacheWrite1h": 1016331,
+      "cacheRead": 24819851,
+      "reasoning": 0
+     },
+     "usd": 25.11011,
+     "requests": 118,
+     "total": 26063487
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/NusaHarvest/V2/revamp": {
+     "tokens": {
+      "input": 120,
+      "output": 116897,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 551277,
+      "cacheRead": 13512909,
+      "reasoning": 0
+     },
+     "usd": 15.19225,
+     "requests": 66,
+     "total": 14181203
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/replayproof": {
+     "tokens": {
+      "input": 492,
+      "output": 285959,
+      "cacheWrite5m": 201576,
+      "cacheWrite1h": 1383753,
+      "cacheRead": 98854226,
+      "reasoning": 0
+     },
+     "usd": 71.675928,
+     "requests": 245,
+     "total": 100726006
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/zynqio": {
+     "tokens": {
+      "input": 206,
+      "output": 90369,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 346968,
+      "cacheRead": 14820793,
+      "reasoning": 0
+     },
+     "usd": 13.140332,
+     "requests": 104,
+     "total": 15258336
+    }
+   },
+   "total": 177256859
+  }
+ },
+ "generatedAt": "2026-09-14T17:17:35.382Z"
+}
