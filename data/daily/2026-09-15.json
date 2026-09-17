@@ -1,28 +1,28 @@
 {
  "date": "2026-09-15",
- "total": 9992844,
+ "total": 224378710,
  "tokens": {
-  "input": 122,
-  "output": 142472,
-  "cacheWrite5m": 0,
-  "cacheWrite1h": 264285,
-  "cacheRead": 9585965,
+  "input": 2220,
+  "output": 1023329,
+  "cacheWrite5m": 337663,
+  "cacheWrite1h": 3679266,
+  "cacheRead": 219336232,
   "reasoning": 0
  },
- "usd": 10.998242,
- "requests": 71,
+ "usd": 173.277372,
+ "requests": 1154,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 122,
-    "output": 142472,
-    "cacheWrite5m": 0,
-    "cacheWrite1h": 264285,
-    "cacheRead": 9585965,
+    "input": 2220,
+    "output": 1023329,
+    "cacheWrite5m": 337663,
+    "cacheWrite1h": 3679266,
+    "cacheRead": 219336232,
     "reasoning": 0
    },
-   "usd": 10.998242,
-   "requests": 71,
+   "usd": 173.277372,
+   "requests": 1154,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,25 +34,38 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 11,
+     "requests": 58,
      "total": 0
+    },
+    "claude-sonnet-5": {
+     "tokens": {
+      "input": 66,
+      "output": 7763,
+      "cacheWrite5m": 115696,
+      "cacheWrite1h": 0,
+      "cacheRead": 2605603,
+      "reasoning": 0
+     },
+     "usd": 1.332184,
+     "requests": 33,
+     "total": 2729128
     },
     "claude-opus-5": {
      "tokens": {
-      "input": 122,
-      "output": 142472,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 264285,
-      "cacheRead": 9585965,
+      "input": 2154,
+      "output": 1015566,
+      "cacheWrite5m": 221967,
+      "cacheWrite1h": 3679266,
+      "cacheRead": 216730629,
       "reasoning": 0
      },
-     "usd": 10.998242,
-     "requests": 60,
-     "total": 9992844
+     "usd": 171.945188,
+     "requests": 1063,
+     "total": 221649582
     }
    },
    "projects": {
-    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/11/61ac9b": {
+    "C//Users/arche": {
      "tokens": {
       "input": 0,
       "output": 0,
@@ -62,64 +75,116 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 2,
+     "requests": 18,
      "total": 0
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/11/61ac9b": {
+     "tokens": {
+      "input": 194,
+      "output": 50333,
+      "cacheWrite5m": 115696,
+      "cacheWrite1h": 147261,
+      "cacheRead": 9584285,
+      "reasoning": 0
+     },
+     "usd": 7.359025,
+     "requests": 105,
+     "total": 9897769
     },
     "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/14/2cbbe1": {
      "tokens": {
-      "input": 18,
-      "output": 51597,
+      "input": 30,
+      "output": 58380,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 63804,
-      "cacheRead": 1987697,
+      "cacheWrite1h": 107962,
+      "cacheRead": 2450819,
       "reasoning": 0
      },
-     "usd": 2.921903,
-     "requests": 11,
-     "total": 2103116
+     "usd": 3.76468,
+     "requests": 18,
+     "total": 2617191
     },
     "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/14/96a385": {
      "tokens": {
-      "input": 32,
-      "output": 39813,
+      "input": 388,
+      "output": 236550,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 75098,
-      "cacheRead": 2259202,
+      "cacheWrite1h": 800192,
+      "cacheRead": 43618888,
       "reasoning": 0
      },
-     "usd": 2.876066,
-     "requests": 18,
-     "total": 2374145
+     "usd": 35.727054,
+     "requests": 199,
+     "total": 44656018
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/6734f12e/b6da/4e99/bbdc/c71b9605f31a/cafa242a/1ab8/452a/8cc9/0b32d937f7bf/scratch/2026/09/15/a88466": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 630,
+      "output": 262154,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1634700,
+      "cacheRead": 41277149,
+      "reasoning": 0
+     },
+     "usd": 43.542575,
+     "requests": 318,
+     "total": 43174633
     },
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/countersig": {
      "tokens": {
-      "input": 52,
-      "output": 28377,
+      "input": 752,
+      "output": 295603,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 52413,
-      "cacheRead": 3556388,
+      "cacheWrite1h": 650120,
+      "cacheRead": 108208524,
       "reasoning": 0
      },
-     "usd": 3.012009,
-     "requests": 27,
-     "total": 3637230
+     "usd": 67.999297,
+     "requests": 374,
+     "total": 109154999
     },
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/NusaHarvest/V2/revamp": {
      "tokens": {
-      "input": 20,
-      "output": 22685,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 72970,
-      "cacheRead": 1782678,
+      "input": 224,
+      "output": 120115,
+      "cacheWrite5m": 221967,
+      "cacheWrite1h": 315574,
+      "cacheRead": 14164496,
       "reasoning": 0
      },
-     "usd": 2.188264,
-     "requests": 13,
-     "total": 1878353
+     "usd": 14.629277,
+     "requests": 118,
+     "total": 14822376
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
+     "tokens": {
+      "input": 2,
+      "output": 194,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 23457,
+      "cacheRead": 32071,
+      "reasoning": 0
+     },
+     "usd": 0.255466,
+     "requests": 3,
+     "total": 55724
     }
    },
-   "total": 9992844
+   "total": 224378710
   }
  },
- "generatedAt": "2026-09-14T17:17:35.384Z"
+ "generatedAt": "2026-09-17T16:02:36.645Z"
 }

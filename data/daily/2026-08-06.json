@@ -1,28 +1,28 @@
 {
  "date": "2026-08-06",
- "total": 83752754,
+ "total": 43878617,
  "tokens": {
-  "input": 5182,
-  "output": 301985,
+  "input": 3009,
+  "output": 151432,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 3384961,
-  "cacheRead": 80060626,
+  "cacheWrite1h": 2143673,
+  "cacheRead": 41580503,
   "reasoning": 0
  },
- "usd": 81.172818,
- "requests": 455,
+ "usd": 45.745187,
+ "requests": 258,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 5182,
-    "output": 301985,
+    "input": 3009,
+    "output": 151432,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 3384961,
-    "cacheRead": 80060626,
+    "cacheWrite1h": 2143673,
+    "cacheRead": 41580503,
     "reasoning": 0
    },
-   "usd": 81.172818,
-   "requests": 455,
+   "usd": 45.745187,
+   "requests": 258,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,21 +34,21 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 17,
+     "requests": 9,
      "total": 0
     },
     "claude-opus-5": {
      "tokens": {
-      "input": 5172,
-      "output": 301059,
+      "input": 2999,
+      "output": 150506,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 3351951,
-      "cacheRead": 80060626,
+      "cacheWrite1h": 2110663,
+      "cacheRead": 41580503,
       "reasoning": 0
      },
-     "usd": 81.102158,
-     "requests": 437,
-     "total": 83718808
+     "usd": 45.674527,
+     "requests": 248,
+     "total": 43844671
     },
     "claude-haiku-4-5-20251001": {
      "tokens": {
@@ -75,7 +75,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 8,
+     "requests": 2,
      "total": 0
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
@@ -91,19 +91,6 @@
      "requests": 216,
      "total": 29117963
     },
-    "e//Download/vericode/ai": {
-     "tokens": {
-      "input": 2173,
-      "output": 150553,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 1241288,
-      "cacheRead": 38480123,
-      "reasoning": 0
-     },
-     "usd": 35.427632,
-     "requests": 191,
-     "total": 39874137
-    },
     "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
      "tokens": {
       "input": 71,
@@ -118,8 +105,8 @@
      "total": 14760654
     }
    },
-   "total": 83752754
+   "total": 43878617
   }
  },
- "generatedAt": "2026-09-14T17:17:34.241Z"
+ "generatedAt": "2026-09-17T16:02:36.530Z"
 }

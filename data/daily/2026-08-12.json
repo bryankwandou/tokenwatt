@@ -1,41 +1,41 @@
 {
  "date": "2026-08-12",
- "total": 53228535,
+ "total": 24166873,
  "tokens": {
-  "input": 1445,
-  "output": 180080,
+  "input": 1288,
+  "output": 128617,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 2392272,
-  "cacheRead": 50654738,
+  "cacheWrite1h": 778844,
+  "cacheRead": 23258124,
   "reasoning": 0
  },
- "usd": 53.759314,
- "requests": 252,
+ "usd": 22.639367,
+ "requests": 168,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 1445,
-    "output": 180080,
+    "input": 1288,
+    "output": 128617,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 2392272,
-    "cacheRead": 50654738,
+    "cacheWrite1h": 778844,
+    "cacheRead": 23258124,
     "reasoning": 0
    },
-   "usd": 53.759314,
-   "requests": 252,
+   "usd": 22.639367,
+   "requests": 168,
    "models": {
     "claude-opus-5": {
      "tokens": {
-      "input": 1445,
-      "output": 180080,
+      "input": 1288,
+      "output": 128617,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 2392272,
-      "cacheRead": 50654738,
+      "cacheWrite1h": 778844,
+      "cacheRead": 23258124,
       "reasoning": 0
      },
-     "usd": 53.759314,
-     "requests": 236,
-     "total": 53228535
+     "usd": 22.639367,
+     "requests": 157,
+     "total": 24166873
     },
     "<synthetic>": {
      "tokens": {
@@ -47,23 +47,23 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 16,
+     "requests": 11,
      "total": 0
     }
    },
    "projects": {
     "C//Users/arche": {
      "tokens": {
-      "input": 1255,
-      "output": 106237,
+      "input": 1115,
+      "output": 62578,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1948476,
-      "cacheRead": 28777456,
+      "cacheWrite1h": 343198,
+      "cacheRead": 6519434,
       "reasoning": 0
      },
-     "usd": 36.535688,
-     "requests": 143,
-     "total": 30833424
+     "usd": 8.261722,
+     "requests": 69,
+     "total": 6926325
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
@@ -77,23 +77,10 @@
      "usd": 14.377645,
      "requests": 99,
      "total": 17240548
-    },
-    "e//Download/vericode/ai": {
-     "tokens": {
-      "input": 17,
-      "output": 7804,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 8150,
-      "cacheRead": 5138592,
-      "reasoning": 0
-     },
-     "usd": 2.845981,
-     "requests": 10,
-     "total": 5154563
     }
    },
-   "total": 53228535
+   "total": 24166873
   }
  },
- "generatedAt": "2026-09-14T17:17:34.388Z"
+ "generatedAt": "2026-09-17T16:02:36.534Z"
 }

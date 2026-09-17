@@ -1,28 +1,28 @@
 {
  "date": "2026-08-17",
- "total": 172261703,
+ "total": 108551223,
  "tokens": {
-  "input": 14215,
-  "output": 923463,
+  "input": 13436,
+  "output": 825061,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 6407940,
-  "cacheRead": 164916085,
+  "cacheWrite1h": 4972769,
+  "cacheRead": 102739957,
   "reasoning": 0
  },
- "usd": 169.026443,
- "requests": 1090,
+ "usd": 121.122724,
+ "requests": 968,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 14215,
-    "output": 923463,
+    "input": 13436,
+    "output": 825061,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 6407940,
-    "cacheRead": 164916085,
+    "cacheWrite1h": 4972769,
+    "cacheRead": 102739957,
     "reasoning": 0
    },
-   "usd": 169.026443,
-   "requests": 1090,
+   "usd": 121.122724,
+   "requests": 968,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,21 +34,21 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 95,
+     "requests": 91,
      "total": 0
     },
     "claude-opus-5": {
      "tokens": {
-      "input": 14138,
-      "output": 906655,
+      "input": 13359,
+      "output": 808253,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 6313938,
-      "cacheRead": 164387832,
+      "cacheWrite1h": 4878767,
+      "cacheRead": 102211704,
       "reasoning": 0
      },
-     "usd": 168.070361,
-     "requests": 982,
-     "total": 171622563
+     "usd": 120.166642,
+     "requests": 864,
+     "total": 107912083
     },
     "claude-haiku-4-5-20251001": {
      "tokens": {
@@ -103,23 +103,10 @@
      "usd": 21.96264,
      "requests": 190,
      "total": 16632772
-    },
-    "e//Download/vericode/ai": {
-     "tokens": {
-      "input": 779,
-      "output": 98402,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 1435171,
-      "cacheRead": 62176128,
-      "reasoning": 0
-     },
-     "usd": 47.903719,
-     "requests": 122,
-     "total": 63710480
     }
    },
-   "total": 172261703
+   "total": 108551223
   }
  },
- "generatedAt": "2026-09-14T17:17:34.666Z"
+ "generatedAt": "2026-09-17T16:02:36.557Z"
 }
