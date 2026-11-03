@@ -1,0 +1,125 @@
+{
+ "date": "2026-10-02",
+ "total": 332909374,
+ "tokens": {
+  "input": 3122,
+  "output": 1302880,
+  "cacheWrite5m": 3568752,
+  "cacheWrite1h": 3339348,
+  "cacheRead": 324695272,
+  "reasoning": 0
+ },
+ "usd": 237.234832,
+ "requests": 1557,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 3122,
+    "output": 1302880,
+    "cacheWrite5m": 3568752,
+    "cacheWrite1h": 3339348,
+    "cacheRead": 324695272,
+    "reasoning": 0
+   },
+   "usd": 237.234832,
+   "requests": 1557,
+   "models": {
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 2670,
+      "output": 1274812,
+      "cacheWrite5m": 759774,
+      "cacheWrite1h": 3269594,
+      "cacheRead": 295617527,
+      "reasoning": 0
+     },
+     "usd": 217.136941,
+     "requests": 1296,
+     "total": 300924377
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 40,
+     "total": 0
+    },
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 452,
+      "output": 28068,
+      "cacheWrite5m": 2808978,
+      "cacheWrite1h": 69754,
+      "cacheRead": 29077745,
+      "reasoning": 0
+     },
+     "usd": 20.097891,
+     "requests": 221,
+     "total": 31984997
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 44,
+      "output": 9533,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 154679,
+      "cacheRead": 1730356,
+      "reasoning": 0
+     },
+     "usd": 2.650513,
+     "requests": 22,
+     "total": 1894612
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/79c2c685/5392/43bf/8762/c2773a8a6c65/e07bd335/a174/4bad/a3ae/45f73059fb1a/scratch/2026/10/02/309956": {
+     "tokens": {
+      "input": 32,
+      "output": 9056,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 69754,
+      "cacheRead": 1572215,
+      "reasoning": 0
+     },
+     "usd": 1.026125,
+     "requests": 16,
+     "total": 1651057
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 2584,
+      "output": 898067,
+      "cacheWrite5m": 3568752,
+      "cacheWrite1h": 2225887,
+      "cacheRead": 248122467,
+      "reasoning": 0
+     },
+     "usd": 178.374888,
+     "requests": 1287,
+     "total": 254817757
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
+     "tokens": {
+      "input": 462,
+      "output": 386224,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 889028,
+      "cacheRead": 73270234,
+      "reasoning": 0
+     },
+     "usd": 55.183307,
+     "requests": 232,
+     "total": 74545948
+    }
+   },
+   "total": 332909374
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.550Z"
+}

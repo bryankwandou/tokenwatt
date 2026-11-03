@@ -1,28 +1,28 @@
 {
  "date": "2026-09-08",
- "total": 78363827,
+ "total": 21558912,
  "tokens": {
-  "input": 638,
-  "output": 250527,
+  "input": 182,
+  "output": 76117,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 1189183,
-  "cacheRead": 76923479,
+  "cacheWrite1h": 276352,
+  "cacheRead": 21206261,
   "reasoning": 0
  },
- "usd": 56.619934,
- "requests": 353,
+ "usd": 15.270486,
+ "requests": 96,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 638,
-    "output": 250527,
+    "input": 182,
+    "output": 76117,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 1189183,
-    "cacheRead": 76923479,
+    "cacheWrite1h": 276352,
+    "cacheRead": 21206261,
     "reasoning": 0
    },
-   "usd": 56.619934,
-   "requests": 353,
+   "usd": 15.270486,
+   "requests": 96,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,21 +34,21 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 34,
+     "requests": 5,
      "total": 0
     },
     "claude-opus-5": {
      "tokens": {
-      "input": 638,
-      "output": 250527,
+      "input": 182,
+      "output": 76117,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1189183,
-      "cacheRead": 76923479,
+      "cacheWrite1h": 276352,
+      "cacheRead": 21206261,
       "reasoning": 0
      },
-     "usd": 56.619934,
-     "requests": 319,
-     "total": 78363827
+     "usd": 15.270486,
+     "requests": 91,
+     "total": 21558912
     }
    },
    "projects": {
@@ -62,38 +62,25 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 7,
+     "requests": 3,
      "total": 0
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 572,
-      "output": 219251,
+      "input": 182,
+      "output": 76117,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 1113976,
-      "cacheRead": 59323524,
+      "cacheWrite1h": 276352,
+      "cacheRead": 21206261,
       "reasoning": 0
      },
-     "usd": 46.285657,
-     "requests": 313,
-     "total": 60657323
-    },
-    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/blindband": {
-     "tokens": {
-      "input": 66,
-      "output": 31276,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 75207,
-      "cacheRead": 17599955,
-      "reasoning": 0
-     },
-     "usd": 10.334278,
-     "requests": 33,
-     "total": 17706504
+     "usd": 15.270486,
+     "requests": 93,
+     "total": 21558912
     }
    },
-   "total": 78363827
+   "total": 21558912
   }
  },
- "generatedAt": "2026-09-17T16:02:36.639Z"
+ "generatedAt": "2026-11-03T07:42:51.504Z"
 }

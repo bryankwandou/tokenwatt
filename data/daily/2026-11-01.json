@@ -1,0 +1,99 @@
+{
+ "date": "2026-11-01",
+ "total": 289588658,
+ "tokens": {
+  "input": 2184,
+  "output": 1040270,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 4525562,
+  "cacheRead": 284020642,
+  "reasoning": 0
+ },
+ "usd": 206.335681,
+ "requests": 1024,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 2184,
+    "output": 1040270,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 4525562,
+    "cacheRead": 284020642,
+    "reasoning": 0
+   },
+   "usd": 206.335681,
+   "requests": 1024,
+   "models": {
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 2076,
+      "output": 1007985,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 4007456,
+      "cacheRead": 278628267,
+      "reasoning": 0
+     },
+     "usd": 204.598698,
+     "requests": 956,
+     "total": 283645784
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 15,
+     "total": 0
+    },
+    "claude-haiku-5-5": {
+     "tokens": {
+      "input": 108,
+      "output": 32285,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 518106,
+      "cacheRead": 5392375,
+      "reasoning": 0
+     },
+     "usd": 1.736982,
+     "requests": 53,
+     "total": 5942874
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 360,
+      "output": 167541,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 890360,
+      "cacheRead": 67581636,
+      "reasoning": 0
+     },
+     "usd": 46.884743,
+     "requests": 176,
+     "total": 68639897
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 1824,
+      "output": 872729,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 3635202,
+      "cacheRead": 216439006,
+      "reasoning": 0
+     },
+     "usd": 159.450938,
+     "requests": 848,
+     "total": 220948761
+    }
+   },
+   "total": 289588658
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.632Z"
+}

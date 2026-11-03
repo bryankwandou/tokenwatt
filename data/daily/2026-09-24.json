@@ -1,0 +1,99 @@
+{
+ "date": "2026-09-24",
+ "total": 46218558,
+ "tokens": {
+  "input": 950,
+  "output": 279710,
+  "cacheWrite5m": 2420397,
+  "cacheWrite1h": 556701,
+  "cacheRead": 42960800,
+  "reasoning": 0
+ },
+ "usd": 39.921539,
+ "requests": 482,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 950,
+    "output": 279710,
+    "cacheWrite5m": 2420397,
+    "cacheWrite1h": 556701,
+    "cacheRead": 42960800,
+    "reasoning": 0
+   },
+   "usd": 39.921539,
+   "requests": 482,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 25,
+     "total": 0
+    },
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 698,
+      "output": 203986,
+      "cacheWrite5m": 332322,
+      "cacheWrite1h": 553670,
+      "cacheRead": 26428833,
+      "reasoning": 0
+     },
+     "usd": 25.931269,
+     "requests": 331,
+     "total": 27519509
+    },
+    "claude-sonnet-5": {
+     "tokens": {
+      "input": 250,
+      "output": 75559,
+      "cacheWrite5m": 2088075,
+      "cacheWrite1h": 0,
+      "cacheRead": 16372875,
+      "reasoning": 0
+     },
+     "usd": 13.876279,
+     "requests": 125,
+     "total": 18536759
+    },
+    "claude-opus-5": {
+     "tokens": {
+      "input": 2,
+      "output": 165,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 3031,
+      "cacheRead": 159092,
+      "reasoning": 0
+     },
+     "usd": 0.113991,
+     "requests": 1,
+     "total": 162290
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 950,
+      "output": 279710,
+      "cacheWrite5m": 2420397,
+      "cacheWrite1h": 556701,
+      "cacheRead": 42960800,
+      "reasoning": 0
+     },
+     "usd": 39.921539,
+     "requests": 482,
+     "total": 46218558
+    }
+   },
+   "total": 46218558
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.537Z"
+}

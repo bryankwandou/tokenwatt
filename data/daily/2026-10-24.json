@@ -1,0 +1,99 @@
+{
+ "date": "2026-10-24",
+ "total": 289917745,
+ "tokens": {
+  "input": 4158,
+  "output": 1247010,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 6386655,
+  "cacheRead": 282279922,
+  "reasoning": 0
+ },
+ "usd": 235.77839,
+ "requests": 2056,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 4158,
+    "output": 1247010,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 6386655,
+    "cacheRead": 282279922,
+    "reasoning": 0
+   },
+   "usd": 235.77839,
+   "requests": 2056,
+   "models": {
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 4156,
+      "output": 1246151,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 6337174,
+      "cacheRead": 282252110,
+      "reasoning": 0
+     },
+     "usd": 235.67235,
+     "requests": 1984,
+     "total": 289839591
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 71,
+     "total": 0
+    },
+    "claude-haiku-5-5": {
+     "tokens": {
+      "input": 2,
+      "output": 859,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 49481,
+      "cacheRead": 27812,
+      "reasoning": 0
+     },
+     "usd": 0.10604,
+     "requests": 1,
+     "total": 78154
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 2694,
+      "output": 831824,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 3811701,
+      "cacheRead": 169057625,
+      "reasoning": 0
+     },
+     "usd": 143.030732,
+     "requests": 1335,
+     "total": 173703844
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 1464,
+      "output": 415186,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2574954,
+      "cacheRead": 113222297,
+      "reasoning": 0
+     },
+     "usd": 92.747658,
+     "requests": 721,
+     "total": 116213901
+    }
+   },
+   "total": 289917745
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.602Z"
+}

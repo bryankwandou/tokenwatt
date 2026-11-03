@@ -1,0 +1,128 @@
+{
+ "date": "2026-10-23",
+ "total": 203092448,
+ "tokens": {
+  "input": 7285777,
+  "output": 867880,
+  "cacheWrite5m": 285570,
+  "cacheWrite1h": 2389783,
+  "cacheRead": 192263438,
+  "reasoning": 0
+ },
+ "usd": 85.581375,
+ "requests": 1438,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 880,
+    "output": 441263,
+    "cacheWrite5m": 285570,
+    "cacheWrite1h": 2389783,
+    "cacheRead": 64422385,
+    "reasoning": 0
+   },
+   "usd": 68.92981,
+   "requests": 451,
+   "models": {
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 880,
+      "output": 441263,
+      "cacheWrite5m": 285570,
+      "cacheWrite1h": 2389783,
+      "cacheRead": 64422385,
+      "reasoning": 0
+     },
+     "usd": 68.92981,
+     "requests": 432,
+     "total": 67539881
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 19,
+     "total": 0
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 652,
+      "output": 284255,
+      "cacheWrite5m": 285570,
+      "cacheWrite1h": 993102,
+      "cacheRead": 34689262,
+      "reasoning": 0
+     },
+     "usd": 36.170099,
+     "requests": 335,
+     "total": 36252841
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 228,
+      "output": 157008,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 1396681,
+      "cacheRead": 29733123,
+      "reasoning": 0
+     },
+     "usd": 32.759712,
+     "requests": 116,
+     "total": 31287040
+    }
+   },
+   "total": 67539881
+  },
+  "antigravity": {
+   "tokens": {
+    "input": 7284897,
+    "output": 426617,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 0,
+    "cacheRead": 127841053,
+    "reasoning": 0
+   },
+   "usd": 16.651565,
+   "requests": 987,
+   "models": {
+    "gemini-3.8-flash-n": {
+     "tokens": {
+      "input": 7277538,
+      "output": 421941,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 127467921,
+      "reasoning": 0
+     },
+     "usd": 16.600526,
+     "requests": 984,
+     "total": 135167400
+    },
+    "gemini-3.8-flash-high": {
+     "tokens": {
+      "input": 7359,
+      "output": 4676,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 373132,
+      "reasoning": 0
+     },
+     "usd": 0.051039,
+     "requests": 3,
+     "total": 385167
+    }
+   },
+   "projects": {},
+   "total": 135552567
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.601Z"
+}

@@ -1,41 +1,41 @@
 {
  "date": "2026-08-12",
- "total": 24166873,
+ "total": 1279467,
  "tokens": {
-  "input": 1288,
-  "output": 128617,
+  "input": 10,
+  "output": 2644,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 778844,
-  "cacheRead": 23258124,
+  "cacheWrite1h": 238766,
+  "cacheRead": 1038047,
   "reasoning": 0
  },
- "usd": 22.639367,
- "requests": 168,
+ "usd": 2.972833,
+ "requests": 6,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 1288,
-    "output": 128617,
+    "input": 10,
+    "output": 2644,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 778844,
-    "cacheRead": 23258124,
+    "cacheWrite1h": 238766,
+    "cacheRead": 1038047,
     "reasoning": 0
    },
-   "usd": 22.639367,
-   "requests": 168,
+   "usd": 2.972833,
+   "requests": 6,
    "models": {
     "claude-opus-5": {
      "tokens": {
-      "input": 1288,
-      "output": 128617,
+      "input": 10,
+      "output": 2644,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 778844,
-      "cacheRead": 23258124,
+      "cacheWrite1h": 238766,
+      "cacheRead": 1038047,
       "reasoning": 0
      },
-     "usd": 22.639367,
-     "requests": 157,
-     "total": 24166873
+     "usd": 2.972833,
+     "requests": 5,
+     "total": 1279467
     },
     "<synthetic>": {
      "tokens": {
@@ -47,40 +47,27 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 11,
+     "requests": 1,
      "total": 0
     }
    },
    "projects": {
     "C//Users/arche": {
      "tokens": {
-      "input": 1115,
-      "output": 62578,
+      "input": 10,
+      "output": 2644,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 343198,
-      "cacheRead": 6519434,
+      "cacheWrite1h": 238766,
+      "cacheRead": 1038047,
       "reasoning": 0
      },
-     "usd": 8.261722,
-     "requests": 69,
-     "total": 6926325
-    },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
-     "tokens": {
-      "input": 173,
-      "output": 66039,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 435646,
-      "cacheRead": 16738690,
-      "reasoning": 0
-     },
-     "usd": 14.377645,
-     "requests": 99,
-     "total": 17240548
+     "usd": 2.972833,
+     "requests": 6,
+     "total": 1279467
     }
    },
-   "total": 24166873
+   "total": 1279467
   }
  },
- "generatedAt": "2026-09-17T16:02:36.534Z"
+ "generatedAt": "2026-11-03T07:42:51.447Z"
 }

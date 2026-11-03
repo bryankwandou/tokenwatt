@@ -1,0 +1,112 @@
+{
+ "date": "2026-10-31",
+ "total": 346161744,
+ "tokens": {
+  "input": 4462,
+  "output": 1664035,
+  "cacheWrite5m": 1781638,
+  "cacheWrite1h": 5928603,
+  "cacheRead": 336783006,
+  "reasoning": 0
+ },
+ "usd": 273.894031,
+ "requests": 2045,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 4462,
+    "output": 1664035,
+    "cacheWrite5m": 1781638,
+    "cacheWrite1h": 5928603,
+    "cacheRead": 336783006,
+    "reasoning": 0
+   },
+   "usd": 273.894031,
+   "requests": 2045,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 53,
+     "total": 0
+    },
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 4346,
+      "output": 1508763,
+      "cacheWrite5m": 1263692,
+      "cacheWrite1h": 5738766,
+      "cacheRead": 331493695,
+      "reasoning": 0
+     },
+     "usd": 268.773387,
+     "requests": 1935,
+     "total": 340009262
+    },
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 40,
+      "output": 133564,
+      "cacheWrite5m": 517946,
+      "cacheWrite1h": 0,
+      "cacheRead": 787727,
+      "reasoning": 0
+     },
+     "usd": 4.182196,
+     "requests": 20,
+     "total": 1439277
+    },
+    "claude-haiku-5-5": {
+     "tokens": {
+      "input": 76,
+      "output": 21708,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 189837,
+      "cacheRead": 4501584,
+      "reasoning": 0
+     },
+     "usd": 0.938448,
+     "requests": 37,
+     "total": 4713205
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 1366,
+      "output": 559106,
+      "cacheWrite5m": 1407766,
+      "cacheWrite1h": 2219808,
+      "cacheRead": 89167808,
+      "reasoning": 0
+     },
+     "usd": 86.776871,
+     "requests": 688,
+     "total": 93355854
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 3096,
+      "output": 1104929,
+      "cacheWrite5m": 373872,
+      "cacheWrite1h": 3708795,
+      "cacheRead": 247615198,
+      "reasoning": 0
+     },
+     "usd": 187.11716,
+     "requests": 1357,
+     "total": 252805890
+    }
+   },
+   "total": 346161744
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.632Z"
+}

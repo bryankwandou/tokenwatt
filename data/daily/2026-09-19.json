@@ -1,0 +1,86 @@
+{
+ "date": "2026-09-19",
+ "total": 520477,
+ "tokens": {
+  "input": 8,
+  "output": 4139,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 2420,
+  "cacheRead": 513910,
+  "reasoning": 0
+ },
+ "usd": 0.38467,
+ "requests": 6,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 8,
+    "output": 4139,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 2420,
+    "cacheRead": 513910,
+    "reasoning": 0
+   },
+   "usd": 0.38467,
+   "requests": 6,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 0
+    },
+    "claude-opus-5": {
+     "tokens": {
+      "input": 8,
+      "output": 4139,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2420,
+      "cacheRead": 513910,
+      "reasoning": 0
+     },
+     "usd": 0.38467,
+     "requests": 4,
+     "total": 520477
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 0
+    },
+    "E//Download/near/legion/video": {
+     "tokens": {
+      "input": 8,
+      "output": 4139,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2420,
+      "cacheRead": 513910,
+      "reasoning": 0
+     },
+     "usd": 0.38467,
+     "requests": 4,
+     "total": 520477
+    }
+   },
+   "total": 520477
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.534Z"
+}

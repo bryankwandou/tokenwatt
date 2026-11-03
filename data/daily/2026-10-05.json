@@ -1,0 +1,112 @@
+{
+ "date": "2026-10-05",
+ "total": 239071047,
+ "tokens": {
+  "input": 3838,
+  "output": 876723,
+  "cacheWrite5m": 6120005,
+  "cacheWrite1h": 2563604,
+  "cacheRead": 229506877,
+  "reasoning": 0
+ },
+ "usd": 185.921078,
+ "requests": 1785,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 3838,
+    "output": 876723,
+    "cacheWrite5m": 6120005,
+    "cacheWrite1h": 2563604,
+    "cacheRead": 229506877,
+    "reasoning": 0
+   },
+   "usd": 185.921078,
+   "requests": 1785,
+   "models": {
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 2842,
+      "output": 826572,
+      "cacheWrite5m": 3525905,
+      "cacheWrite1h": 2563604,
+      "cacheRead": 194070298,
+      "reasoning": 0
+     },
+     "usd": 165.386605,
+     "requests": 1357,
+     "total": 200989221
+    },
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 804,
+      "output": 47238,
+      "cacheWrite5m": 2442846,
+      "cacheWrite1h": 0,
+      "cacheRead": 34576679,
+      "reasoning": 0
+     },
+     "usd": 20.244658,
+     "requests": 361,
+     "total": 37067567
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 44,
+     "total": 0
+    },
+    "claude-haiku-4-5-20251001": {
+     "tokens": {
+      "input": 192,
+      "output": 2913,
+      "cacheWrite5m": 151254,
+      "cacheWrite1h": 0,
+      "cacheRead": 859900,
+      "reasoning": 0
+     },
+     "usd": 0.289815,
+     "requests": 23,
+     "total": 1014259
+    }
+   },
+   "projects": {
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025": {
+     "tokens": {
+      "input": 1522,
+      "output": 211456,
+      "cacheWrite5m": 4817645,
+      "cacheWrite1h": 476016,
+      "cacheRead": 90007268,
+      "reasoning": 0
+     },
+     "usd": 74.479901,
+     "requests": 707,
+     "total": 95513907
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 2316,
+      "output": 665267,
+      "cacheWrite5m": 1302360,
+      "cacheWrite1h": 2087588,
+      "cacheRead": 139499609,
+      "reasoning": 0
+     },
+     "usd": 111.441177,
+     "requests": 1078,
+     "total": 143557140
+    }
+   },
+   "total": 239071047
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.554Z"
+}

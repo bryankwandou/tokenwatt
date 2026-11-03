@@ -1,0 +1,138 @@
+{
+ "date": "2026-10-18",
+ "total": 225132645,
+ "tokens": {
+  "input": 2586,
+  "output": 833794,
+  "cacheWrite5m": 102852,
+  "cacheWrite1h": 3161101,
+  "cacheRead": 221032312,
+  "reasoning": 0
+ },
+ "usd": 162.57098,
+ "requests": 1295,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 2586,
+    "output": 833794,
+    "cacheWrite5m": 102852,
+    "cacheWrite1h": 3161101,
+    "cacheRead": 221032312,
+    "reasoning": 0
+   },
+   "usd": 162.57098,
+   "requests": 1295,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 45,
+     "total": 0
+    },
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 2522,
+      "output": 827506,
+      "cacheWrite5m": 102852,
+      "cacheWrite1h": 2804829,
+      "cacheRead": 219668218,
+      "reasoning": 0
+     },
+     "usd": 159.225484,
+     "requests": 1218,
+     "total": 223405927
+    },
+    "claude-haiku-5-5": {
+     "tokens": {
+      "input": 2,
+      "output": 955,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 128325,
+      "cacheRead": 27708,
+      "reasoning": 0
+     },
+     "usd": 0.264198,
+     "requests": 1,
+     "total": 156990
+    },
+    "claude-opus-5": {
+     "tokens": {
+      "input": 62,
+      "output": 5333,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 227947,
+      "cacheRead": 1336386,
+      "reasoning": 0
+     },
+     "usd": 3.081298,
+     "requests": 31,
+     "total": 1569728
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 102,
+      "output": 17181,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 113486,
+      "cacheRead": 3696503,
+      "reasoning": 0
+     },
+     "usd": 3.413146,
+     "requests": 64,
+     "total": 3827272
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 2422,
+      "output": 811280,
+      "cacheWrite5m": 102852,
+      "cacheWrite1h": 2819668,
+      "cacheRead": 215999423,
+      "reasoning": 0
+     },
+     "usd": 156.076535,
+     "requests": 1200,
+     "total": 219735645
+    },
+    "E//Download/lcb/atma/jaya/makassar/2026///angkatan/2025/fti": {
+     "tokens": {
+      "input": 32,
+      "output": 2878,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 109091,
+      "cacheRead": 737007,
+      "reasoning": 0
+     },
+     "usd": 1.531524,
+     "requests": 16,
+     "total": 849008
+    },
+    "E//Download/logo/cjm": {
+     "tokens": {
+      "input": 30,
+      "output": 2455,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 118856,
+      "cacheRead": 599379,
+      "reasoning": 0
+     },
+     "usd": 1.549775,
+     "requests": 15,
+     "total": 720720
+    }
+   },
+   "total": 225132645
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.584Z"
+}

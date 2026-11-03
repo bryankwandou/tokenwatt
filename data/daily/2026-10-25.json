@@ -1,0 +1,99 @@
+{
+ "date": "2026-10-25",
+ "total": 217006133,
+ "tokens": {
+  "input": 2180,
+  "output": 920436,
+  "cacheWrite5m": 774130,
+  "cacheWrite1h": 2293935,
+  "cacheRead": 213015452,
+  "reasoning": 0
+ },
+ "usd": 153.440091,
+ "requests": 1088,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 2180,
+    "output": 920436,
+    "cacheWrite5m": 774130,
+    "cacheWrite1h": 2293935,
+    "cacheRead": 213015452,
+    "reasoning": 0
+   },
+   "usd": 153.440091,
+   "requests": 1088,
+   "models": {
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 110,
+      "output": 137300,
+      "cacheWrite5m": 503901,
+      "cacheWrite1h": 0,
+      "cacheRead": 3847645,
+      "reasoning": 0
+     },
+     "usd": 5.103752,
+     "requests": 55,
+     "total": 4488956
+    },
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 2068,
+      "output": 781515,
+      "cacheWrite5m": 270229,
+      "cacheWrite1h": 2242053,
+      "cacheRead": 209125026,
+      "reasoning": 0
+     },
+     "usd": 148.220189,
+     "requests": 1009,
+     "total": 212420891
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 23,
+     "total": 0
+    },
+    "claude-haiku-5-5": {
+     "tokens": {
+      "input": 2,
+      "output": 1621,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 51882,
+      "cacheRead": 42781,
+      "reasoning": 0
+     },
+     "usd": 0.116149,
+     "requests": 1,
+     "total": 96286
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 2180,
+      "output": 920436,
+      "cacheWrite5m": 774130,
+      "cacheWrite1h": 2293935,
+      "cacheRead": 213015452,
+      "reasoning": 0
+     },
+     "usd": 153.440091,
+     "requests": 1088,
+     "total": 217006133
+    }
+   },
+   "total": 217006133
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.602Z"
+}

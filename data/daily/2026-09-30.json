@@ -1,0 +1,99 @@
+{
+ "date": "2026-09-30",
+ "total": 151627395,
+ "tokens": {
+  "input": 3418,
+  "output": 755473,
+  "cacheWrite5m": 4280131,
+  "cacheWrite1h": 1908364,
+  "cacheRead": 144680009,
+  "reasoning": 0
+ },
+ "usd": 126.241794,
+ "requests": 1192,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 3418,
+    "output": 755473,
+    "cacheWrite5m": 4280131,
+    "cacheWrite1h": 1908364,
+    "cacheRead": 144680009,
+    "reasoning": 0
+   },
+   "usd": 126.241794,
+   "requests": 1192,
+   "models": {
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 1932,
+      "output": 754988,
+      "cacheWrite5m": 3564836,
+      "cacheWrite1h": 1908364,
+      "cacheRead": 126568846,
+      "reasoning": 0
+     },
+     "usd": 123.532648,
+     "requests": 949,
+     "total": 132798966
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 59,
+     "total": 0
+    },
+    "claude-haiku-4-5-20251001": {
+     "tokens": {
+      "input": 1486,
+      "output": 485,
+      "cacheWrite5m": 715295,
+      "cacheWrite1h": 0,
+      "cacheRead": 18111163,
+      "reasoning": 0
+     },
+     "usd": 2.709146,
+     "requests": 184,
+     "total": 18828429
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 228,
+      "output": 100757,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 271447,
+      "cacheRead": 13807482,
+      "reasoning": 0
+     },
+     "usd": 12.138276,
+     "requests": 115,
+     "total": 14179914
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 3190,
+      "output": 654716,
+      "cacheWrite5m": 4280131,
+      "cacheWrite1h": 1636917,
+      "cacheRead": 130872527,
+      "reasoning": 0
+     },
+     "usd": 114.103518,
+     "requests": 1077,
+     "total": 137447481
+    }
+   },
+   "total": 151627395
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.549Z"
+}

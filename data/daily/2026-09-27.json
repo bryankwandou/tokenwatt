@@ -1,0 +1,60 @@
+{
+ "date": "2026-09-27",
+ "total": 2435118,
+ "tokens": {
+  "input": 54,
+  "output": 11640,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 68310,
+  "cacheRead": 2355114,
+  "reasoning": 0
+ },
+ "usd": 2.151927,
+ "requests": 27,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 54,
+    "output": 11640,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 68310,
+    "cacheRead": 2355114,
+    "reasoning": 0
+   },
+   "usd": 2.151927,
+   "requests": 27,
+   "models": {
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 54,
+      "output": 11640,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 68310,
+      "cacheRead": 2355114,
+      "reasoning": 0
+     },
+     "usd": 2.151927,
+     "requests": 27,
+     "total": 2435118
+    }
+   },
+   "projects": {
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/d9c5359f/bb3a/46c2/a4f3/6e4d04e349dc/23061218/619c/45ef/a0c3/10313b31b9c5/scratch/2026/09/27/69c3c8": {
+     "tokens": {
+      "input": 54,
+      "output": 11640,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 68310,
+      "cacheRead": 2355114,
+      "reasoning": 0
+     },
+     "usd": 2.151927,
+     "requests": 27,
+     "total": 2435118
+    }
+   },
+   "total": 2435118
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.548Z"
+}

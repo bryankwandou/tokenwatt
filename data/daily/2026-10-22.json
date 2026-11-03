@@ -1,0 +1,59 @@
+{
+ "date": "2026-10-22",
+ "total": 36620540,
+ "tokens": {
+  "input": 3867540,
+  "output": 477828,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 0,
+  "cacheRead": 32275172,
+  "reasoning": 0
+ },
+ "usd": 0,
+ "requests": 265,
+ "providers": {
+  "antigravity": {
+   "tokens": {
+    "input": 3867540,
+    "output": 477828,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 0,
+    "cacheRead": 32275172,
+    "reasoning": 0
+   },
+   "usd": 0,
+   "requests": 265,
+   "models": {
+    "gemini-4-argon-trial": {
+     "tokens": {
+      "input": 3612201,
+      "output": 464102,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 32275172,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 264,
+     "total": 36351475
+    },
+    "gemini-4-argon-high": {
+     "tokens": {
+      "input": 255339,
+      "output": 13726,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 269065
+    }
+   },
+   "projects": {},
+   "total": 36620540
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.600Z"
+}

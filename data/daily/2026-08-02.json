@@ -1,41 +1,41 @@
 {
  "date": "2026-08-02",
- "total": 31355143,
+ "total": 3150912,
  "tokens": {
-  "input": 4220,
-  "output": 299353,
+  "input": 84,
+  "output": 36549,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 759000,
-  "cacheRead": 30292570,
+  "cacheWrite1h": 124451,
+  "cacheRead": 2989828,
   "reasoning": 0
  },
- "usd": 30.24121,
- "requests": 376,
+ "usd": 3.653569,
+ "requests": 48,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 4220,
-    "output": 299353,
+    "input": 84,
+    "output": 36549,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 759000,
-    "cacheRead": 30292570,
+    "cacheWrite1h": 124451,
+    "cacheRead": 2989828,
     "reasoning": 0
    },
-   "usd": 30.24121,
-   "requests": 376,
+   "usd": 3.653569,
+   "requests": 48,
    "models": {
     "claude-opus-5": {
      "tokens": {
-      "input": 4220,
-      "output": 299353,
+      "input": 84,
+      "output": 36549,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 759000,
-      "cacheRead": 30292570,
+      "cacheWrite1h": 124451,
+      "cacheRead": 2989828,
       "reasoning": 0
      },
-     "usd": 30.24121,
-     "requests": 363,
-     "total": 31355143
+     "usd": 3.653569,
+     "requests": 46,
+     "total": 3150912
     },
     "<synthetic>": {
      "tokens": {
@@ -47,27 +47,27 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 13,
+     "requests": 2,
      "total": 0
     }
    },
    "projects": {
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 4220,
-      "output": 299353,
+      "input": 84,
+      "output": 36549,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 759000,
-      "cacheRead": 30292570,
+      "cacheWrite1h": 124451,
+      "cacheRead": 2989828,
       "reasoning": 0
      },
-     "usd": 30.24121,
-     "requests": 376,
-     "total": 31355143
+     "usd": 3.653569,
+     "requests": 48,
+     "total": 3150912
     }
    },
-   "total": 31355143
+   "total": 3150912
   }
  },
- "generatedAt": "2026-09-17T16:02:36.527Z"
+ "generatedAt": "2026-11-03T07:42:51.428Z"
 }

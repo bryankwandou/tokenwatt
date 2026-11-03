@@ -1,0 +1,99 @@
+{
+ "date": "2026-10-12",
+ "total": 12781800,
+ "tokens": {
+  "input": 68,
+  "output": 34328,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 59019,
+  "cacheRead": 12688385,
+  "reasoning": 0
+ },
+ "usd": 7.792923,
+ "requests": 38,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 68,
+    "output": 34328,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 59019,
+    "cacheRead": 12688385,
+    "reasoning": 0
+   },
+   "usd": 7.792923,
+   "requests": 38,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 5,
+     "total": 0
+    },
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 68,
+      "output": 34328,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 59019,
+      "cacheRead": 12688385,
+      "reasoning": 0
+     },
+     "usd": 7.792923,
+     "requests": 33,
+     "total": 12781800
+    }
+   },
+   "projects": {
+    "C//Users/arche": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/79c2c685/5392/43bf/8762/c2773a8a6c65/e07bd335/a174/4bad/a3ae/45f73059fb1a/scratch/2026/10/10/8a46ae": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 68,
+      "output": 34328,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 59019,
+      "cacheRead": 12688385,
+      "reasoning": 0
+     },
+     "usd": 7.792923,
+     "requests": 36,
+     "total": 12781800
+    }
+   },
+   "total": 12781800
+  }
+ },
+ "generatedAt": "2026-11-03T07:42:51.568Z"
+}

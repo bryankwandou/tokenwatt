@@ -10,51 +10,8 @@
   "reasoning": 234
  },
  "usd": 0.014911,
- "requests": 4,
+ "requests": 1,
  "providers": {
-  "claude-code": {
-   "tokens": {
-    "input": 0,
-    "output": 0,
-    "cacheWrite5m": 0,
-    "cacheWrite1h": 0,
-    "cacheRead": 0,
-    "reasoning": 0
-   },
-   "usd": 0,
-   "requests": 3,
-   "models": {
-    "<synthetic>": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 3,
-     "total": 0
-    }
-   },
-   "projects": {
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 3,
-     "total": 0
-    }
-   },
-   "total": 0
-  },
   "codex-cli": {
    "tokens": {
     "input": 5452,
@@ -85,5 +42,5 @@
    "total": 9356
   }
  },
- "generatedAt": "2026-09-17T16:02:36.525Z"
+ "generatedAt": "2026-11-03T07:42:51.414Z"
 }
