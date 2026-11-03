@@ -22,9 +22,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
 import readline from 'node:readline';
+import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { costOf, totalTokens, emptyTokens, addTokens } from '../lib/cost.mjs';
+import { costOf, totalTokens, emptyTokens, addTokens, keepLargerReading } from '../lib/cost.mjs';
 import { ensureSchema, hasDatabase, upsertDays, retrying } from '../lib/db.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -32,6 +33,8 @@ const ROOT = path.resolve(__dirname, '..');
 const DATA = path.join(ROOT, 'data');
 const DAILY = path.join(DATA, 'daily');
 const HOME = os.homedir();
+const CLAUDE_CACHE = path.join(ROOT, '.cache', 'claude');
+const PUSH_EVERY_MS = 6 * 3600_000;
 
 /**
  * Read .env.local into process.env without adding a dependency. The scheduled
@@ -73,6 +76,25 @@ function localDate(iso) {
   if (Number.isNaN(d.getTime())) return null;
   const pad = (n) => String(n).padStart(2, '0');
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
+/**
+ * Write beside the target, then rename. A restart mid-write leaves the old file
+ * whole, where a plain write would leave half a JSON document for every later
+ * run to choke on.
+ */
+function writeAtomic(file, text) {
+  const tmp = `${file}.${process.pid}.tmp`;
+  fs.writeFileSync(tmp, text);
+  fs.renameSync(tmp, file);
+}
+
+function readJson(file) {
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch {
+    return null;
+  }
 }
 
 function walk(dir, match, out = [], depth = 0) {
@@ -143,41 +165,76 @@ function claudeProject(file) {
   return dir.replace(/^-+/, '').replace(/-/g, '/');
 }
 
+/**
+ * Parse one log into compact rows and save them straight away, so a run killed
+ * by a restart resumes where it stopped. The saved rows also outlive the log
+ * when Claude Code prunes it.
+ */
+async function cacheClaudeLog(file) {
+  let stat;
+  try {
+    stat = fs.statSync(file);
+  } catch {
+    return;
+  }
+  const name = createHash('sha1').update(file).digest('hex');
+  const target = path.join(CLAUDE_CACHE, `${name}.json`);
+  const cached = readJson(target);
+  if (cached?.mtimeMs === stat.mtimeMs && cached?.size === stat.size) return;
+
+  const project = claudeProject(file);
+  const rows = [];
+  await eachLine(file, (o) => {
+    const u = o?.message?.usage;
+    if (!u || o.type !== 'assistant') return;
+    const date = localDate(o.timestamp);
+    if (!date) return;
+    const cc = u.cache_creation || {};
+    let w1h = cc.ephemeral_1h_input_tokens || 0;
+    let w5m = cc.ephemeral_5m_input_tokens || 0;
+    // Older entries only carry the flat total; bill those at the 5m rate.
+    if (w1h + w5m === 0) w5m = u.cache_creation_input_tokens || 0;
+    rows.push([
+      o.requestId || o?.message?.id || null,
+      date,
+      o.message.model || 'unknown',
+      project,
+      u.input_tokens || 0,
+      u.output_tokens || 0,
+      w1h,
+      w5m,
+      u.cache_read_input_tokens || 0,
+    ]);
+  });
+  writeAtomic(target, JSON.stringify({ file, mtimeMs: stat.mtimeMs, size: stat.size, rows }));
+}
+
 async function collectClaude() {
   const base = path.join(HOME, '.claude', 'projects');
-  if (!fs.existsSync(base)) return 0;
-  const files = walk(base, (p) => p.endsWith('.jsonl'));
+  fs.mkdirSync(CLAUDE_CACHE, { recursive: true });
+  for (const file of walk(base, (p) => p.endsWith('.jsonl'))) await cacheClaudeLog(file);
+
   // requestId repeats when a session is resumed or forked — count each once.
   const seen = new Set();
   let n = 0;
-
-  for (const file of files) {
-    const project = claudeProject(file);
-    await eachLine(file, (o) => {
-      const u = o?.message?.usage;
-      if (!u || o.type !== 'assistant') return;
-      const key = o.requestId || o?.message?.id;
+  for (const entry of fs.readdirSync(CLAUDE_CACHE)) {
+    if (!entry.endsWith('.json')) continue;
+    const rows = readJson(path.join(CLAUDE_CACHE, entry))?.rows || [];
+    for (const [key, date, model, project, input, output, w1h, w5m, cacheRead] of rows) {
       if (key) {
-        if (seen.has(key)) return;
+        if (seen.has(key)) continue;
         seen.add(key);
       }
-      const date = localDate(o.timestamp);
-      if (!date) return;
-      const cc = u.cache_creation || {};
-      let w1h = cc.ephemeral_1h_input_tokens || 0;
-      let w5m = cc.ephemeral_5m_input_tokens || 0;
-      // Older entries only carry the flat total; bill those at the 5m rate.
-      if (w1h + w5m === 0) w5m = u.cache_creation_input_tokens || 0;
-      record(date, 'claude-code', o.message.model || 'unknown', project, {
-        input: u.input_tokens || 0,
-        output: u.output_tokens || 0,
+      record(date, 'claude-code', model, project, {
+        input,
+        output,
         cacheWrite1h: w1h,
         cacheWrite5m: w5m,
-        cacheRead: u.cache_read_input_tokens || 0,
+        cacheRead,
         reasoning: 0,
       });
       n++;
-    });
+    }
   }
   return n;
 }
@@ -226,6 +283,106 @@ async function collectCodex() {
   return n;
 }
 
+// ------------------------------------------------------------- Antigravity CLI
+
+/** Every varint in a protobuf message, nested messages included. */
+function protoNumbers(buf, out = [], depth = 0) {
+  let i = 0;
+  const varint = () => {
+    let v = 0;
+    let shift = 0;
+    let b;
+    do {
+      b = buf[i++];
+      v += (b & 127) * 2 ** shift;
+      shift += 7;
+    } while (b & 128 && i < buf.length);
+    return v;
+  };
+  while (i < buf.length) {
+    const tag = varint();
+    const wire = tag % 8;
+    const field = Math.floor(tag / 8);
+    if (field < 1 || field > 4096) return false;
+    if (wire === 0) out.push(varint());
+    else if (wire === 2) {
+      const len = varint();
+      if (i + len > buf.length) return false;
+      const nested = [];
+      if (depth < 8 && len > 0 && protoNumbers(buf.subarray(i, i + len), nested, depth + 1)) {
+        out.push(...nested);
+      }
+      i += len;
+    } else if (wire === 1) i += 8;
+    else if (wire === 5) i += 4;
+    else return false;
+  }
+  return true;
+}
+
+/**
+ * The transcript has the tokens and the conversation's SQLite file has the
+ * model, with no shared step number. Each generation's metadata repeats the
+ * same token counts, so those counts are the join.
+ */
+function antigravityGenerations(base, id, DatabaseSync) {
+  const file = path.join(base, 'conversations', `${id}.db`);
+  if (!DatabaseSync || !fs.existsSync(file)) return [];
+  const db = new DatabaseSync(file, { readOnly: true });
+  try {
+    return db.prepare('select data from gen_metadata').all().map((row) => {
+      const buf = Buffer.from(row.data);
+      const numbers = [];
+      protoNumbers(buf, numbers);
+      const model = buf.toString('latin1').match(/(?:gemini|gpt)-[0-9][a-z0-9.-]+|claude-[a-z]+-[0-9][a-z0-9.-]*/);
+      return { numbers: new Set(numbers), model: model ? model[0] : null };
+    });
+  } catch {
+    return [];
+  } finally {
+    db.close();
+  }
+}
+
+async function collectAntigravity() {
+  const base = path.join(HOME, '.gemini', 'antigravity-cli');
+  const brain = path.join(base, 'brain');
+  if (!fs.existsSync(brain)) return 0;
+  const { DatabaseSync } = await import('node:sqlite').catch(() => ({}));
+  let n = 0;
+
+  for (const id of fs.readdirSync(brain)) {
+    const logs = path.join(brain, id, '.system_generated', 'logs');
+    // transcript.jsonl, transcript_full.jsonl and their chunks repeat each step.
+    const steps = new Map();
+    for (const file of walk(logs, (p) => p.endsWith('.jsonl'))) {
+      await eachLine(file, (o) => {
+        if ('input_tokens' in o) steps.set(o.step_index, o);
+      });
+    }
+    if (!steps.size) continue;
+    const generations = antigravityGenerations(base, id, DatabaseSync);
+    for (const o of steps.values()) {
+      const date = localDate(o.created_at);
+      if (!date) continue;
+      const input = o.input_tokens || 0;
+      const output = o.output_tokens || 0;
+      const cacheRead = o.cache_read_tokens || 0;
+      const gen = generations.find(
+        ({ numbers }) => numbers.has(input) && numbers.has(output) && (!cacheRead || numbers.has(cacheRead)),
+      );
+      record(date, 'antigravity', gen?.model || 'unknown', null, {
+        input,
+        output,
+        cacheRead,
+        reasoning: 0,
+      });
+      n++;
+    }
+  }
+  return n;
+}
+
 // ------------------------------------------------------------------- manual
 
 /** Entries the dashboard's /api/ingest route or a human appended by hand. */
@@ -257,7 +414,6 @@ function collectManual() {
 
 function finalize() {
   const cutoff = SINCE_DAYS ? Date.now() - SINCE_DAYS * 86400_000 : null;
-  const index = [];
   const payloads = [];
 
   fs.mkdirSync(DAILY, { recursive: true });
@@ -284,30 +440,45 @@ function finalize() {
       }
     }
 
-    const payload = {
-      date,
-      total: totalTokens(dayTokens),
-      tokens: dayTokens,
-      usd: round(dayUsd),
-      requests: dayRequests,
-      providers: day.providers,
-      generatedAt: new Date().toISOString(),
-    };
+    const file = path.join(DAILY, `${date}.json`);
+    const previous = readJson(file);
+    const payload = keepLargerReading(
+      {
+        date,
+        total: totalTokens(dayTokens),
+        tokens: dayTokens,
+        usd: round(dayUsd),
+        requests: dayRequests,
+        providers: day.providers,
+        generatedAt: new Date().toISOString(),
+      },
+      previous,
+    );
 
-    fs.writeFileSync(path.join(DAILY, `${date}.json`), JSON.stringify(payload, null, 1));
+    writeAtomic(file, JSON.stringify(payload, null, 1));
     payloads.push(payload);
-    index.push({
-      date,
-      total: payload.total,
-      usd: payload.usd,
-      requests: dayRequests,
-      byProvider: Object.fromEntries(
-        Object.entries(day.providers).map(([k, v]) => [k, { total: v.total, usd: v.usd }]),
-      ),
-    });
   }
 
-  fs.writeFileSync(
+  // Built from the files, not this run's logs: a day whose logs are gone is
+  // still part of the record.
+  const index = fs
+    .readdirSync(DAILY)
+    .filter((f) => f.endsWith('.json'))
+    .sort()
+    .map((f) => {
+      const d = JSON.parse(fs.readFileSync(path.join(DAILY, f), 'utf8'));
+      return {
+        date: d.date,
+        total: d.total,
+        usd: d.usd,
+        requests: d.requests,
+        byProvider: Object.fromEntries(
+          Object.entries(d.providers).map(([k, v]) => [k, { total: v.total, usd: v.usd }]),
+        ),
+      };
+    });
+
+  writeAtomic(
     path.join(DATA, 'index.json'),
     JSON.stringify(
       {
@@ -339,9 +510,18 @@ function push() {
     GIT_ASKPASS: '',
     SSH_ASKPASS: '',
   };
-  const opts = { cwd: ROOT, env, timeout: 120_000, killSignal: 'SIGKILL' };
+  const opts = { cwd: ROOT, env, timeout: 600_000, killSignal: 'SIGKILL' };
   const run = (...a) => execFileSync('git', a, { ...opts, stdio: 'inherit' });
   try {
+    // The task now runs hourly; Neon gets every run, the backup does not need to.
+    const lastPush = Number(execFileSync('git', ['log', '-1', '--format=%ct', 'origin/main', '--', 'data'], opts).toString().trim());
+    if (Date.now() - lastPush * 1000 < PUSH_EVERY_MS) {
+      console.log('  git         : pushed recently, skipped');
+      return;
+    }
+    // A restart during a commit leaves this behind and every later commit fails.
+    const lock = path.join(ROOT, '.git', 'index.lock');
+    if (fs.existsSync(lock) && Date.now() - fs.statSync(lock).mtimeMs > 15 * 60_000) fs.rmSync(lock);
     run('add', 'data');
     const changed = execFileSync('git', ['status', '--porcelain', 'data'], opts).toString().trim();
     if (!changed) {
@@ -364,6 +544,8 @@ const claude = await collectClaude();
 console.log(`  claude-code : ${claude} priced requests`);
 const codex = await collectCodex();
 console.log(`  codex-cli   : ${codex} sessions`);
+const antigravity = await collectAntigravity();
+console.log(`  antigravity : ${antigravity} requests`);
 const manual = collectManual();
 console.log(`  manual      : ${manual} entries`);
 const { index, payloads } = finalize();

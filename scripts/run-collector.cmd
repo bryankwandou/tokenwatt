@@ -8,6 +8,12 @@ cd /d "%~dp0.."
 echo.>> collector.log
 echo ==== %DATE% %TIME% ====>> collector.log
 
+REM A lost node_modules once stopped the record for 46 days without a sound.
+if not exist "node_modules\@neondatabase\serverless\package.json" (
+  echo ---- restoring node_modules ---->> collector.log
+  call npm install --no-audit --no-fund>> collector.log 2>&1
+)
+
 node collector\collect.mjs --push>> collector.log 2>&1
 set RESULT=%ERRORLEVEL%
 

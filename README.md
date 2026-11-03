@@ -19,11 +19,11 @@ consumed at list price.
 | --- | --- | --- |
 | Claude Code CLI | yes | `~/.claude/projects/**/*.jsonl` — per-message `usage`, split across input, output, 5-minute cache writes, 1-hour cache writes and cache reads |
 | Codex CLI | yes | `~/.codex/sessions/**/*.jsonl` — the cumulative `token_count` event, including reasoning tokens |
-| Antigravity / Gemini | no | Conversations are stored as protobuf blobs in SQLite with no token accounting |
+| Antigravity CLI (Gemini) | yes | `~/.gemini/antigravity-cli/brain/*/.system_generated/logs/*.jsonl` for per-step tokens, joined to `conversations/*.db` for the model. Logs start 2026-10-21. `gemini-4-argon-*` has no published rate, so its tokens count but its cost reads $0 |
 | GitHub Copilot | no | Writes no usage log |
 
-The two unsupported providers are deliberately left out of the totals rather
-than estimated. They can still be entered by hand — see *Manual entries* below.
+Copilot is deliberately left out of the totals rather than estimated. It can
+still be entered by hand — see *Manual entries* below.
 
 Accuracy was checked against [`ccusage`](https://github.com/ryoppippi/ccusage)
 over the same log set: token counts agreed within 0.4% and cost within 1.2%,
@@ -36,14 +36,19 @@ separate 2× rate for 1-hour cache writes.
 
 ```
 agent CLI logs  ──▶  collector  ──┬──▶  Neon Postgres  ──▶  dashboard (live)
-  (local disk)     (nightly)      │
+  (local disk)     (hourly)       │
                                   └──▶  data/*.json    ──▶  git history (backup)
 ```
 
 Each day is written to both places. The dashboard reads Postgres, so a new
 reading appears without a redeploy; the JSON files are committed, so the full
 history survives losing the database. Days are replaced wholesale on every run,
-which means re-running the collector can never double-count.
+which means re-running the collector can never double-count. A rebuild can
+only raise a day: Claude Code prunes old logs, so each provider keeps its larger
+reading, and a correction that lowers a day has to be made in the file by hand.
+
+The scheduled task runs at sign-in and hourly. Parsed logs are saved one by one in
+`.cache/`, so a run killed by a restart picks up where it stopped.
 
 ---
 
@@ -89,10 +94,10 @@ sign-out clearing it — and prints each step with the status it got back.
 
 ---
 
-## Running it nightly
+## Running it hourly
 
 `scripts/install-schedule.ps1` registers a Windows scheduled task that runs the
-collector at 00:00 every day:
+collector at sign-in and every hour:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts\install-schedule.ps1

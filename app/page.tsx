@@ -16,7 +16,7 @@ import {
 } from '@/lib/data';
 import { authEnabled } from '@/lib/auth.mjs';
 
-// Re-read on request so a midnight sync shows up without a redeploy, with a
+// Re-read on request so an hourly sync shows up without a redeploy, with a
 // short cache so a burst of visitors does not hammer the database.
 export const revalidate = 300;
 
@@ -238,7 +238,7 @@ export default async function Page() {
               <div>
                 <h3 className="mb-1.5 font-medium text-ink">Where the data comes from</h3>
                 <p>
-                  A collector runs on my machine every night at midnight, reads the session logs
+                  A collector runs on my machine every hour and at sign-in, reads the session logs
                   written by each agent CLI, and aggregates them into one record per calendar
                   day. Each record is written twice — into Postgres, which this page reads, and
                   into a JSON file kept under version control — so losing either copy costs
