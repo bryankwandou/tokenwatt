@@ -37,19 +37,6 @@
      "requests": 1357,
      "total": 200989221
     },
-    "claude-sonnet-5-5": {
-     "tokens": {
-      "input": 804,
-      "output": 47238,
-      "cacheWrite5m": 2442846,
-      "cacheWrite1h": 0,
-      "cacheRead": 34576679,
-      "reasoning": 0
-     },
-     "usd": 20.244658,
-     "requests": 361,
-     "total": 37067567
-    },
     "<synthetic>": {
      "tokens": {
       "input": 0,
@@ -62,6 +49,19 @@
      "usd": 0,
      "requests": 44,
      "total": 0
+    },
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 804,
+      "output": 47238,
+      "cacheWrite5m": 2442846,
+      "cacheWrite1h": 0,
+      "cacheRead": 34576679,
+      "reasoning": 0
+     },
+     "usd": 20.244658,
+     "requests": 361,
+     "total": 37067567
     },
     "claude-haiku-4-5-20251001": {
      "tokens": {
@@ -108,5 +108,5 @@
    "total": 239071047
   }
  },
- "generatedAt": "2026-11-03T07:42:51.554Z"
+ "generatedAt": "2026-11-03T10:42:48.566Z"
 }

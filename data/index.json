@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T07:42:51.635Z",
+ "generatedAt": "2026-11-03T10:42:49.111Z",
  "host": "nayrbryanGaming",
  "days": [
   {
@@ -75,6 +75,18 @@
    }
   },
   {
+   "date": "2026-06-13",
+   "total": 1682498,
+   "usd": 2.911992,
+   "requests": 29,
+   "byProvider": {
+    "claude-code": {
+     "total": 1682498,
+     "usd": 2.911992
+    }
+   }
+  },
+  {
    "date": "2026-06-14",
    "total": 1145515,
    "usd": 1.674571,
@@ -107,6 +119,30 @@
     "claude-code": {
      "total": 2196548,
      "usd": 3.534733
+    }
+   }
+  },
+  {
+   "date": "2026-06-20",
+   "total": 12552851,
+   "usd": 12.568047,
+   "requests": 85,
+   "byProvider": {
+    "claude-code": {
+     "total": 12552851,
+     "usd": 12.568047
+    }
+   }
+  },
+  {
+   "date": "2026-06-21",
+   "total": 10420575,
+   "usd": 9.873706,
+   "requests": 33,
+   "byProvider": {
+    "claude-code": {
+     "total": 10420575,
+     "usd": 9.873706
     }
    }
   },
@@ -172,66 +208,270 @@
   },
   {
    "date": "2026-07-02",
-   "total": 1364293,
-   "usd": 4.245129,
-   "requests": 33,
+   "total": 12025166,
+   "usd": 32.354917,
+   "requests": 143,
    "byProvider": {
     "claude-code": {
-     "total": 1364293,
-     "usd": 4.245129
+     "total": 12025166,
+     "usd": 32.354917
+    }
+   }
+  },
+  {
+   "date": "2026-07-03",
+   "total": 9291786,
+   "usd": 16.100793,
+   "requests": 95,
+   "byProvider": {
+    "claude-code": {
+     "total": 9291786,
+     "usd": 16.100793
     }
    }
   },
   {
    "date": "2026-07-04",
-   "total": 6480041,
-   "usd": 10.211256,
-   "requests": 73,
+   "total": 26725038,
+   "usd": 30.530616,
+   "requests": 263,
    "byProvider": {
     "claude-code": {
-     "total": 6480041,
-     "usd": 10.211256
+     "total": 26725038,
+     "usd": 30.530616
+    }
+   }
+  },
+  {
+   "date": "2026-07-06",
+   "total": 0,
+   "usd": 0,
+   "requests": 2,
+   "byProvider": {
+    "claude-code": {
+     "total": 0,
+     "usd": 0
+    }
+   }
+  },
+  {
+   "date": "2026-07-07",
+   "total": 15254066,
+   "usd": 33.697538,
+   "requests": 153,
+   "byProvider": {
+    "claude-code": {
+     "total": 15254066,
+     "usd": 33.697538
+    }
+   }
+  },
+  {
+   "date": "2026-07-08",
+   "total": 1347447,
+   "usd": 3.508685,
+   "requests": 18,
+   "byProvider": {
+    "claude-code": {
+     "total": 1347447,
+     "usd": 3.508685
+    }
+   }
+  },
+  {
+   "date": "2026-07-09",
+   "total": 4646705,
+   "usd": 5.294413,
+   "requests": 20,
+   "byProvider": {
+    "claude-code": {
+     "total": 4646705,
+     "usd": 5.294413
+    }
+   }
+  },
+  {
+   "date": "2026-07-10",
+   "total": 2685409,
+   "usd": 9.672038,
+   "requests": 49,
+   "byProvider": {
+    "claude-code": {
+     "total": 2685409,
+     "usd": 9.672038
     }
    }
   },
   {
    "date": "2026-07-11",
-   "total": 122731,
-   "usd": 1.022766,
-   "requests": 4,
+   "total": 1474783,
+   "usd": 5.29698,
+   "requests": 21,
    "byProvider": {
     "claude-code": {
-     "total": 122731,
-     "usd": 1.022766
+     "total": 1474783,
+     "usd": 5.29698
     }
    }
   },
   {
    "date": "2026-07-12",
-   "total": 0,
-   "usd": 0,
-   "requests": 1,
+   "total": 22394751,
+   "usd": 20.403398,
+   "requests": 163,
    "byProvider": {
     "claude-code": {
-     "total": 0,
-     "usd": 0
+     "total": 22394751,
+     "usd": 20.403398
+    }
+   }
+  },
+  {
+   "date": "2026-07-13",
+   "total": 33888992,
+   "usd": 27.733169,
+   "requests": 159,
+   "byProvider": {
+    "claude-code": {
+     "total": 33888992,
+     "usd": 27.733169
     }
    }
   },
   {
    "date": "2026-07-14",
-   "total": 0,
-   "usd": 0,
-   "requests": 1,
+   "total": 12618320,
+   "usd": 11.861018,
+   "requests": 58,
    "byProvider": {
     "claude-code": {
-     "total": 0,
-     "usd": 0
+     "total": 12618320,
+     "usd": 11.861018
+    }
+   }
+  },
+  {
+   "date": "2026-07-15",
+   "total": 9272981,
+   "usd": 28.835633,
+   "requests": 69,
+   "byProvider": {
+    "claude-code": {
+     "total": 9272981,
+     "usd": 28.835633
     }
    }
   },
   {
    "date": "2026-07-16",
+   "total": 37590996,
+   "usd": 78.445547,
+   "requests": 192,
+   "byProvider": {
+    "claude-code": {
+     "total": 37590996,
+     "usd": 78.445547
+    }
+   }
+  },
+  {
+   "date": "2026-07-17",
+   "total": 20894962,
+   "usd": 42.362816,
+   "requests": 112,
+   "byProvider": {
+    "claude-code": {
+     "total": 20894962,
+     "usd": 42.362816
+    }
+   }
+  },
+  {
+   "date": "2026-07-18",
+   "total": 53112574,
+   "usd": 44.197627,
+   "requests": 169,
+   "byProvider": {
+    "claude-code": {
+     "total": 53112574,
+     "usd": 44.197627
+    }
+   }
+  },
+  {
+   "date": "2026-07-19",
+   "total": 40622064,
+   "usd": 39.790626,
+   "requests": 180,
+   "byProvider": {
+    "claude-code": {
+     "total": 40622064,
+     "usd": 39.790626
+    }
+   }
+  },
+  {
+   "date": "2026-07-20",
+   "total": 100712799,
+   "usd": 343.591584,
+   "requests": 494,
+   "byProvider": {
+    "claude-code": {
+     "total": 100712799,
+     "usd": 343.591584
+    }
+   }
+  },
+  {
+   "date": "2026-07-21",
+   "total": 124128882,
+   "usd": 130.976977,
+   "requests": 583,
+   "byProvider": {
+    "claude-code": {
+     "total": 124128882,
+     "usd": 130.976977
+    }
+   }
+  },
+  {
+   "date": "2026-07-22",
+   "total": 164830328,
+   "usd": 119.29207,
+   "requests": 472,
+   "byProvider": {
+    "claude-code": {
+     "total": 164830328,
+     "usd": 119.29207
+    }
+   }
+  },
+  {
+   "date": "2026-07-23",
+   "total": 86357761,
+   "usd": 63.928085,
+   "requests": 531,
+   "byProvider": {
+    "claude-code": {
+     "total": 86357761,
+     "usd": 63.928085
+    }
+   }
+  },
+  {
+   "date": "2026-07-24",
+   "total": 4305896,
+   "usd": 7.018719,
+   "requests": 55,
+   "byProvider": {
+    "claude-code": {
+     "total": 4305896,
+     "usd": 7.018719
+    }
+   }
+  },
+  {
+   "date": "2026-07-25",
    "total": 0,
    "usd": 0,
    "requests": 1,
@@ -243,22 +483,10 @@
    }
   },
   {
-   "date": "2026-07-17",
-   "total": 3561280,
-   "usd": 2.695267,
-   "requests": 34,
-   "byProvider": {
-    "claude-code": {
-     "total": 3561280,
-     "usd": 2.695267
-    }
-   }
-  },
-  {
-   "date": "2026-07-24",
+   "date": "2026-07-26",
    "total": 0,
    "usd": 0,
-   "requests": 2,
+   "requests": 1,
    "byProvider": {
     "claude-code": {
      "total": 0,
@@ -270,551 +498,631 @@
    "date": "2026-07-27",
    "total": 9356,
    "usd": 0.014911,
-   "requests": 1,
+   "requests": 4,
    "byProvider": {
     "codex-cli": {
      "total": 9356,
      "usd": 0.014911
+    },
+    "claude-code": {
+     "total": 0,
+     "usd": 0
     }
    }
   },
   {
    "date": "2026-07-28",
-   "total": 8740,
-   "usd": 0.016499,
-   "requests": 1,
+   "total": 79722134,
+   "usd": 77.96832,
+   "requests": 404,
    "byProvider": {
     "codex-cli": {
      "total": 8740,
      "usd": 0.016499
+    },
+    "claude-code": {
+     "total": 79713394,
+     "usd": 77.951821
     }
    }
   },
   {
    "date": "2026-07-29",
-   "total": 4830374,
-   "usd": 5.821856,
-   "requests": 67,
+   "total": 47197594,
+   "usd": 47.030208,
+   "requests": 311,
    "byProvider": {
     "claude-code": {
-     "total": 4830374,
-     "usd": 5.821856
+     "total": 47197594,
+     "usd": 47.030208
     }
    }
   },
   {
    "date": "2026-07-30",
-   "total": 566407,
-   "usd": 1.628624,
-   "requests": 5,
+   "total": 55949977,
+   "usd": 45.871756,
+   "requests": 215,
    "byProvider": {
     "claude-code": {
-     "total": 566407,
-     "usd": 1.628624
+     "total": 55949977,
+     "usd": 45.871756
     }
    }
   },
   {
    "date": "2026-07-31",
-   "total": 14882658,
-   "usd": 11.920136,
-   "requests": 104,
+   "total": 57891039,
+   "usd": 44.827125,
+   "requests": 307,
    "byProvider": {
     "claude-code": {
-     "total": 14882658,
-     "usd": 11.920136
+     "total": 57891039,
+     "usd": 44.827125
+    }
+   }
+  },
+  {
+   "date": "2026-08-01",
+   "total": 3045309,
+   "usd": 5.250819,
+   "requests": 19,
+   "byProvider": {
+    "claude-code": {
+     "total": 3045309,
+     "usd": 5.250819
     }
    }
   },
   {
    "date": "2026-08-02",
-   "total": 3150912,
-   "usd": 3.653569,
-   "requests": 48,
+   "total": 31355143,
+   "usd": 30.24121,
+   "requests": 376,
    "byProvider": {
     "claude-code": {
-     "total": 3150912,
-     "usd": 3.653569
+     "total": 31355143,
+     "usd": 30.24121
     }
    }
   },
   {
    "date": "2026-08-03",
-   "total": 2824604,
-   "usd": 3.227036,
-   "requests": 41,
+   "total": 33939566,
+   "usd": 30.682557,
+   "requests": 346,
    "byProvider": {
     "claude-code": {
-     "total": 2824604,
-     "usd": 3.227036
+     "total": 33939566,
+     "usd": 30.682557
     }
    }
   },
   {
    "date": "2026-08-04",
-   "total": 9035383,
-   "usd": 7.434867,
-   "requests": 81,
+   "total": 61141286,
+   "usd": 61.342033,
+   "requests": 609,
    "byProvider": {
     "claude-code": {
-     "total": 9035383,
-     "usd": 7.434867
+     "total": 61141286,
+     "usd": 61.342033
     }
    }
   },
   {
    "date": "2026-08-05",
-   "total": 16882695,
-   "usd": 19.487128,
-   "requests": 186,
+   "total": 79284355,
+   "usd": 90.484259,
+   "requests": 796,
    "byProvider": {
     "claude-code": {
-     "total": 16882695,
-     "usd": 19.487128
+     "total": 79284355,
+     "usd": 90.484259
     }
    }
   },
   {
    "date": "2026-08-06",
-   "total": 10627028,
-   "usd": 11.65821,
-   "requests": 95,
+   "total": 43878617,
+   "usd": 45.745187,
+   "requests": 258,
    "byProvider": {
     "claude-code": {
-     "total": 10627028,
-     "usd": 11.65821
+     "total": 43878617,
+     "usd": 45.745187
     }
    }
   },
   {
    "date": "2026-08-07",
-   "total": 14471702,
-   "usd": 18.355354,
-   "requests": 150,
+   "total": 41679793,
+   "usd": 56.29514,
+   "requests": 530,
    "byProvider": {
     "claude-code": {
-     "total": 14471702,
-     "usd": 18.355354
+     "total": 41679793,
+     "usd": 56.29514
     }
    }
   },
   {
    "date": "2026-08-08",
-   "total": 28752229,
-   "usd": 36.670046,
-   "requests": 204,
+   "total": 77786866,
+   "usd": 92.55046,
+   "requests": 670,
    "byProvider": {
     "claude-code": {
-     "total": 28752229,
-     "usd": 36.670046
+     "total": 77786866,
+     "usd": 92.55046
     }
    }
   },
   {
    "date": "2026-08-09",
-   "total": 39334866,
-   "usd": 43.464685,
-   "requests": 246,
+   "total": 115022868,
+   "usd": 115.855482,
+   "requests": 756,
    "byProvider": {
     "claude-code": {
-     "total": 39334866,
-     "usd": 43.464685
+     "total": 115022868,
+     "usd": 115.855482
     }
    }
   },
   {
    "date": "2026-08-10",
-   "total": 2903888,
-   "usd": 6.242947,
-   "requests": 14,
+   "total": 7212878,
+   "usd": 14.288047,
+   "requests": 60,
    "byProvider": {
     "claude-code": {
-     "total": 2903888,
-     "usd": 6.242947
+     "total": 7212878,
+     "usd": 14.288047
     }
    }
   },
   {
    "date": "2026-08-11",
-   "total": 9005411,
-   "usd": 13.623768,
-   "requests": 74,
+   "total": 36753886,
+   "usd": 45.42386,
+   "requests": 372,
    "byProvider": {
     "claude-code": {
-     "total": 9005411,
-     "usd": 13.623768
+     "total": 36753886,
+     "usd": 45.42386
     }
    }
   },
   {
    "date": "2026-08-12",
-   "total": 1279467,
-   "usd": 2.972833,
-   "requests": 6,
+   "total": 24166873,
+   "usd": 22.639367,
+   "requests": 168,
    "byProvider": {
     "claude-code": {
-     "total": 1279467,
-     "usd": 2.972833
+     "total": 24166873,
+     "usd": 22.639367
     }
    }
   },
   {
    "date": "2026-08-13",
-   "total": 14932893,
-   "usd": 15.217241,
-   "requests": 146,
+   "total": 30123572,
+   "usd": 29.927643,
+   "requests": 217,
    "byProvider": {
     "claude-code": {
-     "total": 14932893,
-     "usd": 15.217241
+     "total": 30123572,
+     "usd": 29.927643
     }
    }
   },
   {
    "date": "2026-08-14",
-   "total": 18961994,
-   "usd": 28.903394,
-   "requests": 218,
+   "total": 50402572,
+   "usd": 71.893962,
+   "requests": 539,
    "byProvider": {
     "claude-code": {
-     "total": 18961994,
-     "usd": 28.903394
+     "total": 50402572,
+     "usd": 71.893962
     }
    }
   },
   {
    "date": "2026-08-15",
-   "total": 7059253,
-   "usd": 7.353542,
-   "requests": 69,
+   "total": 16579333,
+   "usd": 20.069786,
+   "requests": 160,
    "byProvider": {
     "claude-code": {
-     "total": 7059253,
-     "usd": 7.353542
+     "total": 16579333,
+     "usd": 20.069786
     }
    }
   },
   {
    "date": "2026-08-16",
-   "total": 34391107,
-   "usd": 40.500134,
-   "requests": 266,
+   "total": 69501940,
+   "usd": 78.425862,
+   "requests": 656,
    "byProvider": {
     "claude-code": {
-     "total": 34391107,
-     "usd": 40.500134
+     "total": 69501940,
+     "usd": 78.425862
     }
    }
   },
   {
    "date": "2026-08-17",
-   "total": 45207385,
-   "usd": 44.759163,
-   "requests": 307,
+   "total": 108551223,
+   "usd": 121.122724,
+   "requests": 968,
    "byProvider": {
     "claude-code": {
-     "total": 45207385,
-     "usd": 44.759163
+     "total": 108551223,
+     "usd": 121.122724
     }
    }
   },
   {
    "date": "2026-08-18",
-   "total": 88735709,
-   "usd": 79.825646,
-   "requests": 280,
+   "total": 191929206,
+   "usd": 179.289333,
+   "requests": 927,
    "byProvider": {
     "claude-code": {
-     "total": 88735709,
-     "usd": 79.825646
+     "total": 191929206,
+     "usd": 179.289333
     }
    }
   },
   {
    "date": "2026-08-19",
-   "total": 59302986,
-   "usd": 68.894253,
-   "requests": 176,
+   "total": 147652981,
+   "usd": 155.90734,
+   "requests": 901,
    "byProvider": {
     "claude-code": {
-     "total": 59302986,
-     "usd": 68.894253
+     "total": 147652981,
+     "usd": 155.90734
     }
    }
   },
   {
    "date": "2026-08-20",
-   "total": 44394435,
-   "usd": 32.821,
-   "requests": 140,
+   "total": 117382770,
+   "usd": 90.728068,
+   "requests": 705,
    "byProvider": {
     "claude-code": {
-     "total": 44394435,
-     "usd": 32.821
+     "total": 117382770,
+     "usd": 90.728068
     }
    }
   },
   {
    "date": "2026-08-21",
-   "total": 7589411,
-   "usd": 12.625993,
-   "requests": 60,
+   "total": 25232329,
+   "usd": 36.829261,
+   "requests": 229,
    "byProvider": {
     "claude-code": {
-     "total": 7589411,
-     "usd": 12.625993
+     "total": 25232329,
+     "usd": 36.829261
     }
    }
   },
   {
    "date": "2026-08-22",
-   "total": 48922799,
-   "usd": 42.241454,
-   "requests": 201,
+   "total": 210443808,
+   "usd": 175.335327,
+   "requests": 1402,
    "byProvider": {
     "claude-code": {
-     "total": 48922799,
-     "usd": 42.241454
+     "total": 210443808,
+     "usd": 175.335327
     }
    }
   },
   {
    "date": "2026-08-23",
-   "total": 115242787,
-   "usd": 88.357925,
-   "requests": 502,
+   "total": 293689656,
+   "usd": 240.560091,
+   "requests": 1663,
    "byProvider": {
     "claude-code": {
-     "total": 115242787,
-     "usd": 88.357925
+     "total": 293689656,
+     "usd": 240.560091
     }
    }
   },
   {
    "date": "2026-08-24",
-   "total": 54519555,
-   "usd": 41.37109,
-   "requests": 329,
+   "total": 133628562,
+   "usd": 105.466131,
+   "requests": 799,
    "byProvider": {
     "claude-code": {
-     "total": 54519555,
-     "usd": 41.37109
+     "total": 133628562,
+     "usd": 105.466131
     }
    }
   },
   {
    "date": "2026-08-25",
-   "total": 154802255,
-   "usd": 104.474444,
-   "requests": 384,
+   "total": 263265320,
+   "usd": 194.645874,
+   "requests": 753,
    "byProvider": {
     "claude-code": {
-     "total": 154802255,
-     "usd": 104.474444
+     "total": 263265320,
+     "usd": 194.645874
+    }
+   }
+  },
+  {
+   "date": "2026-08-26",
+   "total": 0,
+   "usd": 0,
+   "requests": 3,
+   "byProvider": {
+    "claude-code": {
+     "total": 0,
+     "usd": 0
+    }
+   }
+  },
+  {
+   "date": "2026-08-27",
+   "total": 1143107,
+   "usd": 1.755606,
+   "requests": 9,
+   "byProvider": {
+    "claude-code": {
+     "total": 1143107,
+     "usd": 1.755606
     }
    }
   },
   {
    "date": "2026-08-28",
-   "total": 92044290,
-   "usd": 58.850519,
-   "requests": 333,
+   "total": 177589074,
+   "usd": 122.678266,
+   "requests": 777,
    "byProvider": {
     "claude-code": {
-     "total": 92044290,
-     "usd": 58.850519
+     "total": 177589074,
+     "usd": 122.678266
     }
    }
   },
   {
    "date": "2026-08-29",
-   "total": 96052259,
-   "usd": 68.861794,
-   "requests": 319,
+   "total": 565741365,
+   "usd": 419.805206,
+   "requests": 2068,
    "byProvider": {
     "claude-code": {
-     "total": 96052259,
-     "usd": 68.861794
+     "total": 565741365,
+     "usd": 419.805206
     }
    }
   },
   {
    "date": "2026-08-30",
-   "total": 112457414,
-   "usd": 81.867783,
-   "requests": 375,
+   "total": 623419050,
+   "usd": 473.185481,
+   "requests": 1996,
    "byProvider": {
     "claude-code": {
-     "total": 112457414,
-     "usd": 81.867783
+     "total": 623419050,
+     "usd": 473.185481
     }
    }
   },
   {
    "date": "2026-08-31",
-   "total": 0,
-   "usd": 0,
-   "requests": 5,
+   "total": 301449252,
+   "usd": 222.541045,
+   "requests": 924,
    "byProvider": {
     "claude-code": {
-     "total": 0,
-     "usd": 0
+     "total": 301449252,
+     "usd": 222.541045
     }
    }
   },
   {
    "date": "2026-09-02",
-   "total": 0,
-   "usd": 0,
-   "requests": 2,
+   "total": 189543941,
+   "usd": 129.98303,
+   "requests": 406,
    "byProvider": {
     "claude-code": {
-     "total": 0,
-     "usd": 0
+     "total": 189543941,
+     "usd": 129.98303
     }
    }
   },
   {
    "date": "2026-09-03",
-   "total": 30789403,
-   "usd": 24.916853,
-   "requests": 184,
+   "total": 369671028,
+   "usd": 295.093261,
+   "requests": 1153,
    "byProvider": {
     "claude-code": {
-     "total": 30789403,
-     "usd": 24.916853
+     "total": 369671028,
+     "usd": 295.093261
     }
    }
   },
   {
    "date": "2026-09-04",
-   "total": 45122411,
-   "usd": 35.679032,
-   "requests": 165,
+   "total": 383709728,
+   "usd": 297.318345,
+   "requests": 1261,
    "byProvider": {
     "claude-code": {
-     "total": 45122411,
-     "usd": 35.679032
+     "total": 383709728,
+     "usd": 297.318345
     }
    }
   },
   {
    "date": "2026-09-05",
-   "total": 6585030,
-   "usd": 7.104346,
-   "requests": 72,
+   "total": 447749326,
+   "usd": 322.759635,
+   "requests": 1658,
    "byProvider": {
     "claude-code": {
-     "total": 6585030,
-     "usd": 7.104346
+     "total": 447749326,
+     "usd": 322.759635
+    }
+   }
+  },
+  {
+   "date": "2026-09-06",
+   "total": 40852586,
+   "usd": 41.005997,
+   "requests": 139,
+   "byProvider": {
+    "claude-code": {
+     "total": 40852586,
+     "usd": 41.005997
+    }
+   }
+  },
+  {
+   "date": "2026-09-07",
+   "total": 78191525,
+   "usd": 49.098285,
+   "requests": 197,
+   "byProvider": {
+    "claude-code": {
+     "total": 78191525,
+     "usd": 49.098285
     }
    }
   },
   {
    "date": "2026-09-08",
-   "total": 21558912,
-   "usd": 15.270486,
-   "requests": 96,
+   "total": 78363827,
+   "usd": 56.619934,
+   "requests": 353,
    "byProvider": {
     "claude-code": {
-     "total": 21558912,
-     "usd": 15.270486
+     "total": 78363827,
+     "usd": 56.619934
     }
    }
   },
   {
    "date": "2026-09-09",
-   "total": 34686565,
-   "usd": 28.87709,
-   "requests": 168,
+   "total": 105813450,
+   "usd": 93.543923,
+   "requests": 531,
    "byProvider": {
     "claude-code": {
-     "total": 34686565,
-     "usd": 28.87709
+     "total": 105813450,
+     "usd": 93.543923
     }
    }
   },
   {
    "date": "2026-09-10",
-   "total": 69237949,
-   "usd": 61.744572,
-   "requests": 464,
+   "total": 195682183,
+   "usd": 165.818469,
+   "requests": 1273,
    "byProvider": {
     "claude-code": {
-     "total": 69237949,
-     "usd": 61.744572
+     "total": 195682183,
+     "usd": 165.818469
     }
    }
   },
   {
    "date": "2026-09-11",
-   "total": 29947872,
-   "usd": 29.150711,
-   "requests": 204,
+   "total": 200216789,
+   "usd": 190.323145,
+   "requests": 1239,
    "byProvider": {
     "claude-code": {
-     "total": 29947872,
-     "usd": 29.150711
+     "total": 200216789,
+     "usd": 190.323145
     }
    }
   },
   {
    "date": "2026-09-12",
-   "total": 145580,
-   "usd": 0.414724,
-   "requests": 3,
+   "total": 84912371,
+   "usd": 66.563138,
+   "requests": 508,
    "byProvider": {
     "claude-code": {
-     "total": 145580,
-     "usd": 0.414724
+     "total": 84912371,
+     "usd": 66.563138
+    }
+   }
+  },
+  {
+   "date": "2026-09-13",
+   "total": 106520126,
+   "usd": 91.248975,
+   "requests": 609,
+   "byProvider": {
+    "claude-code": {
+     "total": 106520126,
+     "usd": 91.248975
     }
    }
   },
   {
    "date": "2026-09-14",
-   "total": 18253641,
-   "usd": 21.005961,
-   "requests": 104,
+   "total": 177256859,
+   "usd": 149.174361,
+   "requests": 684,
    "byProvider": {
     "claude-code": {
-     "total": 18253641,
-     "usd": 21.005961
+     "total": 177256859,
+     "usd": 149.174361
     }
    }
   },
   {
    "date": "2026-09-15",
-   "total": 30082813,
-   "usd": 30.211508,
-   "requests": 243,
+   "total": 224378710,
+   "usd": 173.277372,
+   "requests": 1154,
    "byProvider": {
     "claude-code": {
-     "total": 30082813,
-     "usd": 30.211508
+     "total": 224378710,
+     "usd": 173.277372
     }
    }
   },
   {
    "date": "2026-09-16",
-   "total": 67437106,
-   "usd": 60.255338,
-   "requests": 736,
+   "total": 234781559,
+   "usd": 194.159164,
+   "requests": 2050,
    "byProvider": {
     "claude-code": {
-     "total": 67437106,
-     "usd": 60.255338
+     "total": 234781559,
+     "usd": 194.159164
     }
    }
   },
   {
    "date": "2026-09-17",
-   "total": 95894115,
-   "usd": 74.611292,
-   "requests": 1036,
+   "total": 226251206,
+   "usd": 184.936233,
+   "requests": 2184,
    "byProvider": {
     "claude-code": {
-     "total": 95894115,
-     "usd": 74.611292
+     "total": 226251206,
+     "usd": 184.936233
     }
    }
   },
@@ -905,12 +1213,12 @@
   {
    "date": "2026-09-25",
    "total": 30325882,
-   "usd": 27.957,
+   "usd": 27.957001,
    "requests": 282,
    "byProvider": {
     "claude-code": {
      "total": 30325882,
-     "usd": 27.957
+     "usd": 27.957001
     }
    }
   },
@@ -1182,7 +1490,7 @@
    "date": "2026-10-19",
    "total": 37921024,
    "usd": 32.137748,
-   "requests": 221,
+   "requests": 220,
    "byProvider": {
     "claude-code": {
      "total": 37921024,
@@ -1194,7 +1502,7 @@
    "date": "2026-10-20",
    "total": 0,
    "usd": 0,
-   "requests": 19,
+   "requests": 20,
    "byProvider": {
     "claude-code": {
      "total": 0,
@@ -1321,12 +1629,12 @@
   {
    "date": "2026-10-31",
    "total": 346161744,
-   "usd": 273.894031,
+   "usd": 273.894032,
    "requests": 2045,
    "byProvider": {
     "claude-code": {
      "total": 346161744,
-     "usd": 273.894031
+     "usd": 273.894032
     }
    }
   },
@@ -1360,17 +1668,17 @@
   },
   {
    "date": "2026-11-03",
-   "total": 81889030,
-   "usd": 66.827125,
-   "requests": 508,
+   "total": 150116193,
+   "usd": 125.677021,
+   "requests": 843,
    "byProvider": {
     "claude-code": {
-     "total": 68496956,
-     "usd": 64.961626
+     "total": 129365915,
+     "usd": 122.632378
     },
     "antigravity": {
-     "total": 13392074,
-     "usd": 1.865499
+     "total": 20750278,
+     "usd": 3.044643
     }
    }
   }

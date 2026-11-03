@@ -1,29 +1,55 @@
 {
  "date": "2026-07-17",
- "total": 3561280,
+ "total": 20894962,
  "tokens": {
-  "input": 36,
-  "output": 74575,
+  "input": 182,
+  "output": 179088,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 93076,
-  "cacheRead": 3393593,
+  "cacheWrite1h": 998940,
+  "cacheRead": 19716752,
   "reasoning": 0
  },
- "usd": 2.695267,
- "requests": 34,
+ "usd": 42.362816,
+ "requests": 112,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 36,
-    "output": 74575,
+    "input": 182,
+    "output": 179088,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 93076,
-    "cacheRead": 3393593,
+    "cacheWrite1h": 998940,
+    "cacheRead": 19716752,
     "reasoning": 0
    },
-   "usd": 2.695267,
-   "requests": 34,
+   "usd": 42.362816,
+   "requests": 112,
    "models": {
+    "claude-fable-5": {
+     "tokens": {
+      "input": 146,
+      "output": 104513,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 905864,
+      "cacheRead": 16323159,
+      "reasoning": 0
+     },
+     "usd": 39.667549,
+     "requests": 76,
+     "total": 17333682
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 0
+    },
     "claude-sonnet-4-6": {
      "tokens": {
       "input": 36,
@@ -41,20 +67,20 @@
    "projects": {
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 36,
-      "output": 74575,
+      "input": 182,
+      "output": 179088,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 93076,
-      "cacheRead": 3393593,
+      "cacheWrite1h": 998940,
+      "cacheRead": 19716752,
       "reasoning": 0
      },
-     "usd": 2.695267,
-     "requests": 34,
-     "total": 3561280
+     "usd": 42.362816,
+     "requests": 112,
+     "total": 20894962
     }
    },
-   "total": 3561280
+   "total": 20894962
   }
  },
- "generatedAt": "2026-11-03T07:42:51.403Z"
+ "generatedAt": "2026-11-03T10:42:48.387Z"
 }

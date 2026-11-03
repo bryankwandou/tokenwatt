@@ -24,19 +24,6 @@
    "usd": 41.380914,
    "requests": 275,
    "models": {
-    "claude-sonnet-5-5": {
-     "tokens": {
-      "input": 50,
-      "output": 2374,
-      "cacheWrite5m": 359380,
-      "cacheWrite1h": 0,
-      "cacheRead": 1306466,
-      "reasoning": 0
-     },
-     "usd": 1.775375,
-     "requests": 25,
-     "total": 1668270
-    },
     "claude-opus-5-5": {
      "tokens": {
       "input": 478,
@@ -46,7 +33,7 @@
       "cacheRead": 56632699,
       "reasoning": 0
      },
-     "usd": 39.60554,
+     "usd": 39.605539,
      "requests": 234,
      "total": 57532819
     },
@@ -62,25 +49,51 @@
      "usd": 0,
      "requests": 16,
      "total": 0
+    },
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 50,
+      "output": 2374,
+      "cacheWrite5m": 359380,
+      "cacheWrite1h": 0,
+      "cacheRead": 1306466,
+      "reasoning": 0
+     },
+     "usd": 1.775375,
+     "requests": 25,
+     "total": 1668270
     }
    },
    "projects": {
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+    "E//Download/lcb/atma/jaya/makassar/2026///angkatan/2025/fti": {
      "tokens": {
-      "input": 528,
-      "output": 155066,
-      "cacheWrite5m": 359380,
-      "cacheWrite1h": 746950,
-      "cacheRead": 57939165,
+      "input": 2,
+      "output": 773,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 163398,
+      "cacheRead": 41986,
       "reasoning": 0
      },
-     "usd": 41.380914,
-     "requests": 275,
-     "total": 59201089
+     "usd": 1.674308,
+     "requests": 1,
+     "total": 206159
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 526,
+      "output": 154293,
+      "cacheWrite5m": 359380,
+      "cacheWrite1h": 583552,
+      "cacheRead": 57897179,
+      "reasoning": 0
+     },
+     "usd": 39.706606,
+     "requests": 274,
+     "total": 58994930
     }
    },
    "total": 59201089
   }
  },
- "generatedAt": "2026-11-03T07:42:51.561Z"
+ "generatedAt": "2026-11-03T10:42:48.571Z"
 }

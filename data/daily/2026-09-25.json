@@ -9,7 +9,7 @@
   "cacheRead": 29294697,
   "reasoning": 0
  },
- "usd": 27.957,
+ "usd": 27.957001,
  "requests": 282,
  "providers": {
   "claude-code": {
@@ -21,22 +21,9 @@
     "cacheRead": 29294697,
     "reasoning": 0
    },
-   "usd": 27.957,
+   "usd": 27.957001,
    "requests": 282,
    "models": {
-    "claude-opus-5-5": {
-     "tokens": {
-      "input": 538,
-      "output": 255951,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 676201,
-      "cacheRead": 29159587,
-      "reasoning": 0
-     },
-     "usd": 27.743268,
-     "requests": 269,
-     "total": 30092277
-    },
     "<synthetic>": {
      "tokens": {
       "input": 0,
@@ -49,6 +36,19 @@
      "usd": 0,
      "requests": 11,
      "total": 0
+    },
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 538,
+      "output": 255951,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 676201,
+      "cacheRead": 29159587,
+      "reasoning": 0
+     },
+     "usd": 27.743269,
+     "requests": 269,
+     "total": 30092277
     },
     "claude-haiku-4-5-20251001": {
      "tokens": {
@@ -74,7 +74,7 @@
       "cacheRead": 29294697,
       "reasoning": 0
      },
-     "usd": 27.957,
+     "usd": 27.957001,
      "requests": 282,
      "total": 30325882
     }
@@ -82,5 +82,5 @@
    "total": 30325882
   }
  },
- "generatedAt": "2026-11-03T07:42:51.544Z"
+ "generatedAt": "2026-11-03T10:42:48.547Z"
 }

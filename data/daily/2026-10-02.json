@@ -65,7 +65,7 @@
     }
    },
    "projects": {
-    "C//Users/arche": {
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/79c2c685/5392/43bf/8762/c2773a8a6c65/e07bd335/a174/4bad/a3ae/45f73059fb1a/scratch/2026/10/01/4921a0": {
      "tokens": {
       "input": 44,
       "output": 9533,
@@ -78,19 +78,6 @@
      "requests": 22,
      "total": 1894612
     },
-    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/79c2c685/5392/43bf/8762/c2773a8a6c65/e07bd335/a174/4bad/a3ae/45f73059fb1a/scratch/2026/10/02/309956": {
-     "tokens": {
-      "input": 32,
-      "output": 9056,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 69754,
-      "cacheRead": 1572215,
-      "reasoning": 0
-     },
-     "usd": 1.026125,
-     "requests": 16,
-     "total": 1651057
-    },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
       "input": 2584,
@@ -100,7 +87,7 @@
       "cacheRead": 248122467,
       "reasoning": 0
      },
-     "usd": 178.374888,
+     "usd": 178.374887,
      "requests": 1287,
      "total": 254817757
     },
@@ -116,10 +103,23 @@
      "usd": 55.183307,
      "requests": 232,
      "total": 74545948
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/79c2c685/5392/43bf/8762/c2773a8a6c65/e07bd335/a174/4bad/a3ae/45f73059fb1a/scratch/2026/10/02/309956": {
+     "tokens": {
+      "input": 32,
+      "output": 9056,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 69754,
+      "cacheRead": 1572215,
+      "reasoning": 0
+     },
+     "usd": 1.026125,
+     "requests": 16,
+     "total": 1651057
     }
    },
    "total": 332909374
   }
  },
- "generatedAt": "2026-11-03T07:42:51.550Z"
+ "generatedAt": "2026-11-03T10:42:48.560Z"
 }

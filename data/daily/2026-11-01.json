@@ -59,12 +59,25 @@
       "cacheRead": 5392375,
       "reasoning": 0
      },
-     "usd": 1.736982,
+     "usd": 1.736983,
      "requests": 53,
      "total": 5942874
     }
    },
    "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 1534,
+      "output": 726689,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2928410,
+      "cacheRead": 183740027,
+      "reasoning": 0
+     },
+     "usd": 135.630439,
+     "requests": 708,
+     "total": 187396660
+    },
     "C//Users/arche": {
      "tokens": {
       "input": 360,
@@ -78,22 +91,22 @@
      "requests": 176,
      "total": 68639897
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ringan": {
      "tokens": {
-      "input": 1824,
-      "output": 872729,
+      "input": 290,
+      "output": 146040,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 3635202,
-      "cacheRead": 216439006,
+      "cacheWrite1h": 706792,
+      "cacheRead": 32698979,
       "reasoning": 0
      },
-     "usd": 159.450938,
-     "requests": 848,
-     "total": 220948761
+     "usd": 23.820499,
+     "requests": 140,
+     "total": 33552101
     }
    },
    "total": 289588658
   }
  },
- "generatedAt": "2026-11-03T07:42:51.632Z"
+ "generatedAt": "2026-11-03T10:42:48.623Z"
 }

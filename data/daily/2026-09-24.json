@@ -24,19 +24,6 @@
    "usd": 39.921539,
    "requests": 482,
    "models": {
-    "<synthetic>": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 25,
-     "total": 0
-    },
     "claude-opus-5-5": {
      "tokens": {
       "input": 698,
@@ -49,6 +36,19 @@
      "usd": 25.931269,
      "requests": 331,
      "total": 27519509
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 25,
+     "total": 0
     },
     "claude-sonnet-5": {
      "tokens": {
@@ -95,5 +95,5 @@
    "total": 46218558
   }
  },
- "generatedAt": "2026-11-03T07:42:51.537Z"
+ "generatedAt": "2026-11-03T10:42:48.545Z"
 }

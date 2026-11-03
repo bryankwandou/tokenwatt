@@ -24,19 +24,6 @@
    "usd": 86.791572,
    "requests": 547,
    "models": {
-    "claude-opus-5-5": {
-     "tokens": {
-      "input": 1132,
-      "output": 399360,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 1005241,
-      "cacheRead": 133499005,
-      "reasoning": 0
-     },
-     "usd": 86.791572,
-     "requests": 542,
-     "total": 134904738
-    },
     "<synthetic>": {
      "tokens": {
       "input": 0,
@@ -49,10 +36,8 @@
      "usd": 0,
      "requests": 5,
      "total": 0
-    }
-   },
-   "projects": {
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+    },
+    "claude-opus-5-5": {
      "tokens": {
       "input": 1132,
       "output": 399360,
@@ -62,12 +47,53 @@
       "reasoning": 0
      },
      "usd": 86.791572,
-     "requests": 547,
+     "requests": 542,
      "total": 134904738
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 796,
+      "output": 237607,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 588839,
+      "cacheRead": 106648417,
+      "reasoning": 0
+     },
+     "usd": 65.156753,
+     "requests": 387,
+     "total": 107475659
+    },
+    "E//Download/lcb/atma/jaya/makassar/2026///angkatan/2025/fti": {
+     "tokens": {
+      "input": 166,
+      "output": 46026,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 163438,
+      "cacheRead": 11255809,
+      "reasoning": 0
+     },
+     "usd": 8.413765,
+     "requests": 73,
+     "total": 11465439
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ringan": {
+     "tokens": {
+      "input": 170,
+      "output": 115727,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 252964,
+      "cacheRead": 15594779,
+      "reasoning": 0
+     },
+     "usd": 13.221055,
+     "requests": 87,
+     "total": 15963640
     }
    },
    "total": 134904738
   }
  },
- "generatedAt": "2026-11-03T07:42:51.627Z"
+ "generatedAt": "2026-11-03T10:42:48.612Z"
 }

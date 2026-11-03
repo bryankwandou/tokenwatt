@@ -1,29 +1,42 @@
 {
  "date": "2026-07-11",
- "total": 122731,
+ "total": 1474783,
  "tokens": {
-  "input": 6532,
-  "output": 1389,
+  "input": 7303,
+  "output": 12742,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 40694,
-  "cacheRead": 74116,
+  "cacheWrite1h": 164848,
+  "cacheRead": 1289890,
   "reasoning": 0
  },
- "usd": 1.022766,
- "requests": 4,
+ "usd": 5.29698,
+ "requests": 21,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 6532,
-    "output": 1389,
+    "input": 7303,
+    "output": 12742,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 40694,
-    "cacheRead": 74116,
+    "cacheWrite1h": 164848,
+    "cacheRead": 1289890,
     "reasoning": 0
    },
-   "usd": 1.022766,
-   "requests": 4,
+   "usd": 5.29698,
+   "requests": 21,
    "models": {
+    "claude-fable-5": {
+     "tokens": {
+      "input": 7303,
+      "output": 12742,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 164848,
+      "cacheRead": 1289890,
+      "reasoning": 0
+     },
+     "usd": 5.29698,
+     "requests": 20,
+     "total": 1474783
+    },
     "<synthetic>": {
      "tokens": {
       "input": 0,
@@ -36,38 +49,25 @@
      "usd": 0,
      "requests": 1,
      "total": 0
-    },
-    "claude-fable-5": {
-     "tokens": {
-      "input": 6532,
-      "output": 1389,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 40694,
-      "cacheRead": 74116,
-      "reasoning": 0
-     },
-     "usd": 1.022766,
-     "requests": 3,
-     "total": 122731
     }
    },
    "projects": {
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 6532,
-      "output": 1389,
+      "input": 7303,
+      "output": 12742,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 40694,
-      "cacheRead": 74116,
+      "cacheWrite1h": 164848,
+      "cacheRead": 1289890,
       "reasoning": 0
      },
-     "usd": 1.022766,
-     "requests": 4,
-     "total": 122731
+     "usd": 5.29698,
+     "requests": 21,
+     "total": 1474783
     }
    },
-   "total": 122731
+   "total": 1474783
   }
  },
- "generatedAt": "2026-11-03T07:42:51.397Z"
+ "generatedAt": "2026-11-03T10:42:48.374Z"
 }

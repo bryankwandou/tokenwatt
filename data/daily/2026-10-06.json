@@ -63,19 +63,6 @@
      "requests": 561,
      "total": 44453718
     },
-    "claude-sonnet-5": {
-     "tokens": {
-      "input": 34,
-      "output": 2474,
-      "cacheWrite5m": 118957,
-      "cacheWrite1h": 0,
-      "cacheRead": 1128319,
-      "reasoning": 0
-     },
-     "usd": 0.821796,
-     "requests": 17,
-     "total": 1249784
-    },
     "claude-haiku-4-5-20251001": {
      "tokens": {
       "input": 882,
@@ -88,9 +75,35 @@
      "usd": 1.097591,
      "requests": 109,
      "total": 7314902
+    },
+    "claude-sonnet-5": {
+     "tokens": {
+      "input": 34,
+      "output": 2474,
+      "cacheWrite5m": 118957,
+      "cacheWrite1h": 0,
+      "cacheRead": 1128319,
+      "reasoning": 0
+     },
+     "usd": 0.821796,
+     "requests": 17,
+     "total": 1249784
     }
    },
    "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 4188,
+      "output": 753689,
+      "cacheWrite5m": 4844613,
+      "cacheWrite1h": 1775942,
+      "cacheRead": 198574496,
+      "reasoning": 0
+     },
+     "usd": 144.204601,
+     "requests": 1721,
+     "total": 205952928
+    },
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025": {
      "tokens": {
       "input": 4,
@@ -104,22 +117,22 @@
      "requests": 2,
      "total": 401824
     },
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+    "E//Download/lcb/atma/jaya/makassar/2026///angkatan/2025/fti": {
      "tokens": {
-      "input": 4394,
-      "output": 840422,
-      "cacheWrite5m": 4844613,
-      "cacheWrite1h": 2048647,
-      "cacheRead": 211409281,
+      "input": 206,
+      "output": 86733,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 272705,
+      "cacheRead": 12834785,
       "reasoning": 0
      },
-     "usd": 155.518398,
-     "requests": 1825,
-     "total": 219147357
+     "usd": 11.313798,
+     "requests": 104,
+     "total": 13194429
     }
    },
    "total": 219549181
   }
  },
- "generatedAt": "2026-11-03T07:42:51.559Z"
+ "generatedAt": "2026-11-03T10:42:48.568Z"
 }

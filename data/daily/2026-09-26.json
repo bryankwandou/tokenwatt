@@ -24,19 +24,6 @@
    "usd": 66.403102,
    "requests": 611,
    "models": {
-    "<synthetic>": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 16,
-     "total": 0
-    },
     "claude-opus-5-5": {
      "tokens": {
       "input": 1204,
@@ -49,10 +36,8 @@
      "usd": 66.403102,
      "requests": 595,
      "total": 79514883
-    }
-   },
-   "projects": {
-    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/d9c5359f/bb3a/46c2/a4f3/6e4d04e349dc/23061218/619c/45ef/a0c3/10313b31b9c5/scratch/2026/09/25/c90486": {
+    },
+    "<synthetic>": {
      "tokens": {
       "input": 0,
       "output": 0,
@@ -62,9 +47,11 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 1,
+     "requests": 16,
      "total": 0
-    },
+    }
+   },
+   "projects": {
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
       "input": 1204,
@@ -77,10 +64,23 @@
      "usd": 66.403102,
      "requests": 610,
      "total": 79514883
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/d9c5359f/bb3a/46c2/a4f3/6e4d04e349dc/23061218/619c/45ef/a0c3/10313b31b9c5/scratch/2026/09/25/c90486": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
     }
    },
    "total": 79514883
   }
  },
- "generatedAt": "2026-11-03T07:42:51.547Z"
+ "generatedAt": "2026-11-03T10:42:48.549Z"
 }

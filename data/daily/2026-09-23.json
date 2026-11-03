@@ -24,6 +24,19 @@
    "usd": 101.572417,
    "requests": 1289,
    "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 1624,
+      "output": 451022,
+      "cacheWrite5m": 827545,
+      "cacheWrite1h": 1118534,
+      "cacheRead": 75962213,
+      "reasoning": 0
+     },
+     "usd": 65.622273,
+     "requests": 797,
+     "total": 78360938
+    },
     "<synthetic>": {
      "tokens": {
       "input": 0,
@@ -49,19 +62,6 @@
      "usd": 35.845344,
      "requests": 417,
      "total": 34311438
-    },
-    "claude-opus-5": {
-     "tokens": {
-      "input": 1624,
-      "output": 451022,
-      "cacheWrite5m": 827545,
-      "cacheWrite1h": 1118534,
-      "cacheRead": 75962213,
-      "reasoning": 0
-     },
-     "usd": 65.622273,
-     "requests": 797,
-     "total": 78360938
     },
     "claude-haiku-4-5-20251001": {
      "tokens": {
@@ -108,5 +108,5 @@
    "total": 112766749
   }
  },
- "generatedAt": "2026-11-03T07:42:51.537Z"
+ "generatedAt": "2026-11-03T10:42:48.543Z"
 }

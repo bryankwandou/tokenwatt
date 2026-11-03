@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 32.137748,
- "requests": 221,
+ "requests": 220,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,21 +22,8 @@
     "reasoning": 0
    },
    "usd": 32.137748,
-   "requests": 221,
+   "requests": 220,
    "models": {
-    "<synthetic>": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 13,
-     "total": 0
-    },
     "claude-opus-5-5": {
      "tokens": {
       "input": 418,
@@ -49,9 +36,35 @@
      "usd": 32.137748,
      "requests": 208,
      "total": 37921024
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 12,
+     "total": 0
     }
    },
    "projects": {
+    "E//Download/lcb/atma/jaya/makassar/2026///angkatan/2025/fti": {
+     "tokens": {
+      "input": 218,
+      "output": 86333,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 255584,
+      "cacheRead": 21625957,
+      "reasoning": 0
+     },
+     "usd": 15.528234,
+     "requests": 111,
+     "total": 21968092
+    },
     "C//Users/arche": {
      "tokens": {
       "input": 0,
@@ -62,25 +75,38 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 7,
+     "requests": 6,
      "total": 0
+    },
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ringan": {
+     "tokens": {
+      "input": 30,
+      "output": 6074,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 48505,
+      "cacheRead": 1324875,
+      "reasoning": 0
+     },
+     "usd": 1.299488,
+     "requests": 14,
+     "total": 1379484
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 418,
-      "output": 267412,
+      "input": 170,
+      "output": 175005,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 697238,
-      "cacheRead": 36955956,
+      "cacheWrite1h": 393149,
+      "cacheRead": 14005124,
       "reasoning": 0
      },
-     "usd": 32.137748,
-     "requests": 214,
-     "total": 37921024
+     "usd": 15.310027,
+     "requests": 89,
+     "total": 14573448
     }
    },
    "total": 37921024
   }
  },
- "generatedAt": "2026-11-03T07:42:51.593Z"
+ "generatedAt": "2026-11-03T10:42:48.598Z"
 }

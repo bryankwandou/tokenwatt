@@ -24,19 +24,6 @@
    "usd": 37.481408,
    "requests": 484,
    "models": {
-    "<synthetic>": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 24,
-     "total": 0
-    },
     "claude-opus-5": {
      "tokens": {
       "input": 936,
@@ -49,6 +36,19 @@
      "usd": 37.481408,
      "requests": 460,
      "total": 41007171
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 24,
+     "total": 0
     }
    },
    "projects": {
@@ -82,5 +82,5 @@
    "total": 41007171
   }
  },
- "generatedAt": "2026-11-03T07:42:51.536Z"
+ "generatedAt": "2026-11-03T10:42:48.540Z"
 }

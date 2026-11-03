@@ -1,29 +1,42 @@
 {
  "date": "2026-08-20",
- "total": 44394435,
+ "total": 117382770,
  "tokens": {
-  "input": 270,
-  "output": 150252,
+  "input": 1380,
+  "output": 519627,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 730673,
-  "cacheRead": 43513240,
+  "cacheWrite1h": 2031538,
+  "cacheRead": 114830225,
   "reasoning": 0
  },
- "usd": 32.821,
- "requests": 140,
+ "usd": 90.728068,
+ "requests": 705,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 270,
-    "output": 150252,
+    "input": 1380,
+    "output": 519627,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 730673,
-    "cacheRead": 43513240,
+    "cacheWrite1h": 2031538,
+    "cacheRead": 114830225,
     "reasoning": 0
    },
-   "usd": 32.821,
-   "requests": 140,
+   "usd": 90.728068,
+   "requests": 705,
    "models": {
+    "claude-opus-5": {
+     "tokens": {
+      "input": 1380,
+      "output": 519627,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2031538,
+      "cacheRead": 114830225,
+      "reasoning": 0
+     },
+     "usd": 90.728068,
+     "requests": 690,
+     "total": 117382770
+    },
     "<synthetic>": {
      "tokens": {
       "input": 0,
@@ -34,40 +47,40 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 5,
+     "requests": 15,
      "total": 0
-    },
-    "claude-opus-5": {
-     "tokens": {
-      "input": 270,
-      "output": 150252,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 730673,
-      "cacheRead": 43513240,
-      "reasoning": 0
-     },
-     "usd": 32.821,
-     "requests": 135,
-     "total": 44394435
     }
    },
    "projects": {
     "C//Users/arche": {
      "tokens": {
-      "input": 270,
-      "output": 150252,
+      "input": 1234,
+      "output": 446635,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 730673,
-      "cacheRead": 43513240,
+      "cacheWrite1h": 1871737,
+      "cacheRead": 106320004,
       "reasoning": 0
      },
-     "usd": 32.821,
-     "requests": 140,
-     "total": 44394435
+     "usd": 83.049417,
+     "requests": 628,
+     "total": 108639610
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 146,
+      "output": 72992,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 159801,
+      "cacheRead": 8510221,
+      "reasoning": 0
+     },
+     "usd": 7.678651,
+     "requests": 77,
+     "total": 8743160
     }
    },
-   "total": 44394435
+   "total": 117382770
   }
  },
- "generatedAt": "2026-11-03T07:42:51.465Z"
+ "generatedAt": "2026-11-03T10:42:48.451Z"
 }

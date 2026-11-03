@@ -78,22 +78,48 @@
     }
    },
    "projects": {
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ringan": {
      "tokens": {
-      "input": 2180,
-      "output": 920436,
-      "cacheWrite5m": 774130,
-      "cacheWrite1h": 2293935,
-      "cacheRead": 213015452,
+      "input": 1046,
+      "output": 569796,
+      "cacheWrite5m": 665988,
+      "cacheWrite1h": 1300761,
+      "cacheRead": 100981958,
       "reasoning": 0
      },
-     "usd": 153.440091,
-     "requests": 1088,
-     "total": 217006133
+     "usd": 78.878108,
+     "requests": 523,
+     "total": 103519549
+    },
+    "E//Download/lcb/atma/jaya/makassar/2026///angkatan/2025/fti": {
+     "tokens": {
+      "input": 352,
+      "output": 64999,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 291499,
+      "cacheRead": 23563464,
+      "reasoning": 0
+     },
+     "usd": 16.323457,
+     "requests": 170,
+     "total": 23920314
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 782,
+      "output": 285641,
+      "cacheWrite5m": 108142,
+      "cacheWrite1h": 701675,
+      "cacheRead": 88470030,
+      "reasoning": 0
+     },
+     "usd": 58.238526,
+     "requests": 395,
+     "total": 89566270
     }
    },
    "total": 217006133
   }
  },
- "generatedAt": "2026-11-03T07:42:51.602Z"
+ "generatedAt": "2026-11-03T10:42:48.611Z"
 }

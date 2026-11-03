@@ -65,18 +65,18 @@
     }
    },
    "projects": {
-    "C//Users/arche": {
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/d9c5359f/bb3a/46c2/a4f3/6e4d04e349dc/23061218/619c/45ef/a0c3/10313b31b9c5/scratch/2026/09/29/6dd3ed": {
      "tokens": {
-      "input": 164,
-      "output": 45086,
+      "input": 100,
+      "output": 29984,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 254399,
-      "cacheRead": 10476262,
+      "cacheWrite1h": 156231,
+      "cacheRead": 6913562,
       "reasoning": 0
      },
-     "usd": 8.910091,
-     "requests": 86,
-     "total": 10775911
+     "usd": 5.769191,
+     "requests": 54,
+     "total": 7099877
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
@@ -90,10 +90,23 @@
      "usd": 143.625353,
      "requests": 1478,
      "total": 170620620
+    },
+    "C//Users/arche/AppData/Roaming/Claude/scratch/workspaces/d9c5359f/bb3a/46c2/a4f3/6e4d04e349dc/23061218/619c/45ef/a0c3/10313b31b9c5/scratch/2026/10/01/7ec1de": {
+     "tokens": {
+      "input": 64,
+      "output": 15102,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 98168,
+      "cacheRead": 3562700,
+      "reasoning": 0
+     },
+     "usd": 3.1409,
+     "requests": 32,
+     "total": 3676034
     }
    },
    "total": 181396531
   }
  },
- "generatedAt": "2026-11-03T07:42:51.549Z"
+ "generatedAt": "2026-11-03T10:42:48.558Z"
 }
