@@ -1,0 +1,102 @@
+{
+ "date": "2026-11-04",
+ "total": 47439524,
+ "tokens": {
+  "input": 146367,
+  "output": 86217,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 165688,
+  "cacheRead": 47041252,
+  "reasoning": 0
+ },
+ "usd": 22.72731,
+ "requests": 120,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 170,
+    "output": 76754,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 165688,
+    "cacheRead": 36417653,
+    "reasoning": 0
+   },
+   "usd": 21.785406,
+   "requests": 63,
+   "models": {
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 170,
+      "output": 76754,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 165688,
+      "cacheRead": 36417653,
+      "reasoning": 0
+     },
+     "usd": 21.785406,
+     "requests": 63,
+     "total": 36660265
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 170,
+      "output": 76754,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 165688,
+      "cacheRead": 36417653,
+      "reasoning": 0
+     },
+     "usd": 21.785406,
+     "requests": 63,
+     "total": 36660265
+    }
+   },
+   "total": 36660265
+  },
+  "antigravity": {
+   "tokens": {
+    "input": 146197,
+    "output": 9463,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 0,
+    "cacheRead": 10623599,
+    "reasoning": 0
+   },
+   "usd": 0.941904,
+   "requests": 57,
+   "models": {
+    "gemini-3.8-flash-n": {
+     "tokens": {
+      "input": 143760,
+      "output": 8401,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 10421808,
+      "reasoning": 0
+     },
+     "usd": 0.920959,
+     "requests": 56,
+     "total": 10573969
+    },
+    "gemini-3.8-flash-high": {
+     "tokens": {
+      "input": 2437,
+      "output": 1062,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 201791,
+      "reasoning": 0
+     },
+     "usd": 0.020945,
+     "requests": 1,
+     "total": 205290
+    }
+   },
+   "projects": {},
+   "total": 10779259
+  }
+ },
+ "generatedAt": "2026-11-03T17:05:31.330Z"
+}
