@@ -1,29 +1,55 @@
 {
  "date": "2026-11-04",
- "total": 127090134,
+ "total": 318827553,
  "tokens": {
-  "input": 834645,
-  "output": 369498,
-  "cacheWrite5m": 45640,
-  "cacheWrite1h": 581253,
-  "cacheRead": 125259098,
+  "input": 2162265,
+  "output": 1732151,
+  "cacheWrite5m": 1754041,
+  "cacheWrite1h": 2412649,
+  "cacheRead": 310766447,
   "reasoning": 0
  },
- "usd": 71.965324,
- "requests": 259,
+ "usd": 194.54035,
+ "requests": 1287,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 476,
-    "output": 355214,
-    "cacheWrite5m": 45640,
-    "cacheWrite1h": 581253,
-    "cacheRead": 111094789,
+    "input": 2136,
+    "output": 1630231,
+    "cacheWrite5m": 1754041,
+    "cacheWrite1h": 2412649,
+    "cacheRead": 258493021,
     "reasoning": 0
    },
-   "usd": 70.223809,
-   "requests": 182,
+   "usd": 188.617546,
+   "requests": 912,
    "models": {
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 670,
+      "output": 552681,
+      "cacheWrite5m": 1615256,
+      "cacheWrite1h": 0,
+      "cacheRead": 29792394,
+      "reasoning": 0
+     },
+     "usd": 23.287153,
+     "requests": 335,
+     "total": 31961001
+    },
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 1452,
+      "output": 1065670,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2412649,
+      "cacheRead": 228629837,
+      "reasoning": 0
+     },
+     "usd": 165.090419,
+     "requests": 552,
+     "total": 232109608
+    },
     "<synthetic>": {
      "tokens": {
       "input": 0,
@@ -34,95 +60,82 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 6,
+     "requests": 18,
      "total": 0
-    },
-    "claude-opus-5-5": {
-     "tokens": {
-      "input": 472,
-      "output": 351551,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 581253,
-      "cacheRead": 111088239,
-      "reasoning": 0
-     },
-     "usd": 70.147785,
-     "requests": 174,
-     "total": 112021515
     },
     "claude-haiku-5-5": {
      "tokens": {
-      "input": 4,
-      "output": 3663,
-      "cacheWrite5m": 45640,
+      "input": 14,
+      "output": 11880,
+      "cacheWrite5m": 138785,
       "cacheWrite1h": 0,
-      "cacheRead": 6550,
+      "cacheRead": 70790,
       "reasoning": 0
      },
-     "usd": 0.076024,
-     "requests": 2,
-     "total": 55857
+     "usd": 0.239974,
+     "requests": 7,
+     "total": 221469
     }
    },
    "projects": {
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 476,
-      "output": 355214,
-      "cacheWrite5m": 45640,
-      "cacheWrite1h": 581253,
-      "cacheRead": 111094789,
+      "input": 2136,
+      "output": 1630231,
+      "cacheWrite5m": 1754041,
+      "cacheWrite1h": 2412649,
+      "cacheRead": 258493021,
       "reasoning": 0
      },
-     "usd": 70.223809,
-     "requests": 182,
-     "total": 112077372
+     "usd": 188.617546,
+     "requests": 912,
+     "total": 264292078
     }
    },
-   "total": 112077372
+   "total": 264292078
   },
   "antigravity": {
    "tokens": {
-    "input": 834169,
-    "output": 14284,
+    "input": 2160129,
+    "output": 101920,
     "cacheWrite5m": 0,
     "cacheWrite1h": 0,
-    "cacheRead": 14164309,
+    "cacheRead": 52273426,
     "reasoning": 0
    },
-   "usd": 1.741515,
-   "requests": 77,
+   "usd": 5.922804,
+   "requests": 375,
    "models": {
     "gemini-3.8-flash-n": {
      "tokens": {
-      "input": 831613,
-      "output": 13206,
+      "input": 2154970,
+      "output": 98418,
       "cacheWrite5m": 0,
       "cacheWrite1h": 0,
-      "cacheRead": 13946862,
+      "cacheRead": 51845467,
       "reasoning": 0
      },
-     "usd": 1.719247,
-     "requests": 76,
-     "total": 14791681
+     "usd": 5.873705,
+     "requests": 373,
+     "total": 54098855
     },
     "gemini-3.8-flash-high": {
      "tokens": {
-      "input": 2556,
-      "output": 1078,
+      "input": 5159,
+      "output": 3502,
       "cacheWrite5m": 0,
       "cacheWrite1h": 0,
-      "cacheRead": 217447,
+      "cacheRead": 427959,
       "reasoning": 0
      },
-     "usd": 0.022268,
-     "requests": 1,
-     "total": 221081
+     "usd": 0.049099,
+     "requests": 2,
+     "total": 436620
     }
    },
    "projects": {},
-   "total": 15012762
+   "total": 54535475
   }
  },
- "generatedAt": "2026-11-04T08:34:48.898Z"
+ "generatedAt": "2026-11-04T15:00:37.919Z"
 }
