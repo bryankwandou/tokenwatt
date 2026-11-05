@@ -1,28 +1,28 @@
 {
  "date": "2026-11-05",
- "total": 169282436,
+ "total": 170300777,
  "tokens": {
-  "input": 2214,
-  "output": 2325819,
+  "input": 2236,
+  "output": 2341005,
   "cacheWrite5m": 3882427,
-  "cacheWrite1h": 3088940,
-  "cacheRead": 159983036,
+  "cacheWrite1h": 3209713,
+  "cacheRead": 160865396,
   "reasoning": 0
  },
- "usd": 171.205494,
- "requests": 1043,
+ "usd": 173.234164,
+ "requests": 1056,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 2214,
-    "output": 2325819,
+    "input": 2236,
+    "output": 2341005,
     "cacheWrite5m": 3882427,
-    "cacheWrite1h": 3088940,
-    "cacheRead": 159983036,
+    "cacheWrite1h": 3209713,
+    "cacheRead": 160865396,
     "reasoning": 0
    },
-   "usd": 171.205494,
-   "requests": 1043,
+   "usd": 173.234164,
+   "requests": 1056,
    "models": {
     "claude-sonnet-5-5": {
      "tokens": {
@@ -39,16 +39,16 @@
     },
     "claude-opus-5-5": {
      "tokens": {
-      "input": 1564,
-      "output": 1691388,
+      "input": 1586,
+      "output": 1706574,
       "cacheWrite5m": 1930411,
-      "cacheWrite1h": 3088940,
-      "cacheRead": 130843401,
+      "cacheWrite1h": 3209713,
+      "cacheRead": 131725761,
       "reasoning": 0
      },
-     "usd": 150.668689,
-     "requests": 692,
-     "total": 137555704
+     "usd": 152.697359,
+     "requests": 703,
+     "total": 138574045
     },
     "<synthetic>": {
      "tokens": {
@@ -60,7 +60,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 32,
+     "requests": 34,
      "total": 0
     },
     "claude-haiku-5-5": {
@@ -80,16 +80,16 @@
    "projects": {
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 2102,
-      "output": 2263241,
+      "input": 2124,
+      "output": 2278427,
       "cacheWrite5m": 3882427,
-      "cacheWrite1h": 2804585,
-      "cacheRead": 148420649,
+      "cacheWrite1h": 2925358,
+      "cacheRead": 149303009,
       "reasoning": 0
      },
-     "usd": 161.015741,
-     "requests": 990,
-     "total": 157373004
+     "usd": 163.044411,
+     "requests": 1003,
+     "total": 158391345
     },
     "C//Users/arche": {
      "tokens": {
@@ -105,8 +105,8 @@
      "total": 11909432
     }
    },
-   "total": 169282436
+   "total": 170300777
   }
  },
- "generatedAt": "2026-11-05T12:26:13.142Z"
+ "generatedAt": "2026-11-05T19:02:07.804Z"
 }
