@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 21.994879,
- "requests": 129,
+ "requests": 130,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 21.994879,
-   "requests": 129,
+   "requests": 130,
    "models": {
     "claude-haiku-5-5": {
      "tokens": {
@@ -37,6 +37,19 @@
      "requests": 47,
      "total": 5400665
     },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 0
+    },
     "claude-opus-5-5": {
      "tokens": {
       "input": 164,
@@ -49,19 +62,6 @@
      "usd": 19.890161,
      "requests": 81,
      "total": 22257347
-    },
-    "<synthetic>": {
-     "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
-      "reasoning": 0
-     },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
     }
    },
    "projects": {
@@ -77,10 +77,23 @@
      "usd": 21.994879,
      "requests": 129,
      "total": 27658012
+    },
+    "C//Users/arche": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
     }
    },
    "total": 27658012
   }
  },
- "generatedAt": "2026-11-06T08:04:20.262Z"
+ "generatedAt": "2026-11-06T15:00:24.151Z"
 }
