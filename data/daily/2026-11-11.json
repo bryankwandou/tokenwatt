@@ -1,0 +1,73 @@
+{
+ "date": "2026-11-11",
+ "total": 0,
+ "tokens": {
+  "input": 0,
+  "output": 0,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 0,
+  "cacheRead": 0,
+  "reasoning": 0
+ },
+ "usd": 0,
+ "requests": 5,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 0,
+    "output": 0,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 0,
+    "cacheRead": 0,
+    "reasoning": 0
+   },
+   "usd": 0,
+   "requests": 5,
+   "models": {
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 5,
+     "total": 0
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 4,
+     "total": 0
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 1,
+     "total": 0
+    }
+   },
+   "total": 0
+  }
+ },
+ "generatedAt": "2026-11-10T20:00:28.828Z"
+}
