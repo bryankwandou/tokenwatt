@@ -1,0 +1,112 @@
+{
+ "date": "2026-11-10",
+ "total": 7165556,
+ "tokens": {
+  "input": 194,
+  "output": 110322,
+  "cacheWrite5m": 1001054,
+  "cacheWrite1h": 336934,
+  "cacheRead": 5717052,
+  "reasoning": 0
+ },
+ "usd": 26.185425,
+ "requests": 107,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 194,
+    "output": 110322,
+    "cacheWrite5m": 1001054,
+    "cacheWrite1h": 336934,
+    "cacheRead": 5717052,
+    "reasoning": 0
+   },
+   "usd": 26.185425,
+   "requests": 107,
+   "models": {
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 24,
+      "output": 12180,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 192391,
+      "cacheRead": 765486,
+      "reasoning": 0
+     },
+     "usd": 2.611273,
+     "requests": 12,
+     "total": 970081
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 12,
+     "total": 0
+    },
+    "claude-fable-5-2": {
+     "tokens": {
+      "input": 134,
+      "output": 88396,
+      "cacheWrite5m": 913822,
+      "cacheWrite1h": 144543,
+      "cacheRead": 4361704,
+      "reasoning": 0
+     },
+     "usd": 23.096479,
+     "requests": 67,
+     "total": 5508599
+    },
+    "claude-haiku-5-5": {
+     "tokens": {
+      "input": 8,
+      "output": 8120,
+      "cacheWrite5m": 33906,
+      "cacheWrite1h": 0,
+      "cacheRead": 33613,
+      "reasoning": 0
+     },
+     "usd": 0.086352,
+     "requests": 4,
+     "total": 75647
+    },
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 28,
+      "output": 1626,
+      "cacheWrite5m": 53326,
+      "cacheWrite1h": 0,
+      "cacheRead": 556249,
+      "reasoning": 0
+     },
+     "usd": 0.391321,
+     "requests": 12,
+     "total": 611229
+    }
+   },
+   "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 194,
+      "output": 110322,
+      "cacheWrite5m": 1001054,
+      "cacheWrite1h": 336934,
+      "cacheRead": 5717052,
+      "reasoning": 0
+     },
+     "usd": 26.185425,
+     "requests": 107,
+     "total": 7165556
+    }
+   },
+   "total": 7165556
+  }
+ },
+ "generatedAt": "2026-11-10T13:22:29.683Z"
+}
