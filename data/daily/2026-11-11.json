@@ -1,28 +1,28 @@
 {
  "date": "2026-11-11",
- "total": 0,
+ "total": 8967818,
  "tokens": {
-  "input": 0,
-  "output": 0,
-  "cacheWrite5m": 0,
-  "cacheWrite1h": 0,
-  "cacheRead": 0,
+  "input": 180,
+  "output": 67699,
+  "cacheWrite5m": 5604,
+  "cacheWrite1h": 550303,
+  "cacheRead": 8344032,
   "reasoning": 0
  },
- "usd": 0,
- "requests": 5,
+ "usd": 20.576533,
+ "requests": 93,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 0,
-    "output": 0,
-    "cacheWrite5m": 0,
-    "cacheWrite1h": 0,
-    "cacheRead": 0,
+    "input": 180,
+    "output": 67699,
+    "cacheWrite5m": 5604,
+    "cacheWrite1h": 550303,
+    "cacheRead": 8344032,
     "reasoning": 0
    },
-   "usd": 0,
-   "requests": 5,
+   "usd": 20.576533,
+   "requests": 93,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -36,38 +36,77 @@
      "usd": 0,
      "requests": 5,
      "total": 0
+    },
+    "claude-fable-5-2": {
+     "tokens": {
+      "input": 140,
+      "output": 58853,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 434869,
+      "cacheRead": 6817689,
+      "reasoning": 0
+     },
+     "usd": 18.459119,
+     "requests": 70,
+     "total": 7311551
+    },
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 34,
+      "output": 7580,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 115434,
+      "cacheRead": 1518571,
+      "reasoning": 0
+     },
+     "usd": 2.103295,
+     "requests": 15,
+     "total": 1641619
+    },
+    "claude-haiku-5-5": {
+     "tokens": {
+      "input": 6,
+      "output": 1266,
+      "cacheWrite5m": 5604,
+      "cacheWrite1h": 0,
+      "cacheRead": 7772,
+      "reasoning": 0
+     },
+     "usd": 0.014118,
+     "requests": 3,
+     "total": 14648
     }
    },
    "projects": {
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 0,
-      "output": 0,
+      "input": 164,
+      "output": 63159,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
+      "cacheWrite1h": 487245,
+      "cacheRead": 7999588,
       "reasoning": 0
      },
-     "usd": 0,
-     "requests": 4,
-     "total": 0
+     "usd": 18.800782,
+     "requests": 84,
+     "total": 8550156
     },
     "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
      "tokens": {
-      "input": 0,
-      "output": 0,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 0,
-      "cacheRead": 0,
+      "input": 16,
+      "output": 4540,
+      "cacheWrite5m": 5604,
+      "cacheWrite1h": 63058,
+      "cacheRead": 344444,
       "reasoning": 0
      },
-     "usd": 0,
-     "requests": 1,
-     "total": 0
+     "usd": 1.77575,
+     "requests": 9,
+     "total": 417662
     }
    },
-   "total": 0
+   "total": 8967818
   }
  },
- "generatedAt": "2026-11-10T20:00:28.828Z"
+ "generatedAt": "2026-11-11T05:06:05.232Z"
 }
