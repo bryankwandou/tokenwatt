@@ -1,41 +1,54 @@
 {
  "date": "2026-11-13",
- "total": 265071834,
+ "total": 343881039,
  "tokens": {
-  "input": 2362,
-  "output": 944227,
-  "cacheWrite5m": 0,
-  "cacheWrite1h": 2386630,
-  "cacheRead": 261738615,
+  "input": 2902,
+  "output": 1386780,
+  "cacheWrite5m": 781706,
+  "cacheWrite1h": 2807371,
+  "cacheRead": 338902280,
   "reasoning": 0
  },
- "usd": 178.353093,
- "requests": 1183,
+ "usd": 229.626366,
+ "requests": 1449,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 2362,
-    "output": 944227,
-    "cacheWrite5m": 0,
-    "cacheWrite1h": 2386630,
-    "cacheRead": 261738615,
+    "input": 2902,
+    "output": 1386780,
+    "cacheWrite5m": 781706,
+    "cacheWrite1h": 2807371,
+    "cacheRead": 338902280,
     "reasoning": 0
    },
-   "usd": 178.353093,
-   "requests": 1183,
+   "usd": 229.626366,
+   "requests": 1449,
    "models": {
-    "claude-opus-5-5": {
+    "claude-haiku-5-5": {
      "tokens": {
-      "input": 2362,
-      "output": 944227,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 2386630,
-      "cacheRead": 261738615,
+      "input": 66,
+      "output": 131885,
+      "cacheWrite5m": 464769,
+      "cacheWrite1h": 0,
+      "cacheRead": 2273957,
       "reasoning": 0
      },
-     "usd": 178.353093,
-     "requests": 1166,
-     "total": 265071834
+     "usd": 1.467848,
+     "requests": 33,
+     "total": 2870677
+    },
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 46,
+      "output": 56091,
+      "cacheWrite5m": 316937,
+      "cacheWrite1h": 0,
+      "cacheRead": 1217099,
+      "reasoning": 0
+     },
+     "usd": 2.395146,
+     "requests": 23,
+     "total": 1590173
     },
     "<synthetic>": {
      "tokens": {
@@ -47,27 +60,40 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 17,
+     "requests": 22,
      "total": 0
+    },
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 2790,
+      "output": 1198804,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 2807371,
+      "cacheRead": 335411224,
+      "reasoning": 0
+     },
+     "usd": 225.763372,
+     "requests": 1371,
+     "total": 339420189
     }
    },
    "projects": {
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 2362,
-      "output": 944227,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 2386630,
-      "cacheRead": 261738615,
+      "input": 2902,
+      "output": 1386780,
+      "cacheWrite5m": 781706,
+      "cacheWrite1h": 2807371,
+      "cacheRead": 338902280,
       "reasoning": 0
      },
-     "usd": 178.353093,
-     "requests": 1183,
-     "total": 265071834
+     "usd": 229.626366,
+     "requests": 1449,
+     "total": 343881039
     }
    },
-   "total": 265071834
+   "total": 343881039
   }
  },
- "generatedAt": "2026-11-13T12:34:03.895Z"
+ "generatedAt": "2026-11-13T13:01:26.420Z"
 }

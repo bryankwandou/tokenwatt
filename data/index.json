@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T12:34:04.582Z",
+ "generatedAt": "2026-11-13T13:01:26.782Z",
  "host": "nayrbryanGaming",
  "days": [
   {
@@ -1772,13 +1772,13 @@
   },
   {
    "date": "2026-11-13",
-   "total": 265071834,
-   "usd": 178.353093,
-   "requests": 1183,
+   "total": 343881039,
+   "usd": 229.626366,
+   "requests": 1449,
    "byProvider": {
     "claude-code": {
-     "total": 265071834,
-     "usd": 178.353093
+     "total": 343881039,
+     "usd": 229.626366
     }
    }
   }
