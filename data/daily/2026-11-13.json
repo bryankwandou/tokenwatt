@@ -1,41 +1,41 @@
 {
  "date": "2026-11-13",
- "total": 75075562,
+ "total": 265071834,
  "tokens": {
-  "input": 616,
-  "output": 184685,
+  "input": 2362,
+  "output": 944227,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 392006,
-  "cacheRead": 74498255,
+  "cacheWrite1h": 2386630,
+  "cacheRead": 261738615,
   "reasoning": 0
  },
- "usd": 45.789393,
- "requests": 311,
+ "usd": 178.353093,
+ "requests": 1183,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 616,
-    "output": 184685,
+    "input": 2362,
+    "output": 944227,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 392006,
-    "cacheRead": 74498255,
+    "cacheWrite1h": 2386630,
+    "cacheRead": 261738615,
     "reasoning": 0
    },
-   "usd": 45.789393,
-   "requests": 311,
+   "usd": 178.353093,
+   "requests": 1183,
    "models": {
     "claude-opus-5-5": {
      "tokens": {
-      "input": 616,
-      "output": 184685,
+      "input": 2362,
+      "output": 944227,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 392006,
-      "cacheRead": 74498255,
+      "cacheWrite1h": 2386630,
+      "cacheRead": 261738615,
       "reasoning": 0
      },
-     "usd": 45.789393,
-     "requests": 301,
-     "total": 75075562
+     "usd": 178.353093,
+     "requests": 1166,
+     "total": 265071834
     },
     "<synthetic>": {
      "tokens": {
@@ -47,27 +47,27 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 10,
+     "requests": 17,
      "total": 0
     }
    },
    "projects": {
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 616,
-      "output": 184685,
+      "input": 2362,
+      "output": 944227,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 392006,
-      "cacheRead": 74498255,
+      "cacheWrite1h": 2386630,
+      "cacheRead": 261738615,
       "reasoning": 0
      },
-     "usd": 45.789393,
-     "requests": 311,
-     "total": 75075562
+     "usd": 178.353093,
+     "requests": 1183,
+     "total": 265071834
     }
    },
-   "total": 75075562
+   "total": 265071834
   }
  },
- "generatedAt": "2026-11-13T05:38:30.324Z"
+ "generatedAt": "2026-11-13T12:34:03.895Z"
 }
