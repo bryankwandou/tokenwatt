@@ -1,0 +1,112 @@
+{
+ "date": "2026-11-15",
+ "total": 24446760,
+ "tokens": {
+  "input": 312,
+  "output": 115437,
+  "cacheWrite5m": 0,
+  "cacheWrite1h": 321567,
+  "cacheRead": 24009444,
+  "reasoning": 0
+ },
+ "usd": 25.270367,
+ "requests": 151,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 312,
+    "output": 115437,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 321567,
+    "cacheRead": 24009444,
+    "reasoning": 0
+   },
+   "usd": 25.270367,
+   "requests": 151,
+   "models": {
+    "claude-fable-5-2": {
+     "tokens": {
+      "input": 102,
+      "output": 50528,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 178925,
+      "cacheRead": 8219060,
+      "reasoning": 0
+     },
+     "usd": 14.32498,
+     "requests": 49,
+     "total": 8448615
+    },
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 210,
+      "output": 64909,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 142642,
+      "cacheRead": 15790384,
+      "reasoning": 0
+     },
+     "usd": 10.945387,
+     "requests": 97,
+     "total": 15998145
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 5,
+     "total": 0
+    }
+   },
+   "projects": {
+    "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ringan": {
+     "tokens": {
+      "input": 36,
+      "output": 6792,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 78214,
+      "cacheRead": 2002538,
+      "reasoning": 0
+     },
+     "usd": 3.906778,
+     "requests": 18,
+     "total": 2087580
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 210,
+      "output": 64909,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 142642,
+      "cacheRead": 15790384,
+      "reasoning": 0
+     },
+     "usd": 10.945387,
+     "requests": 99,
+     "total": 15998145
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
+     "tokens": {
+      "input": 66,
+      "output": 43736,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 100711,
+      "cacheRead": 6216522,
+      "reasoning": 0
+     },
+     "usd": 10.418202,
+     "requests": 34,
+     "total": 6361035
+    }
+   },
+   "total": 24446760
+  }
+ },
+ "generatedAt": "2026-11-14T19:09:20.292Z"
+}

@@ -1,41 +1,41 @@
 {
  "date": "2026-11-14",
- "total": 76977435,
+ "total": 122535046,
  "tokens": {
-  "input": 994,
-  "output": 450851,
-  "cacheWrite5m": 83830,
-  "cacheWrite1h": 1674880,
-  "cacheRead": 74766880,
+  "input": 1762,
+  "output": 706774,
+  "cacheWrite5m": 215282,
+  "cacheWrite1h": 2796032,
+  "cacheRead": 118815196,
   "reasoning": 0
  },
- "usd": 92.488557,
- "requests": 508,
+ "usd": 148.230269,
+ "requests": 885,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 994,
-    "output": 450851,
-    "cacheWrite5m": 83830,
-    "cacheWrite1h": 1674880,
-    "cacheRead": 74766880,
+    "input": 1762,
+    "output": 706774,
+    "cacheWrite5m": 215282,
+    "cacheWrite1h": 2796032,
+    "cacheRead": 118815196,
     "reasoning": 0
    },
-   "usd": 92.488557,
-   "requests": 508,
+   "usd": 148.230269,
+   "requests": 885,
    "models": {
     "claude-fable-5-2": {
      "tokens": {
-      "input": 394,
-      "output": 229222,
+      "input": 628,
+      "output": 365207,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 849742,
-      "cacheRead": 25825703,
+      "cacheWrite1h": 1303593,
+      "cacheRead": 42245747,
       "reasoning": 0
      },
-     "usd": 54.285583,
-     "requests": 193,
-     "total": 26905061
+     "usd": 86.584237,
+     "requests": 305,
+     "total": 43915175
     },
     "<synthetic>": {
      "tokens": {
@@ -47,79 +47,92 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 23,
+     "requests": 43,
      "total": 0
     },
     "claude-opus-5-5": {
      "tokens": {
-      "input": 586,
-      "output": 213585,
+      "input": 1074,
+      "output": 319288,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 825138,
-      "cacheRead": 48924750,
+      "cacheWrite1h": 1492439,
+      "cacheRead": 75666773,
       "reasoning": 0
      },
-     "usd": 38.05631,
-     "requests": 285,
-     "total": 49964059
+     "usd": 60.745346,
+     "requests": 508,
+     "total": 77479574
     },
     "claude-haiku-5-5": {
      "tokens": {
-      "input": 14,
-      "output": 8044,
-      "cacheWrite5m": 83830,
+      "input": 30,
+      "output": 15218,
+      "cacheWrite5m": 140613,
       "cacheWrite1h": 0,
-      "cacheRead": 16427,
+      "cacheRead": 40086,
       "reasoning": 0
      },
-     "usd": 0.146664,
-     "requests": 7,
-     "total": 108315
+     "usd": 0.255895,
+     "requests": 15,
+     "total": 195947
+    },
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 30,
+      "output": 7061,
+      "cacheWrite5m": 74669,
+      "cacheWrite1h": 0,
+      "cacheRead": 862590,
+      "reasoning": 0
+     },
+     "usd": 0.644791,
+     "requests": 14,
+     "total": 944350
     }
    },
    "projects": {
     "E//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/ringan": {
      "tokens": {
-      "input": 86,
-      "output": 58652,
+      "input": 184,
+      "output": 121377,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 217688,
-      "cacheRead": 5408807,
+      "cacheWrite1h": 339754,
+      "cacheRead": 13572697,
       "reasoning": 0
      },
-     "usd": 12.696027,
-     "requests": 42,
-     "total": 5685233
+     "usd": 26.438467,
+     "requests": 90,
+     "total": 14034012
     },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 672,
-      "output": 251566,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 1009262,
-      "cacheRead": 54167221,
+      "input": 1190,
+      "output": 364330,
+      "cacheWrite5m": 74669,
+      "cacheWrite1h": 1676563,
+      "cacheRead": 81771834,
       "reasoning": 0
      },
-     "usd": 48.881171,
-     "requests": 346,
-     "total": 55428721
+     "usd": 72.214998,
+     "requests": 598,
+     "total": 83888586
     },
     "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
      "tokens": {
-      "input": 236,
-      "output": 140633,
-      "cacheWrite5m": 83830,
-      "cacheWrite1h": 447930,
-      "cacheRead": 15190852,
+      "input": 388,
+      "output": 221067,
+      "cacheWrite5m": 140613,
+      "cacheWrite1h": 779715,
+      "cacheRead": 23470665,
       "reasoning": 0
      },
-     "usd": 30.911359,
-     "requests": 120,
-     "total": 15863481
+     "usd": 49.576804,
+     "requests": 197,
+     "total": 24612448
     }
    },
-   "total": 76977435
+   "total": 122535046
   }
  },
- "generatedAt": "2026-11-14T12:07:17.144Z"
+ "generatedAt": "2026-11-14T19:09:18.746Z"
 }
