@@ -1,41 +1,41 @@
 {
  "date": "2026-11-15",
- "total": 24446760,
+ "total": 34377445,
  "tokens": {
-  "input": 312,
-  "output": 115437,
+  "input": 438,
+  "output": 195190,
   "cacheWrite5m": 0,
-  "cacheWrite1h": 321567,
-  "cacheRead": 24009444,
+  "cacheWrite1h": 1014466,
+  "cacheRead": 33167351,
   "reasoning": 0
  },
- "usd": 25.270367,
- "requests": 151,
+ "usd": 52.275164,
+ "requests": 213,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 312,
-    "output": 115437,
+    "input": 438,
+    "output": 195190,
     "cacheWrite5m": 0,
-    "cacheWrite1h": 321567,
-    "cacheRead": 24009444,
+    "cacheWrite1h": 1014466,
+    "cacheRead": 33167351,
     "reasoning": 0
    },
-   "usd": 25.270367,
-   "requests": 151,
+   "usd": 52.275164,
+   "requests": 213,
    "models": {
     "claude-fable-5-2": {
      "tokens": {
-      "input": 102,
-      "output": 50528,
+      "input": 228,
+      "output": 130281,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 178925,
-      "cacheRead": 8219060,
+      "cacheWrite1h": 871824,
+      "cacheRead": 17376967,
       "reasoning": 0
      },
-     "usd": 14.32498,
-     "requests": 49,
-     "total": 8448615
+     "usd": 41.329777,
+     "requests": 110,
+     "total": 18379300
     },
     "claude-opus-5-5": {
      "tokens": {
@@ -60,7 +60,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 5,
+     "requests": 6,
      "total": 0
     }
    },
@@ -93,20 +93,20 @@
     },
     "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
      "tokens": {
-      "input": 66,
-      "output": 43736,
+      "input": 192,
+      "output": 123489,
       "cacheWrite5m": 0,
-      "cacheWrite1h": 100711,
-      "cacheRead": 6216522,
+      "cacheWrite1h": 793610,
+      "cacheRead": 15374429,
       "reasoning": 0
      },
-     "usd": 10.418202,
-     "requests": 34,
-     "total": 6361035
+     "usd": 37.422999,
+     "requests": 96,
+     "total": 16291720
     }
    },
-   "total": 24446760
+   "total": 34377445
   }
  },
- "generatedAt": "2026-11-14T19:09:20.292Z"
+ "generatedAt": "2026-11-15T09:33:09.301Z"
 }
