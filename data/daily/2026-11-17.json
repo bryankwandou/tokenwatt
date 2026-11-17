@@ -1,0 +1,99 @@
+{
+ "date": "2026-11-17",
+ "total": 87970933,
+ "tokens": {
+  "input": 1068,
+  "output": 493272,
+  "cacheWrite5m": 1814150,
+  "cacheWrite1h": 1092836,
+  "cacheRead": 84569607,
+  "reasoning": 0
+ },
+ "usd": 65.87533,
+ "requests": 524,
+ "providers": {
+  "claude-code": {
+   "tokens": {
+    "input": 1068,
+    "output": 493272,
+    "cacheWrite5m": 1814150,
+    "cacheWrite1h": 1092836,
+    "cacheRead": 84569607,
+    "reasoning": 0
+   },
+   "usd": 65.87533,
+   "requests": 524,
+   "models": {
+    "claude-haiku-5-5": {
+     "tokens": {
+      "input": 104,
+      "output": 135056,
+      "cacheWrite5m": 1361529,
+      "cacheWrite1h": 83898,
+      "cacheRead": 2082615,
+      "reasoning": 0
+     },
+     "usd": 2.753353,
+     "requests": 52,
+     "total": 3663202
+    },
+    "claude-opus-5-5": {
+     "tokens": {
+      "input": 964,
+      "output": 358216,
+      "cacheWrite5m": 452621,
+      "cacheWrite1h": 1008938,
+      "cacheRead": 82486992,
+      "reasoning": 0
+     },
+     "usd": 63.121977,
+     "requests": 455,
+     "total": 84307731
+    },
+    "<synthetic>": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 17,
+     "total": 0
+    }
+   },
+   "projects": {
+    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
+     "tokens": {
+      "input": 372,
+      "output": 284183,
+      "cacheWrite5m": 1334376,
+      "cacheWrite1h": 563668,
+      "cacheRead": 39729031,
+      "reasoning": 0
+     },
+     "usd": 30.141342,
+     "requests": 182,
+     "total": 41911630
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 696,
+      "output": 209089,
+      "cacheWrite5m": 479774,
+      "cacheWrite1h": 529168,
+      "cacheRead": 44840576,
+      "reasoning": 0
+     },
+     "usd": 35.733988,
+     "requests": 342,
+     "total": 46059303
+    }
+   },
+   "total": 87970933
+  }
+ },
+ "generatedAt": "2026-11-17T14:00:52.102Z"
+}
