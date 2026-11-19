@@ -1,41 +1,54 @@
 {
  "date": "2026-11-19",
- "total": 21555769,
+ "total": 114575375,
  "tokens": {
-  "input": 194,
-  "output": 138690,
-  "cacheWrite5m": 186141,
-  "cacheWrite1h": 177688,
-  "cacheRead": 21053056,
+  "input": 1572,
+  "output": 749825,
+  "cacheWrite5m": 1785414,
+  "cacheWrite1h": 1619531,
+  "cacheRead": 110419033,
   "reasoning": 0
  },
- "usd": 15.307576,
- "requests": 106,
+ "usd": 96.96596,
+ "requests": 763,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 194,
-    "output": 138690,
-    "cacheWrite5m": 186141,
-    "cacheWrite1h": 177688,
-    "cacheRead": 21053056,
+    "input": 1572,
+    "output": 749825,
+    "cacheWrite5m": 1785414,
+    "cacheWrite1h": 1619531,
+    "cacheRead": 110419033,
     "reasoning": 0
    },
-   "usd": 15.307576,
-   "requests": 106,
+   "usd": 96.96596,
+   "requests": 763,
    "models": {
     "claude-opus-5-5": {
      "tokens": {
-      "input": 146,
-      "output": 131152,
-      "cacheWrite5m": 186141,
-      "cacheWrite1h": 82914,
-      "cacheRead": 19257333,
+      "input": 1350,
+      "output": 690347,
+      "cacheWrite5m": 1371739,
+      "cacheWrite1h": 1524757,
+      "cacheRead": 102774208,
       "reasoning": 0
      },
-     "usd": 14.900718,
-     "requests": 72,
-     "total": 19657686
+     "usd": 92.473468,
+     "requests": 635,
+     "total": 106362401
+    },
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 174,
+      "output": 51940,
+      "cacheWrite5m": 413675,
+      "cacheWrite1h": 0,
+      "cacheRead": 5849102,
+      "reasoning": 0
+     },
+     "usd": 4.085634,
+     "requests": 82,
+     "total": 6314891
     },
     "<synthetic>": {
      "tokens": {
@@ -47,7 +60,7 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 10,
+     "requests": 22,
      "total": 0
     },
     "claude-haiku-5-5": {
@@ -65,35 +78,35 @@
     }
    },
    "projects": {
-    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
-     "tokens": {
-      "input": 56,
-      "output": 106083,
-      "cacheWrite5m": 186141,
-      "cacheWrite1h": 38003,
-      "cacheRead": 8707505,
-      "reasoning": 0
-     },
-     "usd": 8.549519,
-     "requests": 32,
-     "total": 9037788
-    },
     "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
      "tokens": {
-      "input": 138,
-      "output": 32607,
-      "cacheWrite5m": 0,
-      "cacheWrite1h": 139685,
-      "cacheRead": 12345551,
+      "input": 1196,
+      "output": 493709,
+      "cacheWrite5m": 882902,
+      "cacheWrite1h": 1242767,
+      "cacheRead": 82589354,
       "reasoning": 0
      },
-     "usd": 6.758057,
-     "requests": 74,
-     "total": 12517981
+     "usd": 67.238,
+     "requests": 581,
+     "total": 85209928
+    },
+    "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
+     "tokens": {
+      "input": 376,
+      "output": 256116,
+      "cacheWrite5m": 902512,
+      "cacheWrite1h": 376764,
+      "cacheRead": 27829679,
+      "reasoning": 0
+     },
+     "usd": 29.72796,
+     "requests": 182,
+     "total": 29365447
     }
    },
-   "total": 21555769
+   "total": 114575375
   }
  },
- "generatedAt": "2026-11-18T17:04:19.523Z"
+ "generatedAt": "2026-11-19T10:48:26.980Z"
 }
