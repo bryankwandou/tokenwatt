@@ -1,54 +1,41 @@
 {
  "date": "2026-11-19",
- "total": 114575375,
+ "total": 185528575,
  "tokens": {
-  "input": 1572,
-  "output": 749825,
-  "cacheWrite5m": 1785414,
-  "cacheWrite1h": 1619531,
-  "cacheRead": 110419033,
+  "input": 2996,
+  "output": 1070722,
+  "cacheWrite5m": 4735229,
+  "cacheWrite1h": 2609898,
+  "cacheRead": 177109730,
   "reasoning": 0
  },
- "usd": 96.96596,
- "requests": 763,
+ "usd": 159.108033,
+ "requests": 1438,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 1572,
-    "output": 749825,
-    "cacheWrite5m": 1785414,
-    "cacheWrite1h": 1619531,
-    "cacheRead": 110419033,
+    "input": 2996,
+    "output": 1070722,
+    "cacheWrite5m": 4735229,
+    "cacheWrite1h": 2609898,
+    "cacheRead": 177109730,
     "reasoning": 0
    },
-   "usd": 96.96596,
-   "requests": 763,
+   "usd": 159.108033,
+   "requests": 1438,
    "models": {
     "claude-opus-5-5": {
      "tokens": {
-      "input": 1350,
-      "output": 690347,
-      "cacheWrite5m": 1371739,
-      "cacheWrite1h": 1524757,
-      "cacheRead": 102774208,
+      "input": 2306,
+      "output": 905071,
+      "cacheWrite5m": 3021471,
+      "cacheWrite1h": 2515124,
+      "cacheRead": 155265814,
       "reasoning": 0
      },
-     "usd": 92.473468,
-     "requests": 635,
-     "total": 106362401
-    },
-    "claude-sonnet-5-5": {
-     "tokens": {
-      "input": 174,
-      "output": 51940,
-      "cacheWrite5m": 413675,
-      "cacheWrite1h": 0,
-      "cacheRead": 5849102,
-      "reasoning": 0
-     },
-     "usd": 4.085634,
-     "requests": 82,
-     "total": 6314891
+     "usd": 144.306646,
+     "requests": 1076,
+     "total": 161709786
     },
     "<synthetic>": {
      "tokens": {
@@ -60,53 +47,66 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 22,
+     "requests": 32,
      "total": 0
+    },
+    "claude-sonnet-5-5": {
+     "tokens": {
+      "input": 622,
+      "output": 151769,
+      "cacheWrite5m": 1626495,
+      "cacheWrite1h": 0,
+      "cacheRead": 19355668,
+      "reasoning": 0
+     },
+     "usd": 14.184458,
+     "requests": 296,
+     "total": 21134554
     },
     "claude-haiku-5-5": {
      "tokens": {
-      "input": 48,
-      "output": 7538,
-      "cacheWrite5m": 0,
+      "input": 68,
+      "output": 13882,
+      "cacheWrite5m": 87263,
       "cacheWrite1h": 94774,
-      "cacheRead": 1795723,
+      "cacheRead": 2488248,
       "reasoning": 0
      },
-     "usd": 0.406858,
-     "requests": 24,
-     "total": 1898083
+     "usd": 0.61693,
+     "requests": 34,
+     "total": 2684235
     }
    },
    "projects": {
-    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
-     "tokens": {
-      "input": 1196,
-      "output": 493709,
-      "cacheWrite5m": 882902,
-      "cacheWrite1h": 1242767,
-      "cacheRead": 82589354,
-      "reasoning": 0
-     },
-     "usd": 67.238,
-     "requests": 581,
-     "total": 85209928
-    },
     "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
      "tokens": {
-      "input": 376,
-      "output": 256116,
-      "cacheWrite5m": 902512,
-      "cacheWrite1h": 376764,
-      "cacheRead": 27829679,
+      "input": 572,
+      "output": 298280,
+      "cacheWrite5m": 1822110,
+      "cacheWrite1h": 439659,
+      "cacheRead": 34936659,
       "reasoning": 0
      },
-     "usd": 29.72796,
-     "requests": 182,
-     "total": 29365447
+     "usd": 40.712967,
+     "requests": 269,
+     "total": 37497280
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 2424,
+      "output": 772442,
+      "cacheWrite5m": 2913119,
+      "cacheWrite1h": 2170239,
+      "cacheRead": 142173071,
+      "reasoning": 0
+     },
+     "usd": 118.395066,
+     "requests": 1169,
+     "total": 148031295
     }
    },
-   "total": 114575375
+   "total": 185528575
   }
  },
- "generatedAt": "2026-11-19T10:48:26.980Z"
+ "generatedAt": "2026-11-19T17:19:10.087Z"
 }
