@@ -10,7 +10,7 @@
   "reasoning": 0
  },
  "usd": 0,
- "requests": 2,
+ "requests": 6,
  "providers": {
   "claude-code": {
    "tokens": {
@@ -22,7 +22,7 @@
     "reasoning": 0
    },
    "usd": 0,
-   "requests": 2,
+   "requests": 6,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,11 +34,24 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 2,
+     "requests": 6,
      "total": 0
     }
    },
    "projects": {
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 0,
+      "output": 0,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 0,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 3,
+     "total": 0
+    },
     "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
      "tokens": {
       "input": 0,
@@ -49,12 +62,12 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 2,
+     "requests": 3,
      "total": 0
     }
    },
    "total": 0
   }
  },
- "generatedAt": "2026-11-20T09:12:10.785Z"
+ "generatedAt": "2026-11-20T16:31:06.056Z"
 }
