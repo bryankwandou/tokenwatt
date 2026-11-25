@@ -1,28 +1,28 @@
 {
  "date": "2026-11-25",
- "total": 63534969,
+ "total": 330486437,
  "tokens": {
-  "input": 1018,
-  "output": 496709,
-  "cacheWrite5m": 2115692,
-  "cacheWrite1h": 326432,
-  "cacheRead": 60595118,
+  "input": 113745,
+  "output": 2063540,
+  "cacheWrite5m": 4237544,
+  "cacheWrite1h": 3085735,
+  "cacheRead": 320985873,
   "reasoning": 0
  },
- "usd": 59.207769,
- "requests": 536,
+ "usd": 255.82534,
+ "requests": 1686,
  "providers": {
   "claude-code": {
    "tokens": {
-    "input": 1018,
-    "output": 496709,
-    "cacheWrite5m": 2115692,
-    "cacheWrite1h": 326432,
-    "cacheRead": 60595118,
+    "input": 3284,
+    "output": 2060773,
+    "cacheWrite5m": 4237544,
+    "cacheWrite1h": 3085735,
+    "cacheRead": 320800286,
     "reasoning": 0
    },
-   "usd": 59.207769,
-   "requests": 536,
+   "usd": 255.750317,
+   "requests": 1677,
    "models": {
     "<synthetic>": {
      "tokens": {
@@ -34,40 +34,108 @@
       "reasoning": 0
      },
      "usd": 0,
-     "requests": 40,
+     "requests": 68,
      "total": 0
     },
     "claude-opus-5-5": {
      "tokens": {
-      "input": 1018,
-      "output": 496709,
-      "cacheWrite5m": 2115692,
-      "cacheWrite1h": 326432,
-      "cacheRead": 60595118,
+      "input": 3086,
+      "output": 1967418,
+      "cacheWrite5m": 4209624,
+      "cacheWrite1h": 2746573,
+      "cacheRead": 298783328,
       "reasoning": 0
      },
-     "usd": 59.207769,
-     "requests": 496,
-     "total": 63534969
+     "usd": 252.368424,
+     "requests": 1510,
+     "total": 307710029
+    },
+    "claude-haiku-5-5": {
+     "tokens": {
+      "input": 198,
+      "output": 93355,
+      "cacheWrite5m": 27920,
+      "cacheWrite1h": 339162,
+      "cacheRead": 22016958,
+      "reasoning": 0
+     },
+     "usd": 3.381893,
+     "requests": 99,
+     "total": 22477593
     }
    },
    "projects": {
     "e//TUGAS/KULIAH/ANTIGRAVITY/SKRIPSI/JUDUL/AGENTIC/STARTUP": {
      "tokens": {
-      "input": 1018,
-      "output": 496709,
-      "cacheWrite5m": 2115692,
-      "cacheWrite1h": 326432,
-      "cacheRead": 60595118,
+      "input": 2416,
+      "output": 1132598,
+      "cacheWrite5m": 2724750,
+      "cacheWrite1h": 2227974,
+      "cacheRead": 239304139,
       "reasoning": 0
      },
-     "usd": 59.207769,
-     "requests": 536,
-     "total": 63534969
+     "usd": 173.760956,
+     "requests": 1236,
+     "total": 245391877
+    },
+    "e//000VSCODE/PROJECT/MULAI/DARI/DESEMBER/2025/AlterCast": {
+     "tokens": {
+      "input": 868,
+      "output": 928175,
+      "cacheWrite5m": 1512794,
+      "cacheWrite1h": 857761,
+      "cacheRead": 81496147,
+      "reasoning": 0
+     },
+     "usd": 81.989361,
+     "requests": 441,
+     "total": 84795745
     }
    },
-   "total": 63534969
+   "total": 330187622
+  },
+  "antigravity": {
+   "tokens": {
+    "input": 110461,
+    "output": 2767,
+    "cacheWrite5m": 0,
+    "cacheWrite1h": 0,
+    "cacheRead": 185587,
+    "reasoning": 0
+   },
+   "usd": 0.075023,
+   "requests": 9,
+   "models": {
+    "gemini-3.5-flash-lite": {
+     "tokens": {
+      "input": 34397,
+      "output": 1050,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 31768,
+      "reasoning": 0
+     },
+     "usd": 0,
+     "requests": 2,
+     "total": 67215
+    },
+    "gemini-3.8-flash-n": {
+     "tokens": {
+      "input": 76064,
+      "output": 1717,
+      "cacheWrite5m": 0,
+      "cacheWrite1h": 0,
+      "cacheRead": 153819,
+      "reasoning": 0
+     },
+     "usd": 0.075023,
+     "requests": 7,
+     "total": 231600
+    }
+   },
+   "projects": {},
+   "total": 298815
   }
  },
- "generatedAt": "2026-11-25T04:35:26.494Z"
+ "generatedAt": "2026-11-25T16:00:44.958Z"
 }
